@@ -620,7 +620,7 @@ Maintenant, simulons une vague de COVID-19 sur 10 ans, sans intervention... *si 
 
 Dans les simulations précédentes, nous avions seulement *un* pic dépassant la capacité en respirateurs. Maintenant, nous en avons plusieurs, *et* les cas <icon i></icon> atteignent un équilibre *permanent* égale à la capacité en respirateurs. (Que nous avons triplé pour ces simulations, souvenez-vous)
 
-R = 1, c'est une **éndémie.**
+R = 1, c'est une **endémie.**
 
 Heureusement, comme l'été réduit R, la situation va s'améliorer:
 
