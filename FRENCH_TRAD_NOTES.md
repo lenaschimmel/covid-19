@@ -64,7 +64,13 @@ Cela devrait être fait dès que possible en repérant les expressions spécifiq
 - technical caveats: limites techniques **TO VALIDATE ** 
 - Epidémiologie 101 : **traduction compréhensible en français**
 - <icon i></icon> Infectious people --> les individus Infectieux <icon i></icon> . Noter l'inversion de l'ordre pour l'image.
-- contact tracing  
+- contact tracing  : suivi des contacts
+- ICU : respirateurs
+- ventilators : respirateurs
+- privacy-protecting [as an ADJ] : respectueuse de vos données personnelles / respectueuse de votre vie privée [TO DECIDE] 
+
+- contextual notes: If title of an article or quote, I leave it in English and added a translation as the end of the note, as follows:
+[^keyword]: “quote EN” [from REF](URL) Traduction: "quote FR "
 
 ## Get last update from nicky
 TODO On May 4th: get last updates from nickys project and stop at this version.
