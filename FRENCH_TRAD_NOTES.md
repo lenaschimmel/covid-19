@@ -53,6 +53,9 @@ link to roosevelt sentence meaning understandable
 
 ### LastMonths: Curves
 
+### Next years and Now
+l.107: reduced the use of *month* to ease the readability in french
+l.134 : choose to translate *builder* by *fabricants*. Best word so far to match the following higher-order repetition of *build* emphasizing the whole paragraph and its impact.
 
 ## Choix de traductions
 Ajoutez des choix de traduction de mots/expressions spécifiques qui doivent rester les mêmes dans toutes la traduction ici.
