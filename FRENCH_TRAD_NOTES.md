@@ -28,7 +28,7 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | NextMonths: Scenario 4  | L361-471 |  |   | |
 | NextMonths: Scenario 4+  | L473-573 |  |   | |
 | NextYears  | L575-682 | **WIP** @e-guenat |   | |
-| The Now  | L684-711 |  |   | |
+| The Now  | L684-711 | **WIP** @e-guenat |   | |
 
 Dans vos MR, ne pas s'occuper de la génération de words.html et du copy/paste dans index.html. 
 Je le ferai de manière régulière, cela permettra de s'assurer que le markdown to html est toujours réalisé par le même programme.
