@@ -23,12 +23,12 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | Misc |[L1-L23](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L1-L23) |[X] @cyrilou242  |   | |
 | Intro |[L25-L41](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L25-L41) | [X] @cyrilou242  |   | |
 | LastMonths: Curves | [L43-L153](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L43-L153) | **WIP** @cyrilou242   |   | |
-| LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)| **WIP** @e-guenat  |   | |
+| LastMonths: R | [L155-L237](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L155-L237)|  |   | |
 | NextMonths: Scenario 0-3  | [L239-L359](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L239-L359) |  |   | |
 | NextMonths: Scenario 4  | [L361-L471](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L361-L471) |  |   | |
 | NextMonths: Scenario 4+  | [L473-L573](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L473-L573) |  |   | |
-| NextYears  | [L575-L682](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L575-L682) | [X] @e-guenat |   | |
-| The Now  | [L684-L711](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L684-L711) | [X] @e-guenat  |   | |
+| NextYears  | [L575-L682](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L575-L682) | **WIP** @e-guenat |   | |
+| The Now  | [L684-L711](https://github.com/cyrilou242/covid-19/blame/master/words/words.md#L684-L711) |  |   | |
 
 Dans vos MR, ne pas s'occuper de la génération de words.html et du copy/paste dans index.html. 
 Je le ferai de manière régulière, cela permettra de s'assurer que le markdown to html est toujours réalisé par le même programme.
