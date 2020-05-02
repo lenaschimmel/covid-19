@@ -570,6 +570,8 @@ Sure, you may have dried-out hands. But you'll get to invite a date out to a com
 
 Even under the worst-case scenario... life perseveres.
 
+Alors maintenant, faisons des plans pour quelques scénarios catastrophes. Amérissage, attrapez votre gilet de sauvetage et suivez les lumières vers les sorties de secours:
+
 <div class="section chapter">
     <div>
 		<img src="banners/curve.png" height=480 style="position: absolute;"/>
@@ -577,27 +579,27 @@ Even under the worst-case scenario... life perseveres.
     </div>
 </div>
 
-Tu attrapes le COVID-19 et en guéris. Ou tu reçois un vaccin. Dans les deux cas, tu es maintenant immusé·e...
+Vous attrapez le COVID-19 et en guérissez. Ou vous recevez un vaccin. Dans les deux cas, vous êtes maintenant immunisé·e...
 
 ...*mais pour combien de temps?*
 
 * Le COVID-19 est étroitement lié au SARS, qui rend ses survivants immunisés pour deux ans.[^SARS immunity]
-* Le coronavirus causant "le" rhume te donne 8 mois d'immunité.[^cold immunity]
+* Le coronavirus causant "le" rhume procure 8 mois d'immunité.[^cold immunity]
 * On a rapporté des cas de guéris du COVID-19 qui ont été, plus tard, à nouveau testés positivement, mais ce n'est pas clair ces cas sont des faux positifs.[^unclear]
-* Une étude *pas encore revue par les pairs* portant sur des singes a montré que l'immunité au coronavirus du COVID-19 durait au moins 28 jours.[^monkeys]
+* Une étude *pas encore revue par les pairs* effectuée sur des singes suggère que l'immunité au coronavirus du COVID-19 durerait au moins 28 jours.[^monkeys]
 
-Mais pour le COVID-19 *chez les humains*, en l'état du 1er Mai 2020, "Pour combien de temps" est encore une grande inconnue.
+Mais pour le COVID-19 *chez les humains*, au 1er mai 2020, "Pour combien de temps" est encore une grande inconnue.
 
-[^SARS immunity]: “SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) Traduction: "Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles à une réinfection ≥3 ans après l'exposition initiale. "Malheureusement", on ne saura jamais combien de temps l'immunité au SARS dure réellement, puisqu'on l'a éradiquée très rapidement.
+[^SARS immunity]: “SARS-specific antibodies were maintained for an average of 2 years [...] Thus, SARS patients might be susceptible to reinfection ≥3 years after initial exposure.” [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) Traduction: "Les anticorps spécifiques au SARS sont maintenus en moyenne 2 ans [...] En conséquence, les patients du SARS pourraient être susceptibles d'être réinfectés ≥3 ans après l'exposition initiale. "Malheureusement", on ne saura jamais combien de temps l'immunité au SARS dure réellement, puisqu'il a été éradiqué très rapidement.
 
-[^cold immunity]: “We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection.” [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf) Traduction: "Nous n'avons trouvé aucune différence significative entre la probabilité d'être testé positif au moins une fois et la probabilité d'une récurrence du beta-corronavirus HKU1 and OC43 34 semaines après l'exposition/la première infection."
+[^cold immunity]: “We found no significant difference between the probability of testing positive at least once and the probability of a recurrence for the beta-coronaviruses HKU1 and OC43 at 34 weeks after enrollment/first infection.” [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf) Traduction: "Nous n'avons trouvé aucune différence significative entre la probabilité d'être testé positif au moins une fois et la probabilité d'une récurrence du beta-corronavirus HKU1 et OC43 34 semaines après l'exposition/la première infection."
 
 [^unclear]: “Once a person fights off a virus, viral particles tend to linger for some time. These cannot cause infections, but they can trigger a positive test.” [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/) Traduction: "Une fois qu'une personne combat un virus, des particules virales tendent à subsister quelques temps. Cela ne peut causer une infection, mais cela peut provoquer un test positif."
 
 [^monkeys]: De [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Attention: Cet article est une pré-publication et n'a pas (encore) été vérifiée par une relecture par les pairs.* Aussi, pour le souligner: ils ont seulement testé la ré-infection 28 jours plus tard.
 
 Pour ces simulations, disons que c'est un an.
-**Voici une simulation commençant avec 100% de <icon r></icon>**, decroissant exponentiellement vers les <icon s></icon>, infectables et non-immunisés, après un an en *moyenne*, avec des variations:
+**Voici une simulation commençant avec 100% de <icon r></icon>**, décroissant exponentiellement vers les Susceptibles et non-immunisés, <icon s></icon> après un an en *moyenne*, avec des variations:
 
 
 <div class="sim">
@@ -616,9 +618,9 @@ Maintenant, simulons une vague de COVID-19 sur 10 ans, sans intervention... *si 
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
 </div>
 
-Dans les simulations précédentes, nous avions seulement *un* pic saturant la capacité en respirateurs. Maintenant, nous en avons plusieurs, *et* les cas <icon i></icon> atteignent un équilibre *permanent* à la capacité en respirateurs. (Que nous avons triplé pour ces simulations, souviens-toi)
+Dans les simulations précédentes, nous avions seulement *un* pic dépassant la capacité en respirateurs. Maintenant, nous en avons plusieurs, *et* les cas <icon i></icon> atteignent un équilibre *permanent* égale à la capacité en respirateurs. (Que nous avons triplé pour ces simulations, souvenez-vous)
 
-R = 1, c'est une **épidémie.**
+R = 1, c'est une **éndémie.**
 
 Heureusement, comme l'été réduit R, la situation va s'améliorer:
 
@@ -628,11 +630,11 @@ Heureusement, comme l'été réduit R, la situation va s'améliorer:
 
 Oh.
 
-Contre-intuitivement, l'été rend les pics plus sévères *et* plus réguliers ! C'est parce que l'été réduit les nouveaux <icon i></icon>, mais en même temps réduit aussi les nouveaux immunisés <icon r></icon>. Ce qui veut dire que l'immunité chute durant l'été, *causant* des pics prononcés et réguliers en hiver.
+contre toute attente, l'été rend les pics plus sévères *et* plus réguliers ! C'est parce que l'été réduit les nouveaux <icon i></icon>, mais en même temps réduit aussi les nouveaux immunisés <icon r></icon>. Ce qui veut dire que l'immunité chute durant l'été, *causant* des pics prononcés et réguliers en hiver.
 
-Par chance, la solution à ça est assez évidente - simplement vacciner les gens chaque automne/hiver, à la manière de ce que l'on fait avec le vaccin de la grippe.
+Heureusement, la solution à ce problème est simple - vacciner les gens chaque automne/hiver, à la manière de ce que l'on fait avec le vaccin de la grippe.
 
-**(Après avoir lancé l'enregistrement, essaie de simuler tes propres campagnes de vaccination ! Souviens-toi que tu peux mettre en pause et continuer la simulation n'importe quand)**
+**(Après avoir lancé l'enregistrement, essayez de simuler vos propres campagnes de vaccination ! Souvenez-vous que vous pouvez mettre en pause et continuer la simulation n'importe quand)**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-4&format=lines" width="800" height="540"></iframe>
@@ -642,15 +644,15 @@ Mais voici venue la question qui fait peur:
 
 Et s'il n'y a pas de vaccin avant *plusieurs années* ? Voire *jamais* ?
 
-**Pour être clair: C'est improbable.** La plupart des épidémiologistes s'attendent à un vaccin dans un ou deux ans. Alors oui, il n'y a jamais eu de vaccin pour aucun des autres coronavirus dans le passé, mais c'est parce que le SARS a été rapidement éradiqué et que "le" rhume ne valait pas la peine.
+**Pour être clair: c'est improbable.** La plupart des épidémiologistes s'attendent à un vaccin d'ici un ou deux ans. Alors oui, il n'y a jamais eu de vaccin pour aucun des autres coronavirus dans le passé, mais c'est parce que le SARS a été rapidement éradiqué et que "le" rhume n'en valait pas la peine.
 
 Mais quand même, des chercheurs des maladies infectieuses ont exprimé des inquiétudes: Et si on ne pouvait en fabriquer assez ?[^vax_enough] Et si il arrivait bâclé et qu'il n'était pas sûr ?[^vax_safe]
 
-[^vax_enough]: “If a coronavirus vaccine arrives, can the world make enough?” [by Roxanne Khamsi, on Nature](https://www.nature.com/articles/d41586-020-01063-8) Traduction: "Si un vaccin de coronavirus arrive, est-ce que le monde peut en produire assez ?"
+[^vax_enough]: “If a coronavirus vaccine arrives, can the world make enough?” [by Roxanne Khamsi, on Nature](https://www.nature.com/articles/d41586-020-01063-8) Traduction: "Si un vaccin de coronavirus arrive, le monde peut-il en produire assez ?"
 
-[^vax_safe]: “Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees” [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9) Traduction: "Ne bâclez pas le deployement de et médicaments et de vaccins du COVID-19 sans garanties de sécurité suffisantes"
+[^vax_safe]: “Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees” [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9) Traduction: "Ne bâclez pas le deployement de médicaments et de vaccins du COVID-19 sans garanties de sécurité suffisantes"
 
-Même dans le cauchemard d'un scénario "sans vaccin", nous avons 3 échappatoires. Du plus au moins terrible:
+Même dans le scénario catastrophe "sans vaccin", nous avons 3 échappatoires. Du plus au moins terrible:
 
 1) Intervenir temporairement ou modérément pour garantir R<1 dans le but d'atteindre "l'immunité collective naturelle". (Attention: cela va provoquer de nombreuses morts et séquelles pulmonaires. *Et* ça ne fonctionne pas si l'immunité ne dure pas.)
 
@@ -658,7 +660,7 @@ Même dans le cauchemard d'un scénario "sans vaccin", nous avons 3 échappatoir
 
 3) Intervenir pour maintenir R<1 jusqu'à que soient développés des traitements qui rendent le COVID-19 bien, bien moins probable de demander des soins critiques. (Ce qu'on devrait faire de *toute façon !*) Diviser le besoin de respirateur par 10 est équivalent à multiplier la capacité en respirateurs par 10:
 
-**Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule augmente lentement la capacité à survivre aux longs pics:**
+**Voici une simulation *sans* immunité durable, *sans* vaccin et sans même aucune intervention - seule la capacité à survivre aux longs pics augmente lentement*:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
@@ -669,7 +671,7 @@ Même dans le *pire* des scénarios cauchemardesques... La vie continue.
 . . .
 
 
-Peut-être que tu voudrais remettre en question nos hypothèses et essayer différents R<sub>0</sub> ou nombres. Ou essayer de simuler tes *propres* combinaisons de plans d'intervention !
+Vous voudrez peut-être remettre en question nos hypothèses et essayer différents R<sub>0</sub> ou nombres. Ou même essayer de simuler vos *propres* combinaisons de plans d'intervention !
 
 **Voici un mode (optionel) "bac à sable", où *tout* est disponible. (Fais défiler pour voir tous les contrôles.) Simule et joue autant que le coeur t'en dit:**
 
@@ -698,11 +700,11 @@ Voilà grossièrement l'idée, avec quelques plans de rechange (moins consensuel
 
 ![](pics/plan.png)
 
-Que cela signifie pour toi, maintenant ?
+Qu'est ce que ça veut dire pour vous maintenant ?
 
-**Pour tout le monde:** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Gardez vos mains lavées. Faites vos propres masques. Téléchargez une application de suivi des contacts *repsectueuse de vos données personnelles* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
+**Pour tout le monde:** Respectez le confinement pour qu'on puisse sortir de la Phase I aussi vite que possible. Lavez-vous les mains. Fabriquez vos propres masques. Téléchargez une application de suivi des contacts *respectueuse de vos données personnelles* lorsqu'elles seront disponibles le mois prochain. Restez en forme, physiquement et mentalement ! Et écrivez à votre décideur local de bouger ses fesses et...
 
-**Pour les décideurs:** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de suivi manuel des contacts, *supportés** par des applications de suivi des contacts qui repsectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
+**Pour les décideurs:** Faites des lois qui supportent ceux qui doivent se mettre en auto-isolement/quarantaine. Engagez plus d'agents de suivi manuel des contacts, *supportés** par des applications de suivi des contacts qui respectent la vie privée. Dirigez plus de fonds vers les trucs qu'on devrait fabriquer, comme...
 
 **Pour les fabriquants:** Fabriquez des tests. Fabriquez des respirateurs. Fabriquez de l'équipement de protection personnel pour les hôpitaux. Fabriquez des tests. Fabriquez des masques. Fabriquez des applications. Fabriquez des antiviraux, des prophylactiques et autres traitements qui ne sont pas vaccins. Fabriquez des vaccins. Fabriquez des tests. Fabriquez des tests. Fabriquez de l'espoir.
 
