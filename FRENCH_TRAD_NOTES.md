@@ -23,12 +23,12 @@ Ne pas changer le nombre de lignes en traduisant. (ie ne pas rajouter/supprimer 
 | Misc |L1-L23 |[X] @cyrilou242  |   | |
 | Intro |L25-L41 | [X] @cyrilou242  |   | |
 | LastMonths: Curves | L43-L153 | **WIP** @cyrilou242   |   | |
-| LastMonths: R | L155-L237|  |   | |
+| LastMonths: R | L155-L237| **WIP** @e-guenat |   | |
 | NextMonths: Scenario 0-3  | L239-L359 |  |   | |
 | NextMonths: Scenario 4  | L361-471 |  |   | |
 | NextMonths: Scenario 4+  | L473-573 |  |   | |
-| NextYears  | L575-682 | **WIP** @e-guenat |   | |
-| The Now  | L684-711 |  |   | |
+| NextYears  | L575-682 | [X] @e-guenat |   | |
+| The Now  | L684-711 | [X] @e-guenat |   | |
 
 Dans vos MR, ne pas s'occuper de la génération de words.html et du copy/paste dans index.html. 
 Je le ferai de manière régulière, cela permettra de s'assurer que le markdown to html est toujours réalisé par le même programme.
@@ -68,6 +68,7 @@ Cela devrait être fait dès que possible en repérant les expressions spécifiq
 - ICU : respirateurs
 - ventilators : respirateurs
 - privacy-protecting [as an ADJ] : respectueuse de vos données personnelles / respectueuse de votre vie privée [TO DECIDE] 
+- Exponential decay: déclin exponentiel/décroissance exponentielle [TO VALIDATE] 
 
 - contextual notes: If title of an article or quote, I leave it in English and added a translation as the end of the note, as follows:
 [^keyword]: “quote EN” [from REF](URL) Traduction: "quote FR "
