@@ -85,7 +85,7 @@ TODO On May 4th: get last updates from nickys project and stop at this version.
 
 |   |  Traduit | Relu  | Appliqué à l'image |
 |---|---|------|---|
-| dp3t.png |  |  |   | 
+| dp3t.png |  |  | [X] DP-3T github project | 
 | exponential.png | |   |   | 
 | graphs_q.png |  |    |   | 
 | masks.png | |  |   | 
