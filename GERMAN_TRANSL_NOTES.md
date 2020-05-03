@@ -14,7 +14,8 @@
 
 | Kapitel | Zeilen | Übersetzung | Korrektur | Qualitätsprüfung |
 |---|---|---|---|---|
-| Misc | [L1-L23](https://github.com/TQueV/covid-19/blame/master/words/words.md#L1-L23) | **WIP** @TQueV |  |  |
+
+| Misc | [L1-L23](https://github.com/TQueV/covid-19/blame/master/words/words.md#L1-L23) | @TQueV |  |  |
 | Intro | [L25-L41](https://github.com/TQueV/covid-19/blame/master/words/words.md#L25-L41) | @eBildungslabor |  |  |
 | LastMonths: Curves | [L43-L153](https://github.com/TQueV/covid-19/blame/master/words/words.md#L43-L153) | @widomattern |  |  |
 | LastMonths: R | [L155-L237](https://github.com/TQueV/covid-19/blame/master/words/words.md#L155-L237)|  |  |  |
@@ -22,10 +23,13 @@
 | NextMonths: Scenario 4 | [L361-L471](https://github.com/TQueV/covid-19/blame/master/words/words.md#L361-L471) |  |  |  |
 | NextMonths: Scenario 4+ | [L473-L573](https://github.com/TQueV/covid-19/blame/master/words/words.md#L473-L573) |  |  |  |
 | NextYears | [L575-L682](https://github.com/TQueV/covid-19/blame/master/words/words.md#L575-L682) |  |  |  |
-| The Now | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) |  |  |  |
+| The Now | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) | **WIP** TQueV |  |  |
 
 ## offene Punkte
 Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, die eine Erklärung benötigen, geben Sie diese bitte hier an.
+
+- gewählte Bezeichnung zu "contact tracing": wird in deutschsprachigen Medien nicht auch meist der englische Begriff benutzt? Idee: Ber der ersten Erwähnung von contact tracing "Kontaktverfolgung" in Klammern dazuschreiben, dann weiter contact tracing benutzen?
+- Schreiben wir in der Du-Form, aber Plural (Also z.B.: Probiert diesen Simulator aus .., NICHT: Probieren Sie / Probiere)?
 
 ## gewählte Bezeichnungen
 - Infectious people: ansteckende/infektiöse Menschen
@@ -33,13 +37,13 @@ Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, di
 - Start (for simulations images): Start
 - technical caveats: technische Vorbehalte/Einschränkungen
 - Epidémiologie 101: 1x1 der Epidemiologie
-- contact tracing: Kontaktverfolgung
+- contact tracing: Kontaktverfolgung* (siehe oben)
 - ICU: Intensivstation
 - ventilators: Beatmungsgeräte
 - privacy-protecting [as an ADJ]:
 - Exponential decay: exponentieller Zerfall
 
-- kontextbezogene Anmerkung: bei Titeln eines Artikels und bei Zitaten, lasse ich es auf Englisch und fügte am Ende der Notiz eine Übersetzung wie folgt hinzu:
+- kontextbezogene Anmerkung: bei Titeln eines Artikels und bei Zitaten, lasse ich es auf Englisch und füge am Ende der Notiz eine Übersetzung wie folgt hinzu:
 [^keyword]: "quote EN" [from REF](URL) Übersetzung: "quote DE"
 
 ## Lade letzte Version von nicky
