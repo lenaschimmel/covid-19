@@ -49,68 +49,69 @@ Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, di
 
 Diese Listen können zusätzlich genutzt werden um auf Konsistenz in der Übersetzung zu prüfen. Die Zeichensetzung ist wegen der gewählten Methode verlorengegangen, das sollte hier aber nicht weiter stören.
 
-#### 2 Worte
-herd immunity: 19
-contact tracing: 14
-total cases: 9
-reduce r: 9
-et al: 7
-surgical masks: 7
-financial health: 5
-current cases: 5
-south korea: 5
-build tests: 5
-seir model: 4
-infectious people: 4
-educational purposes: 4
-covid-19 cases: 4
-infectiousness starts: 4
-reproduction number: 4
-icu capacity: 4
-circuit breaker: 4
-contribute r: 4
-backup plans: 3
-epidemic flight: 3
-flight simulator: 3
-covid-19 outbreak: 3
-cowling bj: 3
-exponential growth: 3
-s become: 3
-sir model: 3
-incubation period: 3
-p. et: 3
-cases peak: 3
-physical distancing: 3
-critical care: 3
-imperial college: 3
-college report: 3
-social distancing: 3
-try simulating: 3
-tracing apps: 3
-beat covid-19: 3
-cloth masks: 3
-
 #### 3 Worte
-epidemic flight simulator: 3
-p. et al: 3
-current cases peak: 3
-imperial college report: 3
-contact tracing apps: 3
-create backup plans: 2
-early release articles: 2
-slower s become: 2
-s become s.: 2
-incubation period distribution: 2
-early covid-19 cases: 2
-assuming symptoms start: 2
-basic reproduction number: 2
-natural herd immunity: 2
-herd immunity threshold: 2
-intensive care unit: 2
-contact tracing app: 2
-symptomatics contribute r: 2
-protecting contact tracing: 2
 
++ epidemic flight simulator: 3
++ p. et al: 3
++ current cases peak: 3
++ imperial college report: 3
++ contact tracing apps: 3
++ create backup plans: 2
++ early release articles: 2
++ slower s become: 2
++ s become s.: 2
++ incubation period distribution: 2
++ early covid-19 cases: 2
++ assuming symptoms start: 2
++ basic reproduction number: 2
++ natural herd immunity: 2
++ herd immunity threshold: 2
++ intensive care unit: 2
++ contact tracing app: 2
++ symptomatics contribute r: 2
++ protecting contact tracing: 2
+
+#### 2 Worte
+
++ herd immunity: 19
++ contact tracing: 14
++ total cases: 9
++ reduce r: 9
++ et al: 7
++ surgical masks: 7
++ financial health: 5
++ current cases: 5
++ south korea: 5
++ build tests: 5
++ seir model: 4
++ infectious people: 4
++ educational purposes: 4
++ covid-19 cases: 4
++ infectiousness starts: 4
++ reproduction number: 4
++ icu capacity: 4
++ circuit breaker: 4
++ contribute r: 4
++ backup plans: 3
++ epidemic flight: 3
++ flight simulator: 3
++ covid-19 outbreak: 3
++ cowling bj: 3
++ exponential growth: 3
++ s become: 3
++ sir model: 3
++ incubation period: 3
++ p. et: 3
++ cases peak: 3
++ physical distancing: 3
++ critical care: 3
++ imperial college: 3
++ college report: 3
++ social distancing: 3
++ try simulating: 3
++ tracing apps: 3
++ beat covid-19: 3
++ cloth masks: 3
 
 ## Lade letzte Version von nicky
 Aufgabe am 4. Mai: Lade die aktuelle Version von nickys-Projekt und schaue diese an.
