@@ -45,7 +45,7 @@ Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, di
 - kontextbezogene Anmerkung: bei Titeln eines Artikels und bei Zitaten, lasse ich es auf Englisch und füge am Ende der Notiz eine Übersetzung wie folgt hinzu:
 [^keyword]: "quote EN" [from REF](URL) Übersetzung: "quote DE"
 
-### Liste der am häufigsten vorkommenden Kombinationen aus 2 und 3 Worten
+### Liste der häufigsten Worte bzw. Wortkombinationen
 
 Diese Listen können zusätzlich genutzt werden um auf Konsistenz in der Übersetzung zu prüfen. Die Zeichensetzung ist wegen der gewählten Methode verlorengegangen, das sollte hier aber nicht weiter stören.
 
@@ -112,6 +112,49 @@ Diese Listen können zusätzlich genutzt werden um auf Konsistenz in der Überse
 + tracing apps: 3
 + beat covid-19: 3
 + cloth masks: 3
+
+#### 1 Wort
+
++ r: 66
++ covid-19: 41
++ days: 36
++ immunity: 34
++ cases: 31
++ masks: 28
++ lockdown: 22
++ r0: 21
++ people: 21
++ herd: 20
++ contact: 19
++ let: 19
++ fear: 18
++ curve: 17
++ average: 16
++ s: 16
++ tracing: 15
++ vaccine: 15
++ need: 15
++ simulation: 15
++ remember: 14
++ infected: 14
++ simulations: 13
++ months: 13
++ infectious: 13
++ interventions: 13
++ scenario: 13
++ reduce: 13
++ build: 13
++ virus: 12
++ al: 12
++ summer: 12
++ health: 11
++ start: 11
++ stop: 11
++ total: 11
++ model: 10
++ transmissions: 10
++ handwashing: 10
++ icu: 10
 
 ## Lade letzte Version von nicky
 Aufgabe am 4. Mai: Lade die aktuelle Version von nickys-Projekt und schaue diese an.
