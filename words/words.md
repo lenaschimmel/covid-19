@@ -55,7 +55,7 @@ Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In d
 
 ![](pics/spread.png)
 
-Es wird angenommen, dass *zu Beginn* eines CoViD-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützen Menschen springt.[^serial_interval] (denken Sie daran, dass es viele Variationen gibt)
+Es wird angenommen, dass *zu Beginn* eines CoViD-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützten Menschen springt.[^serial_interval] (denken Sie daran, dass es viele Variationen gibt)
 
 [^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)
 
