@@ -14,7 +14,6 @@
 
 | Kapitel | Zeilen | Übersetzung | Korrektur | Qualitätsprüfung |
 |---|---|---|---|---|
-
 | Misc | [L1-L23](https://github.com/TQueV/covid-19/blame/master/words/words.md#L1-L23) | @TQueV |  |  |
 | Intro | [L25-L41](https://github.com/TQueV/covid-19/blame/master/words/words.md#L25-L41) | @eBildungslabor |  |  |
 | LastMonths: Curves | [L43-L153](https://github.com/TQueV/covid-19/blame/master/words/words.md#L43-L153) | @widomattern |  |  |
