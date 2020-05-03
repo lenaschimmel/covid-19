@@ -164,7 +164,7 @@ Short for "Reproduction number". It's the *average* number of people an <icon i>
 
 **R<sub>0</sub>** (pronounced R-nought) is what R is *at the start of an outbreak, before immunity or interventions*. R<sub>0</sub> more closely reflects the power of the virus itself, but it still changes from place to place. For example, R<sub>0</sub> is higher in dense cities than sparse rural areas.
 
-(Most news articles – and even some research papers! – confuse R and R<sub>0</sub>. Again, science terminology is bad)
+(Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Wiederum - wissenschaftliche Terminologie ist übel.)
 
 The R<sub>0</sub> for "the" seasonal flu is around 1.28[^r0_flu]. This means, at the *start* of a flu outbreak, each <icon i></icon> infects 1.28 others *on average.* (If it sounds weird that this isn't a whole number, remember that the "average" mom has 2.4 children. This doesn't mean there's half-children running about.)
 
