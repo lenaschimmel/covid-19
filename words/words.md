@@ -168,7 +168,7 @@ Short for "Reproduction number". It's the *average* number of people an <icon i>
 
 The R<sub>0</sub> for "the" seasonal flu is around 1.28[^r0_flu]. This means, at the *start* of a flu outbreak, each <icon i></icon> infects 1.28 others *on average.* (If it sounds weird that this isn't a whole number, remember that the "average" mom has 2.4 children. This doesn't mean there's half-children running about.)
 
-[^r0_flu]: “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” (“The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)”) [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
 The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though one *not-yet-finalized* study estimates it was 5.7(!) in Wuhan.[^r0_wuhan]
 
@@ -178,7 +178,7 @@ The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though 
 
 In our simulations – *at the start & on average* – an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means – *at the start & on average* – each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])
 
-[^r0_caveats_sim]: This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.
+[^r0_caveats_sim]: Man gibt hier vor, dass man über die Zeit der Ansteckungsfähigkeit gleichermassen infektiös ist. Wiederum - Vereinfachungen zu Gunsten des einfacheren Verständnisses.
 
 **Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**
 
