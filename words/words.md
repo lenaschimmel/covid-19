@@ -24,7 +24,7 @@
 
 "Das Einzige, was man fürchten muss, ist die Angst selbst", war ein dummer Ratschlag.
 
-Sicher, horten Sie kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst kanalisieren. Angst gibt uns Energie, um jetzt mit Gefahren umzugehen und uns später auf Gefahren vorzubereiten.
+Sicher, hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst kanalisieren. Angst gibt uns Energie, um jetzt mit Gefahren umzugehen und uns später auf Gefahren vorzubereiten.
 
 Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass ihr es auch seid! Deshalb haben wir unsere Angst dazu genutzt, um diese **interaktive Simulationen** zu erstellen. Unser Ziel ist, dass ihr nicht in Panik verharrt, sondern versucht zu verstehen und zu lernen:
 
