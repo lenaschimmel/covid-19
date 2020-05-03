@@ -35,8 +35,8 @@ Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorg
 Diese interaktive Simulation (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→[^timestamp]) soll Dir zugleich Hoffnung geben und Angst machen. Denn um COVID-19 auf eine Weise zu schlagen, die auch **unsere geistige Gesundheit und unsere finanzielle Situation schützt**, brauchen wir zum einen Optimismus, um Pläne zu machen, und zum anderen Pessimismus, um Backup-Pläne zu erstellen. Wie Gladys Bronwyn Stern einmal sagte: *"Der Optimist erfindet das Flugzeug und der Pessimist den Fallschirm."*
 
 [^timestamp]: Die Fußnoten in dieser Simulation enthalten Quellen, Links oder zusätzliche ommentare. Wie dieser erste Kommentar!
-    
-    **This guide was published on May 1st, 2020.** Many details will become outdated, but we're confident this guide will cover 95% of possible futures, and that Epidemiology 101 will remain forever useful.
+
+    **Dieser Führer wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass dieser Führer 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie 101 ohne Verfallsdatum nützlich bleiben wird.
 
 So, buckle in: we're about to experience some turbulence.
 
