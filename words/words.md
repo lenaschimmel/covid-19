@@ -2,14 +2,14 @@
     <div>
     	<iframe id="splash" width="960" height="480" src="banners/splash.html"></iframe>
         <div style="top: 70px;font-size: 75px;font-weight: bold;">
-        	What Happens Next?
+        	Wie geht es weiter?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			COVID-19 Futures, Explained With Playable Simulations
+			CoViD-19-Verläufe durch interaktive Simulationen erklärt
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
-				🕐 30 min play/read
+				🕐 30 Minuten lesen/ausprobieren
 				&nbsp;&middot;&nbsp;
 			</b>
 			by
@@ -51,11 +51,11 @@ Piloten benutzen Flugsimulatoren, um zu lernen, wie man fliegt.
 
 **Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie man die Menschheit vor dem Aussterben bewahrt.**
 
-Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> anfällige Menschen in <icon i></icon> ansteckendere Menschen verwandeln:
+Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> ungeschütze Menschen in <icon i></icon> ansteckende Menschen verwandeln:
 
 ![](pics/spread.png)
 
-Es wird angenommen, dass *zu Beginn* eines CoViD-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> anfälligen Menschen springt.[^serial_interval] (denken Sie daran, dass es viele Variationen gibt)
+Es wird angenommen, dass *zu Beginn* eines CoViD-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützen Menschen springt.[^serial_interval] (denken Sie daran, dass es viele Variationen gibt)
 
 [^serial_interval]: “The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”. [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Disclaimer: Early release articles are not considered as final versions)
 
@@ -77,7 +77,7 @@ Dies ist die **exponentielle Wachstumskurve.** Sie fängt klein an und explodier
 
 ![](pics/exponential.png)
 
-Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Ein Grund, die die Ausbreitung eines Virus verhindert, ist, wenn andere das Virus *bereits* haben:
+Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Ein Grund, welcher die Ausbreitung eines Viruses verhindert, ist wenn andere das Virus *bereits* haben:
 
 ![](pics/susceptibles.png)
 
