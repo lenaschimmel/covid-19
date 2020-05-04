@@ -28,6 +28,7 @@
 Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, die eine Erklärung benötigen, geben Sie diese bitte hier an.
 
 - gewählte Bezeichnung zu "contact tracing": wird in deutschsprachigen Medien nicht auch meist der englische Begriff benutzt? Idee: Ber der ersten Erwähnung von contact tracing "Kontaktverfolgung" in Klammern dazuschreiben, dann weiter contact tracing benutzen?
+- dasselbe für "Lockdown"?
 - Schreiben wir in der Du-Form, aber Plural (Also z.B.: Probiert diesen Simulator aus .., NICHT: Probieren Sie / Probiere)?
 - L25: "The only thing to fear is fear itself" ist ein Franklin-D.-Roosevelt-Zitat, das als deutsche Version etwas seltsam aussieht. Vielleicht die deutsche Version des Zitats stehen lassen, aber eine Fußnote machen, die das für ein deutschsprachiges Publikum kontextualisiert und folgendermaßen aussieht: "the only thing to fear is fear itself" (Franklin D. Roosevelt während seiner Amtseinführung 1933 in Zeiten der Weltwirtschaftskrise)
 
