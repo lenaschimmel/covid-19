@@ -24,7 +24,7 @@
 
 "Das Einzige, was man fürchten muss, ist die Angst selbst", war ein dummer Ratschlag.
 
-Sicher, hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst kanalisieren. Angst gibt uns Energie, um jetzt diese Gefahren anzugehen und uns später auf diese vorzubereiten.
+Sicher, hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns Energie, um jetzt diese Gefahren anzugehen und uns später auf diese vorzubereiten.
 
 Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass Du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **interaktive Simulationen** zu erstellen. Unser Ziel ist, dass Du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
 
@@ -564,7 +564,7 @@ Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen.
 
 Klar, das ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich daran erfreuen, *am Leben* zu sein. 
 
-Selbst wenn es zu einem der *worst-case*-Szenarien kommen sollte, man wird es aushalten können.  
+Selbst wenn es zu einem der *worst-case*-Seznarien kommen sollte, man wird es aushalten können.  
 
 Also machen wir uns bereit für ein wirklich *übles* *worst-case*-Szenario. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
 <!-- Ende Übersetzung von Julian @herr_hundt -->
