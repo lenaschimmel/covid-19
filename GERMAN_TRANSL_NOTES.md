@@ -22,7 +22,7 @@
 | NextMonths: Scenario 4 | [L361-L471](https://github.com/TQueV/covid-19/blame/master/words/words.md#L361-L471) | @eBildungslabor in Github übertragen |  |  |
 | NextMonths: Scenario 4+ | [L473-L573](https://github.com/TQueV/covid-19/blame/master/words/words.md#L473-L573) |  |  |  |
 | NextYears | [L575-L682](https://github.com/TQueV/covid-19/blame/master/words/words.md#L575-L682) | @jkoelling https://hackmd.okfn.de/oU3YSW4aRQqEYrpBW7a_Rw?both# |  |  |
-| The Now | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) | **WIP** TQueV |  |  |
+| The Now | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) | felixrindt |  |  |
 
 ## offene Punkte
 Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, die eine Erklärung benötigen, geben Sie diese bitte hier an.
@@ -36,7 +36,8 @@ Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, di
 - Start (for simulations images): Start
 - technical caveats: technische Vorbehalte/Einschränkungen
 - Epidémiologie 101: 1x1 der Epidemiologie
-- contact tracing: Kontaktverfolgung* (siehe oben)
+- contact tracing: Kontaktverfolgung\* (siehe oben)
+- containment: Eindämmung
 - ICU: Intensivstation
 - ventilators: Beatmungsgeräte
 - privacy-protecting [as an ADJ]:
