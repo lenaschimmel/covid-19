@@ -156,85 +156,88 @@ Warum das? Wegen der *wichtigsten* Idee im 1x1 der Epidemiologie:
 
 ![](pics/r.png)
 
-Short for "Reproduction number". It's the *average* number of people an <icon i></icon> infects *before* they recover (or die).
+Abkürzend für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Menschen, die ein <icon i></icon> infiziert *bevor* dieser genest (oder stirbt).
 
 ![](pics/r2.png)
 
-**R** changes over the course of an outbreak, as we get more immunity & interventions.
+**R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
 
-**R<sub>0</sub>** (pronounced R-nought) is what R is *at the start of an outbreak, before immunity or interventions*. R<sub>0</sub> more closely reflects the power of the virus itself, but it still changes from place to place. For example, R<sub>0</sub> is higher in dense cities than sparse rural areas.
+**R<sub>0</sub>** (Aussprache R-Null) ist die Reproduktionszahl zum *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen* R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
 (Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Wiederum - wissenschaftliche Terminologie ist übel.)
 
-The R<sub>0</sub> for "the" seasonal flu is around 1.28[^r0_flu]. This means, at the *start* of a flu outbreak, each <icon i></icon> infects 1.28 others *on average.* (If it sounds weird that this isn't a whole number, remember that the "average" mom has 2.4 children. This doesn't mean there's half-children running about.)
+Das R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: die "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet nicht, dass irgendwo halbe Kinder rumrennen.)
 
-[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” (“The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)”) [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
-The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though one *not-yet-finalized* study estimates it was 5.7(!) in Wuhan.[^r0_wuhan]
+Der R<sub>0</sub> Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es noch *nicht-fertiggestellte* Forschungen gibt, die einen Wert von 5,7 (!) in Wuhan angeben.[^r0_wuhan]
 
-[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechnen einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In our simulations – *at the start & on average* – an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means – *at the start & on average* – each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])
+In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 Tage zu 4 Tagen beträgt genau 2,5, sodass hier R<sub>0</sub> = 2.5 gilt. (caveats:[^r0_caveats_sim]) 
+
 
 [^r0_caveats_sim]: Man gibt hier vor, dass man über die Zeit der Ansteckungsfähigkeit gleichermassen infektiös ist. Wiederum - Vereinfachungen zu Gunsten des einfacheren Verständnisses.
 
-**Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**
+**Variiere R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-But remember, the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s. The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)
+Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <icon s></icon> zu <icon i></icon>. Die *aktuelle* Reproduktionszahl R hängt nicht nur von der *Basisreproduktionszahl* (R<sub>0</sub>) ab, sondern auch von der Anzahl der potentiell infizierbaren Menschen. (Beispielsweise durch Genesung und natürliche Immunität.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-When enough people have immunity, R < 1, and the virus is contained! This is called **herd immunity**. For flus, herd immunity is achieved *with a vaccine*. Trying to achieve "natural herd immunity" by letting folks get infected is a *terrible* idea. (But not for the reason you may think! We'll explain later.)
+Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man Herdenimmunität. 
+Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
 
-Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, and the herd immunity threshold:
+Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-**NOTE: Total cases *does not stop* at herd immunity, but overshoots it!** And it crosses the threshold *exactly* when current cases peak. (This happens no matter how you change the settings – try it for yourself!)
+**HINWEIS: Die Gesamtzahl der Infizierten *stoppt nicht* an der Grenze der Herdenimmunität, sondern geht darüber hinaus!** Zudem überschreitet die Gesamtzahl der Infizierten die Schwelle der Herdenimmunität *genau* zum Zeitpunkt der höchsten aktuellen Fallzahl. (Dies ist unabhängig von der Wahl der Parameter - teste es selbst!) 
 
-This is because when there are more non-<icon s></icon>s than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.
+Warum ist das so? Wenn es mehr Nicht-<icon s></icon> als die Schwelle der Herdenimmunität gibt, so wird R < 1. Und wenn R < 1 ist, stoppt das Wachstum neuer Fälle: ein Hochpunkt ist erreicht. 
 
-**If there's only one lesson you take away from this guide, here it is** – it's an extremely complex diagram so please take time to fully absorb it:
+**Wenn Du Dir nur eine Sache aus dieser Anleitung merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
 
 ![](pics/r3.png)
 
-**This means: we do NOT need to catch all transmissions, or even nearly all transmissions, to stop COVID-19!**
 
-It's a paradox. COVID-19 is extremely contagious, yet to contain it, we "only" need to stop more than 60% of infections. 60%?! If that was a school grade, that's a D-. But if R<sub>0</sub> = 2.5, cutting that by 61% gives us R = 0.975, which is R < 1, virus is contained! (exact formula:[^exact_formula])
+**Es bedeutet: Wir müssen NICHT alle Übertragungen abfangen, auch nicht fast alle, um COVID-19 zu stoppen!**
 
-[^exact_formula]: Remember R = R<sub>0</sub> * the ratio of transmissions still allowed. Remember also that ratio of transmissions allowed = 1 - ratio of transmissions *stopped*.
+Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, müssen wir "nur" mehr als 60% der Infektionen verhindern. 60%?! Als Schulnote wäre das ein "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, ist das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
+
+[^exact_formula]: Zur Erinnerung R = R<sub>0</sub> * Anteil der zugelassenen Übertragungen. Dabei ist der Anteil der zugelassenen Übertragungen = 1 - Anteil der *vereitelten* Übertragungen.
+
+    Um dann R < 1 zu erhalten, muss R<sub>0</sub> * ZugelasseneInfektionen < 1. 
     
-    Therefore, to get R < 1, you need to get R<sub>0</sub> * TransmissionsAllowed < 1. 
+    Also, ZugelasseneInfektionen < 1/R<sub>0</sub>
     
-    Therefore, TransmissionsAllowed < 1/R<sub>0</sub>
+    Also, 1 - VereitelteInfektionen < 1/R<sub>0</sub>
     
-    Therefore, 1 - TransmissionsStopped < 1/R<sub>0</sub>
+    Therefore, VereitelteInfektionen > 1 - 1/R<sub>0</sub>
     
-    Therefore, TransmissionsStopped > 1 - 1/R<sub>0</sub>
-    
-    Therefore, you need to stop more than **1 - 1/R<sub>0</sub>** of transmissions to get R < 1 and contain the virus!
+    Also müssen mehr als **1-1/R<sub>0</sub>** der Übertragungen vereitelt werden, um  R < 1 zu erreichen und das Virus einzudämmen!
 
 ![](pics/r4.png)
 
-(If you think R<sub>0</sub> or the other numbers in our simulations are too low/high, that's good you're challenging our assumptions! There'll be a "Sandbox Mode" at the end of this guide, where you can plug in your *own* numbers, and simulate what happens.)
+Falls Du glaubst, dass R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind - super! Damit hinterfragst du unsere Annahmen. Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passiert.) 
 
-*Every* COVID-19 intervention you've heard of – handwashing, social/physical distancing, lockdowns, self-isolation, contact tracing & quarantining, face masks, even "herd immunity" – they're *all* doing the same thing:
+*Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "lockdown", Selbstisolationen, "contact tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
 
-Getting R < 1.
+Zu erreichen, dass: R < 1
 
-So now, let's use our "epidemic flight simulator" to figure this out: How can we get R < 1 in a way **that also protects our mental health *and* financial health?**
+**Starten wir nun unseren "epidemischen Flugsimulator", um folgende Frage beantworten zu können: Wie erreichen wir unter Berücksichtigung unserer Gesundheit und finanziellen Interessen, dass R < 1 wird?**
 
-Brace yourselves for an emergency landing...
+Bereite dich auf eine Notlandung vor... 
 
 <div class="section chapter">
     <div>
@@ -463,19 +466,19 @@ Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereit
 
 Der Pessimist erfindet den Fallschirm.
 
-###Scenario 4+: Masks For All, Summer, Circuit Breakers
+###Szenario 4+: Masken für alle, Sommer, Lockdown! 
+<!-- circuit breaker als Lockdown?! Übersetzung fehlt-->
 
-What if R<sub>0</sub> is way higher than we thought, and the above interventions, even with mild distancing, *still* aren't enough to get R < 1?
+Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Interventionen nicht schaffen würden, R auf unter 1 zu drücken? 
 
-Remember, even if we can't get R < 1, reducing R still reduces the "overshoot" in total cases, thus saving lives. But still, R < 1 is the ideal, so here's a few other ways to reduce R:
+Selbst wenn wir es nicht schaffen, R < 1 zu erreichen, reduziert das Drücken dieser Reproduktionszahl die Anzahl der Fälle und rettet damit Leben. Nichtsdestotrotz bleibt R < 1 das Ideal und hier sind ein paar weitere Möglichkeiten, dieses zu erreichen: 
 
-**Masks For All:**
+**Masken für alle:**
 
-*"Wait,"* you might ask, *"I thought face masks don't stop you from getting sick?"*
+Vielleicht fragst du dich: *"Moment, ich dachte, Gesichtsmasken schützen gar nicht vor einer Infizierung?"* 
+Das stimmt. Alltagsmasken schützen dich nicht vor einer Infektion.[^incoming]... sie reduzieren das Risiko, dass du *andere* infizierst.
 
-You're right. Masks don't stop you from getting sick[^incoming]... they stop you from getting *others* sick.
-
-[^incoming]: “None of these surgical masks exhibited adequate filter performance and facial fit characteristics to be considered respiratory protection devices.” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
+[^incoming]: “Keine dieser chirurgischen Masken zeigen eine adäquate Filterleistung, um einen Schutz vor Infektion für den Träger/die Trägerin zu gewährleisten." (übersetzt)” [Tara Oberg & Lisa M. Brosseau](https://www.sciencedirect.com/science/article/pii/S0196655307007742)
 
 [^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
@@ -483,41 +486,44 @@ You're right. Masks don't stop you from getting sick[^incoming]... they stop you
 
 ![](pics/masks.png)
 
-To put a number on it: surgical masks *on the sick person* reduce cold & flu viruses in aerosols by 70%.[^outgoing] Reducing transmissions by 70% would be as large an impact as a lockdown!
+Um es mit Zahlen zu untermauern: Trägt eine *infizierte Person* eine chirurgische Gesichtsmaske, reduziert das die Anzahl der Erkältungs- und Grippeviren der Aerosole um 70%.[^outgoing] Eine Reduktion der Ansteckung um 70% entspricht in etwa der Auswirkung eines *Lockdowns*. 
 
-However, we don't know for sure the impact of masks on COVID-19 *specifically*. In science, one should only publish a finding if you're 95% sure of it. (...should.[^replication]) Masks, as of May 1st 2020, are less than "95% sure".
+
+Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf das Infektionsgeschehen von COVID-19. Als wissenschaftlich valide gilt ein Ergebnis erst, wenn es zu 95% sicher ist bzw. die Fehlerwahrscheinlichkeit kleiner als 5% ist. Auch erst dann sollte es publiziert werden. (...sollte.[^replication] Alltagsmasken sind zum Zeitpunkt 1. Mai 2020 zu weniger als "95% sicher").  
 
 [^replication]: Any actual scientist who read that last sentence is probably laugh-crying right now. See: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
 
-However, pandemics are like poker. **Make bets only when you're 95% sure, and you'll lose everything at stake.** As a recent article on masks in the British Medical Journal notes,[^precautionary] we *have* to make cost/benefit analyses under uncertainty. Like so:
+
+Pandemien scheinen einem Pokerspiel zu gleichen: **Wette nur, wenn du dir 95% sicher bist mit deinem ganzen Einsatz!** Wie aus einem aktuellen Artikel[^precautionary] über Masken im British Medical Journal hervorging, *müssen* unsere Kosten/Nutzen-Analysen mit einem Unsicherheitsfaktor behaftet sein. 
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Cost: If homemade cloth masks (which are ~2/3 as effective as surgical masks[^homemade]), super cheap. If surgical masks, more expensive but still pretty cheap.
+Kosten: Alltagsmasken sind günstig (und etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind). 
 
-Benefit: Even if it's a 50–50 chance of surgical masks reducing transmission by 0% or 70%, the average "expected value" is still 35%, same as a half-lockdown! So let's guess-timate that surgical masks reduce R by up to 35%, discounted for our uncertainty. (Again, you can challenge our assumptions by turning the sliders up/down)
+Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit einem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
 </div>
 
-(other arguments for/against masks:[^mask_args])
+(weitere Argumente für/gegen Masken:[^mask_args])
 
 [^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
 
-   **"They're hard to wear correctly."** It's also hard to wash your hands according to the WHO Guidelines – seriously, "Step 3) right palm over left dorsum"?! – but we still recommend handwashing, because imperfect is still better than nothing.
-   
-   **"It'll make people more reckless with handwashing & social distancing."** Sure, and safety belts make people ignore stop signs, and flossing makes people eat rocks. But seriously, we'd argue the opposite: masks are a *constant physical reminder* to be careful – and in East Asia, masks are also a symbol of solidarity!
+**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir das Händewaschen, denn es ist besser, es nicht-perfekt zu tun, als gar nicht. 
+
+**"Das Tragen einer Maske macht die Menschen sorgloser im Umgang mit dem Händewaschen &  Abstandhalten."** Klar, Sicherheitsgurte verleiten einige Menschen dazu, Stop-Schilder zu missachten, und dank Zahnseide können die Menschen Steine essen. Wir sollten ernsthaft mit dem Gegenteil argumentieren: Masken sind ein *dauerhafte physische Erinnerung* zur Umsicht - und in Ostasien zudem ein Symbol von Solidarität! 
+
     
-    
 
-Masks *alone* won't get R < 1. But if handwashing & "Test, Trace, Isolate" only gets us to R = 1.10, having just 1/3 of people wear masks would tip that over to R < 1, virus contained!
 
-**Summer:**
+Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,1 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde R < 1 sein. Das Virus wäre eingedämmt! 
 
-Okay, this isn't an "intervention" we can control, but it will help! Some news outlets report that summer won't do anything to COVID-19. They're half right: summer won't get R < 1, but it *will* reduce R.
+**Sommer:**
 
-For COVID-19, every extra 1° Celsius (2.2° Fahrenheit) makes R drop by 1.2%.[^heat] The summer-winter difference in New York City is 15°C (60°F), so summer will make R drop by 18%.
+Okay, das ist keine "Intervention", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird ihn reduzieren.  
+
+Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (2,2° Fahrenheit) zu einer Reduktion des R-Werts um 1,2%.[^heat]  Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 15°C (60°F), sodass der Sommer eine Reduktion des R-Wertes um 18% bewirkt.  
 
 [^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
@@ -525,44 +531,43 @@ For COVID-19, every extra 1° Celsius (2.2° Fahrenheit) makes R drop by 1.2%.[^
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-Summer alone won't make R < 1, but if we have limited resources, we can scale back some interventions in the summer – so we can scale them *higher* in the winter.
+Der Sommer allein wird R nicht unter 1 drücken, aber wenn wir nur eingeschränkte Mittel haben, können wir einige Maßnahmen im Sommer lockern und im Winter wieder *stärker* anziehen. 
 
-**A "Circuit Breaker" Lockdown:**
+**Ein "Ausschalter"-*Lockdown*:**
 
-And if all that *still* isn't enough to get R < 1... we can do another lockdown.
+Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, könnten wir einen anderen *Lockdown* versuchen. 
 
-But we wouldn't have to be 2-months-closed / 1-month-open over & over! Because R is reduced, we'd only need one or two more "circuit breaker" lockdowns before a vaccine is available. (Singapore had to do this recently, "despite" having controlled COVID-19 for 4 months. That's not failure: this *is* what success takes.)
+Aber wir müssten nicht wieder und wieder 2-Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: es *ist* genau der Erfolg.)
 
-Here's a simulation a "lazy case" scenario:
+Hier ist eine Simulation eines *laze case*-Szenarios: 
 
-1. Lockdown, then
-2. A moderate amount of hygiene & "Test, Trace, Isolate", with a mild amount of "Masks For All", then...
-3. One more "circuit breaker" lockdown before a vaccine's found.
-
+1. Lockdown, danach
+2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danch... 
+3. ein weiterer "Ausschalter-*Lockdown* bevor ein Impfstoff entwickelt wird.  
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
 
-Not to mention all the *other* interventions we could do, to further push R down:
+Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R weiter zu drücken: 
 
-* Travel restrictions/quarantines
-* Temperature checks at malls & schools
-* Deep-cleaning public spaces
-* [Replacing hand-shaking with foot-bumping](https://twitter.com/V_actually/status/1233785527788285953)
-* And all else human ingenuity shall bring
+* Reiseeinschränkungen / Quarantäne
+* Fieber-Checks in Einkaufsmärkten & Schulen 
+* Professionelle Desinfektion öffentlicher Plätze 
+* [Begrüßung per Fuß anstelle eines Handschlags](https://twitter.com/V_actually/status/1233785527788285953)
+* Und alle anderen Dinge, die Menschen einfallen werden
 
 . . .
 
-We hope these plans give you hope. 
+Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen. 
 
-**Even under a pessimistic scenario, it *is* possible to beat COVID-19, while protecting our mental and financial health.** Use the lockdown as a "reset button", keep R < 1 with case isolation + privacy-protecting contract tracing + at *least* cloth masks for all... and life can get back to a normal-ish!
+**Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Drücken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
 
-Sure, you may have dried-out hands. But you'll get to invite a date out to a comics bookstore! You'll get to go out with friends to watch the latest Hollywood cash-grab. You'll get to people-watch at a library, taking joy in people going about the simple business of *being alive.*
+Klar, das ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich daran erfreuen, *am Leben* zu sein. 
 
-Even under the worst-case scenario... life perseveres.
+Selbst wenn es zu einem der *worst-case*-Seznarien kommen sollte, man wird es aushalten können.  
 
-So now, let's plan for some *worse* worst-case scenarios. Water landing, get your life jacket, and please follow the lights to the emergency exits:
-
+Also machen wir uns bereit für ein wirklich *übles* *worst-case*-Szenario. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
+<!-- Ende Übersetzung von Julian @herr_hundt -->
 <!-- "The next few years" übersetzt von jan.koelling -->
 <div class="section chapter">
     <div>
