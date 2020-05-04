@@ -688,28 +688,30 @@ Lass uns abschließend zurückkehren zu...
 
 <div class="section chapter">
     <div>
-		<img src="banners/curve.png" height=480 style="position: absolute;"/>
+        <img src="banners/curve.png" height=480 style="position: absolute;"/>
         <div>Das Jetzt</div>
     </div>
 </div>
-Plane's sunk. We've scrambled onto the life rafts. It's time to find dry land.[^dry_land]
 
-[^dry_land]: Dry land metaphor [from Marc Lipsitch & Yonatan Grad, on STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
+Das Flugzeug ist gesunken. Zusammengedrängt hocken wir in den Rettungsinseln. Es ist Zeit, Land zu suchen.[^dry_land]
 
-Teams of epidemiologists and policymakers ([left](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [right](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), and [multi-partisan](https://ethics.harvard.edu/covid-roadmap)) have come to a consensus on how to beat COVID-19, while protecting our lives *and* liberties.
+[^dry_land]: Festland-Metapher [von Marc Lipsitch und Yonatan Grad, auf STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
-Here's the rough idea, with some (less-consensus) backup plans:
+Teams aus Epidemiologinnen und Menschen in der Politik ([links](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [rechts](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), und [überparteilich](https://ethics.harvard.edu/covid-roadmap)) haben einen Konsens darüber erzielt, wie wir COVID-19 schlagen können und gleichzeitig unser Leben *und* unsere Freiheiten schützen.
+
+Hier ist die grobe Idee, mit einigen (weniger konsensfähigen) Backup-Plänen:
 
 ![](pics/plan.png)
 
-So what does this mean for YOU, right now?
+Was bedeutet das für DICH, jetzt gerade?
 
-**For everyone:** Respect the lockdown so we can get out of Phase I asap. Keep washing those hands. Make your own masks. Download a *privacy-protecting* contact tracing app when those are available next month. Stay healthy, physically & mentally! And write your local policymaker to get off their butt and...
+**Für jeden:** Respektiere die Ausgangsbeschränkungen, damit wir so schnell wie möglich aus Phase I herauskommen können. Wasche dir weiter die Hände. Stelle deine eigenen Masken her. Lade eine *privatsphäreschützende* App zur Ermittlung von Kontaktpersonen herunter, sobald diese im nächsten Monat verfügbar ist. Bleib gesund - körperlich und geistig! Und schreib den lokalen Entscheidungsträgern, dass sie ihren Hintern hochbewegen sollen und...
 
-**For policymakers:** Make laws to support folks who have to self-isolate/quarantine. Hire more manual contact tracers, *supported* by privacy-protecting contact tracing apps. Direct more funds into the stuff we should be building, like...
+**Für Politiker\*innen:** Machen Sie Gesetze zur Unterstützung von Menschen, die sich selbst isolieren/quarantänisieren müssen. Stellen Sie mehr menschliche Kontaktverfolger\*innen ein, *unterstützt* durch datenschutzfreundliche Apps. Leiten Sie mehr Mittel in die Dinge, die wir aufbauen sollten, wie..
 
-**For builders:** Build tests. Build ventilators. Build personal protective equipment for hospitals. Build tests. Build masks. Build apps. Build antivirals, prophylactics, and other treatments that aren't vaccines. Build vaccines. Build tests. Build tests. Build tests. Build hope. 
+**Für Machende:** Baut Tests. Baut Beatmungsgeräte. Baut persönliche Schutzausrüstung für Krankenhäuser und Praxen. Baut Tests. Baut Masken. Baut Apps. Baut antivirale Medikamente, Prophylaktika und andere Behandlungen, die keine Impfstoffe sind. Baut Impfstoffe. Baut Tests. Baut Tests. Baut Tests. Baut Hoffnung.
 
-Don't downplay fear to build up hope. Our fear should *team up* with our hope, like the inventors of airplanes & parachutes. Preparing for horrible futures is how we *create* a hopeful future.
+Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
-The only thing to fear is the idea that the only thing to fear is fear itself.
+Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
+
