@@ -47,27 +47,27 @@ Also schnall dich an: Wir erwarten einige Turbulenzen.
     </div>
 </div>
 
-Piloten und Pilotinnen benutzen Flugsimulatoren, um zu lernen, wie man fliegt.
+Piloten und Pilotinnen benutzen Flugsimulatoren, um zu lernen, wie man ein Flugzeug wieder heil landet.
 
-**Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie man die Menschheit vor dem Aussterben bewahrt.**
+**Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie die Menschheit wieder heil landet.**
 
-Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> ungeschütze Menschen in <icon i></icon> ansteckende Menschen verwandeln:
+Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> ungeschütze Menschen in weitere <icon i></icon> ansteckende Menschen verwandeln:
 
 ![](pics/spread.png)
 
 Es wird angenommen, dass *zu Beginn* eines COVID-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützten Menschen springt.[^serial_interval] (bedenke, dass es viele Variationen gibt)
 
-[^serial_interval]: "Das mittlere \[serielle\] Interval war 3.96 Tage (95% CI 3.53–4.39 Tage)" (“The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”) [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Hinweis: "Frühveröffentlichungen" können nicht als endgültige Version von Artikeln angesehen werden)
+[^serial_interval]: "Das mittlere \[serielle\] Interval war 3.96 Tage (95% CI 3.53–4.39 Tage)" (“The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”) [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Hinweis: "Vorveröffentlichungen" können nicht als endgültige Version von Artikeln angesehen werden)
 
-Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,001 % <icon i></icon> beginnt, und *nichts anderes* simulieren was passiert dann?
+Simulieren wir also "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,001 % <icon i></icon> beginnt, und *nichts anderes*. Was passiert dann?
 
 **Klicke auf Start, um die Simulation zu starten! Später kannst du sie mit verschiedenen Einstellungen erneut starten:** (technische Vorbehalte: [^caveats])
 
-[^caveats]: **Beachte: alle diese Simulationen sind für Ausbildungszwecke sehr vereinfacht.**
+[^caveats]: **Beachte: alle diese Simulationen sind zu Lernzwecken sehr vereinfacht.**
     
     Eine Vereinfachung: Wenn man bei dieser Simulation folgendes einstellt: "Alle X Tage einen neuen Menschen infizieren", steigt die Zahl der Infizierten tatsächlich um 1/X pro Tag. Dasselbe gilt für zukünftige Einstellungen in diesen Simulationen - "Alle X Tage erholen" bedeutet tatsächlich, dass die Zahl der Infizierten jeden Tag um 1/X abnimmt.
     
-    Diese sind *nicht* identisch, aber es ist genau genug, und für Bildungszwecke ist es weniger undurchsichtig als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
+    Diese sind *nicht* identisch, aber es ist genau genug, und zu Lernzwecken ist es leicher zu durchschauen als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
