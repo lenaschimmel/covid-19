@@ -24,7 +24,7 @@
 
 "Das Einzige, was man fürchten muss, ist die Angst selbst", war ein dummer Ratschlag.
 
-Sicher, hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns Energie, um jetzt diese Gefahren anzugehen und uns später auf diese vorzubereiten.
+Sicher hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns Energie, um jetzt diese Gefahren anzugehen und uns später auf diese vorzubereiten.
 
 Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass Du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **interaktive Simulationen** zu erstellen. Unser Ziel ist, dass Du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
 
@@ -32,13 +32,13 @@ Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorg
 * **Über die nächsten paar Monate** (Sperren, Kontaktverfolgung, Masken)
 * **Über die nächsten paar Jahre** (Verlust der Immunität? Kein Impfstoff?)
 
-Diese interaktive Simulation (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→[^timestamp]) soll Dir zugleich Hoffnung geben und Angst machen. Denn um COVID-19 auf eine Weise zu schlagen, die auch **unsere geistige Gesundheit und unsere finanzielle Situation schützt**, brauchen wir zum einen Optimismus, um Pläne zu machen, und zum anderen Pessimismus, um Backup-Pläne zu erstellen. Wie Gladys Bronwyn Stern einmal sagte: *"Der Optimist erfindet das Flugzeug und der Pessimist den Fallschirm."*
+Diese interaktive Simulation (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→[^timestamp]) soll Dir zugleich Hoffnung geben und Angst machen. Denn um COVID-19 auf eine Weise zu schlagen, die auch **unsere geistige Gesundheit und unsere finanzielle Situation schützt**, brauchen wir zum einen Optimismus, um Pläne zu machen, zum anderen Pessimismus, um Backup-Pläne zu erstellen. Wie Gladys Bronwyn Stern einmal sagte: *"Der Optimist erfindet das Flugzeug und der Pessimist den Fallschirm."*
 
 [^timestamp]: Die Fußnoten in dieser Simulation enthalten Quellen, Links oder zusätzliche ommentare. Wie dieser erste Kommentar!
 
     **Dieser Führer wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass dieser Führer 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie 101 ohne Verfallsdatum nützlich bleiben wird.
 
-Also, schnallen Sie sich an: Wir stehen vor einigen Turbulenzen.
+Also schnall dich an: Wir erwarten einige Turbulenzen. 
 
 <div class="section chapter">
     <div>
@@ -47,7 +47,7 @@ Also, schnallen Sie sich an: Wir stehen vor einigen Turbulenzen.
     </div>
 </div>
 
-Piloten benutzen Flugsimulatoren, um zu lernen, wie man fliegt.
+Piloten und Pilotinnen benutzen Flugsimulatoren, um zu lernen, wie man fliegt.
 
 **Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie man die Menschheit vor dem Aussterben bewahrt.**
 
@@ -55,17 +55,17 @@ Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In d
 
 ![](pics/spread.png)
 
-Es wird angenommen, dass *zu Beginn* eines CoViD-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützten Menschen springt.[^serial_interval] (denken Sie daran, dass es viele Variationen gibt)
+Es wird angenommen, dass *zu Beginn* eines COVID-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützten Menschen springt.[^serial_interval] (bedenke, dass es viele Variationen gibt)
 
 [^serial_interval]: "Das mittlere \[serielle\] Interval war 3.96 Tage (95% CI 3.53–4.39 Tage)" (“The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”) [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Hinweis: "Frühveröffentlichungen" können nicht als endgültige Version von Artikeln angesehen werden)
 
 Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,001 % <icon i></icon> beginnt, und *nichts anderes* simulieren was passiert dann?
 
-**Klicken Sie auf Start, um die Simulation zu starten! Sie können sie später mit verschiedenen Einstellungen erneut starten:** (technische Vorbehalte: [^caveats])
+**Klicke auf Start, um die Simulation zu starten! Später kannst du sie mit verschiedenen Einstellungen erneut starten:** (technische Vorbehalte: [^caveats])
 
-[^caveats]: **Remember: alle diese Simulationen sind für Ausbildungszwecke sehr vereinfacht.**
+[^caveats]: **Beachte: alle diese Simulationen sind für Ausbildungszwecke sehr vereinfacht.**
     
-    Eine Vereinfachung: Wenn Sie bei dieser Simulation sagen: "Alle X Tage einen neuen Menschen infizieren", steigt die Zahl der Infizierten tatsächlich um 1/X pro Tag. Dasselbe gilt für zukünftige Einstellungen in diesen Simulationen - "Alle X Tage erholen" bedeutet tatsächlich, dass die Zahl der Infizierten jeden Tag um 1/X abnimmt.
+    Eine Vereinfachung: Wenn man bei dieser Simulation folgendes einstellt: "Alle X Tage einen neuen Menschen infizieren", steigt die Zahl der Infizierten tatsächlich um 1/X pro Tag. Dasselbe gilt für zukünftige Einstellungen in diesen Simulationen - "Alle X Tage erholen" bedeutet tatsächlich, dass die Zahl der Infizierten jeden Tag um 1/X abnimmt.
     
     Diese sind *nicht* identisch, aber es ist genau genug, und für Bildungszwecke ist es weniger undurchsichtig als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
 
@@ -77,13 +77,13 @@ Dies ist die **exponentielle Wachstumskurve.** Sie fängt klein an und explodier
 
 ![](pics/exponential.png)
 
-Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Ein Grund, welcher die Ausbreitung eines Viruses verhindert, ist wenn andere das Virus *bereits* haben:
+Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Ein Grund, welcher die Ausbreitung eines Virus verhindert, ist wenn es andere *bereits* haben:
 
 ![](pics/susceptibles.png)
 
 Je mehr <icon i></icon> es gibt, desto schneller werden <icon s></icon> zu <icon i></icon>, **aber je weniger <icon s></icon> es gibt, desto  *langsamer* werden <icon s></icon> zu <icon i></icon>.**
 
-Wie verändert dies das Wachstum einer Epidemie? Lassen Sie es uns herausfinden:
+Wie verändert dies das Wachstum einer Epidemie? Lass es uns herausfinden:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-2" width="800" height="540"></iframe>
@@ -95,7 +95,7 @@ Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache,
 
 Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denken Sie aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> nicht wieder infiziert werden können, und lassen Sie uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
 
-Mit CoViD-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  ansteckend.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
+Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  ansteckend.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
 
 [^infectiousness]: “Der Median der Zeitspanne in welcher Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Mittwelwert" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber genügend ähnlich.
 
@@ -109,7 +109,7 @@ Nun, was passiert, wenn Sie S-förmiges logistisches Wachstum *mit* Erholung sim
 
 ![](pics/graphs_q.png)
 
-Lassen Sie es uns herausfinden.
+Lass es uns herausfinden:
 
 die <b style='color:#ff4040'>Rote Kurve</b> gibt die *aktuellen* Fälle <icon i></icon> wieder,    
 die <b style='color:#999999'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuelle + genesene) wieder <icon r></icon>),
@@ -119,7 +119,7 @@ beginnt bei nur 0,001 %. <icon i></icon>:
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-Und *hier* kommt diese berühmte Kurve her! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber Sie haben sie zigmal gesehen und wurden gebeten, sie abzuflachen.
+Und *hier* kommt diese berühmte Kurve her! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber du hast sie zigmal gesehen und wurdest gebeten, sie abzuflachen.
 
 Dies ist das **SIR-Modell**,[^sir]    
 (<icon s></icon> **S**usceptible *anfällig/ungeschützt* <icon i></icon> **I**nfectious *ansteckend/infektiös* <icon r></icon> **R**ecovered *erholt/genesen*)      
