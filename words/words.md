@@ -564,7 +564,7 @@ Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen.
 
 Klar, das ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich daran erfreuen, *am Leben* zu sein. 
 
-Selbst wenn es zu einem der *worst-case*-Seznarien kommen sollte, man wird es aushalten können.  
+Selbst wenn es zu einem der *worst-case*-Szenarien kommen sollte, man wird es aushalten können.  
 
 Also machen wir uns bereit für ein wirklich *übles* *worst-case*-Szenario. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
 <!-- Ende Übersetzung von Julian @herr_hundt -->
