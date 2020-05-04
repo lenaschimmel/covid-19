@@ -17,10 +17,10 @@
 | Misc | [L1-L23](https://github.com/TQueV/covid-19/blame/master/words/words.md#L1-L23) | @TQueV |  |  |
 | Intro | [L25-L41](https://github.com/TQueV/covid-19/blame/master/words/words.md#L25-L41) | @eBildungslabor |  |  |
 | LastMonths: Curves | [L43-L153](https://github.com/TQueV/covid-19/blame/master/words/words.md#L43-L153) | @widomattern |  |  |
-| LastMonths: R | [L155-L237](https://github.com/TQueV/covid-19/blame/master/words/words.md#L155-L237)| @herrhundt |  |  |
+| LastMonths: R | [L155-L237](https://github.com/TQueV/covid-19/blame/master/words/words.md#L155-L237)| @herrhundt in Github übertragen|  |  |
 | NextMonths: Scenario 0-3 | [L239-L359](https://github.com/TQueV/covid-19/blame/master/words/words.md#L239-L359) | @eBildungslabor in Github übertragen |  |  |
 | NextMonths: Scenario 4 | [L361-L471](https://github.com/TQueV/covid-19/blame/master/words/words.md#L361-L471) | @eBildungslabor in Github übertragen |  |  |
-| NextMonths: Scenario 4+ | [L473-L573](https://github.com/TQueV/covid-19/blame/master/words/words.md#L473-L573) |  |  |  |
+| NextMonths: Scenario 4+ | [L473-L573](https://github.com/TQueV/covid-19/blame/master/words/words.md#L473-L573) | @herrhundt in Github übertragen |  |  |
 | NextYears | [L575-L682](https://github.com/TQueV/covid-19/blame/master/words/words.md#L575-L682) | @jkoelling https://hackmd.okfn.de/oU3YSW4aRQqEYrpBW7a_Rw?both# |  |  |
 | The Now | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) | felixrindt |  |  |
 
