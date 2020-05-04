@@ -156,85 +156,88 @@ Warum das? Wegen der *wichtigsten* Idee im 1x1 der Epidemiologie:
 
 ![](pics/r.png)
 
-Short for "Reproduction number". It's the *average* number of people an <icon i></icon> infects *before* they recover (or die).
+Abkürzend für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Menschen, die ein <icon i></icon> infiziert *bevor* dieser genest (oder stirbt).
 
 ![](pics/r2.png)
 
-**R** changes over the course of an outbreak, as we get more immunity & interventions.
+**R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
 
-**R<sub>0</sub>** (pronounced R-nought) is what R is *at the start of an outbreak, before immunity or interventions*. R<sub>0</sub> more closely reflects the power of the virus itself, but it still changes from place to place. For example, R<sub>0</sub> is higher in dense cities than sparse rural areas.
+**R<sub>0</sub>** (Aussprache R-Null) ist die Reproduktionszahl zum *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen* R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
 (Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Wiederum - wissenschaftliche Terminologie ist übel.)
 
-The R<sub>0</sub> for "the" seasonal flu is around 1.28[^r0_flu]. This means, at the *start* of a flu outbreak, each <icon i></icon> infects 1.28 others *on average.* (If it sounds weird that this isn't a whole number, remember that the "average" mom has 2.4 children. This doesn't mean there's half-children running about.)
+Das R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: die "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet nicht, dass irgendwo halbe Kinder rumrennen.)
 
-[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” (“The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)”) [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
-The R<sub>0</sub> for COVID-19 is estimated to be around 2.2,[^r0_covid] though one *not-yet-finalized* study estimates it was 5.7(!) in Wuhan.[^r0_wuhan]
+Der R<sub>0</sub> Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es noch *nicht-fertiggestellte* Forschungen gibt, die einen Wert von 5,7 (!) in Wuhan angeben.[^r0_wuhan]
 
-[^r0_covid]: “We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechnen einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In our simulations – *at the start & on average* – an <icon i></icon> infects someone every 4 days, over 10 days. "4 days" goes into "10 days" two-and-a-half times. This means – *at the start & on average* – each <icon i></icon> infects 2.5 others. Therefore, R<sub>0</sub> = 2.5. (caveats:[^r0_caveats_sim])
+In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 Tage zu 4 Tagen beträgt genau 2,5, sodass hier R<sub>0</sub> = 2.5 gilt. (caveats:[^r0_caveats_sim]) 
+
 
 [^r0_caveats_sim]: Man gibt hier vor, dass man über die Zeit der Ansteckungsfähigkeit gleichermassen infektiös ist. Wiederum - Vereinfachungen zu Gunsten des einfacheren Verständnisses.
 
-**Play with this R<sub>0</sub> calculator, to see how R<sub>0</sub> depends on recovery time & new-infection time:**
+**Variiere R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
 </div>
 
-But remember, the fewer <icon s></icon>s there are, the *slower* <icon s></icon>s become <icon i></icon>s. The *current* reproduction number (R) depends not just on the *basic* reproduction number (R<sub>0</sub>), but *also* on how many people are no longer <icon s></icon> Susceptible. (For example, by recovering & getting natural immunity.)
+Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <icon s></icon> zu <icon i></icon>. Die *aktuelle* Reproduktionszahl R hängt nicht nur von der *Basisreproduktionszahl* (R<sub>0</sub>) ab, sondern auch von der Anzahl der potentiell infizierbaren Menschen. (Beispielsweise durch Genesung und natürliche Immunität.)
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-When enough people have immunity, R < 1, and the virus is contained! This is called **herd immunity**. For flus, herd immunity is achieved *with a vaccine*. Trying to achieve "natural herd immunity" by letting folks get infected is a *terrible* idea. (But not for the reason you may think! We'll explain later.)
+Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man Herdenimmunität. 
+Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
 
-Now, let's play the SEIR Model again, but showing R<sub>0</sub>, R over time, and the herd immunity threshold:
+Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-**NOTE: Total cases *does not stop* at herd immunity, but overshoots it!** And it crosses the threshold *exactly* when current cases peak. (This happens no matter how you change the settings – try it for yourself!)
+**HINWEIS: Die Gesamtzahl der Infizierten *stoppt nicht* an der Grenze der Herdenimmunität, sondern geht darüber hinaus!** Zudem überschreitet die Gesamtzahl der Infizierten die Schwelle der Herdenimmunität *genau* zum Zeitpunkt der höchsten aktuellen Fallzahl. (Dies ist unabhängig von der Wahl der Parameter - teste es selbst!) 
 
-This is because when there are more non-<icon s></icon>s than the herd immunity threshold, you get R < 1. And when R < 1, new cases stop growing: a peak.
+Warum ist das so? Wenn es mehr Nicht-<icon s></icon> als die Schwelle der Herdenimmunität gibt, so wird R < 1. Und wenn R < 1 ist, stoppt das Wachstum neuer Fälle: ein Hochpunkt ist erreicht. 
 
-**If there's only one lesson you take away from this guide, here it is** – it's an extremely complex diagram so please take time to fully absorb it:
+**Wenn Du Dir nur eine Sache aus dieser Anleitung merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
 
 ![](pics/r3.png)
 
-**This means: we do NOT need to catch all transmissions, or even nearly all transmissions, to stop COVID-19!**
 
-It's a paradox. COVID-19 is extremely contagious, yet to contain it, we "only" need to stop more than 60% of infections. 60%?! If that was a school grade, that's a D-. But if R<sub>0</sub> = 2.5, cutting that by 61% gives us R = 0.975, which is R < 1, virus is contained! (exact formula:[^exact_formula])
+**Es bedeutet: Wir müssen NICHT alle Übertragungen abfangen, auch nicht fast alle, um COVID-19 zu stoppen!**
 
-[^exact_formula]: Remember R = R<sub>0</sub> * the ratio of transmissions still allowed. Remember also that ratio of transmissions allowed = 1 - ratio of transmissions *stopped*.
+Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, müssen wir "nur" mehr als 60% der Infektionen verhindern. 60%?! Als Schulnote wäre das ein "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, ist das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
+
+[^exact_formula]: Zur Erinnerung R = R<sub>0</sub> * Anteil der zugelassenen Übertragungen. Dabei ist der Anteil der zugelassenen Übertragungen = 1 - Anteil der *vereitelten* Übertragungen.
+
+    Um dann R < 1 zu erhalten, muss R<sub>0</sub> * ZugelasseneInfektionen < 1. 
     
-    Therefore, to get R < 1, you need to get R<sub>0</sub> * TransmissionsAllowed < 1. 
+    Also, ZugelasseneInfektionen < 1/R<sub>0</sub>
     
-    Therefore, TransmissionsAllowed < 1/R<sub>0</sub>
+    Also, 1 - VereitelteInfektionen < 1/R<sub>0</sub>
     
-    Therefore, 1 - TransmissionsStopped < 1/R<sub>0</sub>
+    Therefore, VereitelteInfektionen > 1 - 1/R<sub>0</sub>
     
-    Therefore, TransmissionsStopped > 1 - 1/R<sub>0</sub>
-    
-    Therefore, you need to stop more than **1 - 1/R<sub>0</sub>** of transmissions to get R < 1 and contain the virus!
+    Also müssen mehr als **1-1/R<sub>0</sub>** der Übertragungen vereitelt werden, um  R < 1 zu erreichen und das Virus einzudämmen!
 
 ![](pics/r4.png)
 
-(If you think R<sub>0</sub> or the other numbers in our simulations are too low/high, that's good you're challenging our assumptions! There'll be a "Sandbox Mode" at the end of this guide, where you can plug in your *own* numbers, and simulate what happens.)
+Falls Du glaubst, dass R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind - super! Damit hinterfragst du unsere Annahmen. Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passiert.) 
 
-*Every* COVID-19 intervention you've heard of – handwashing, social/physical distancing, lockdowns, self-isolation, contact tracing & quarantining, face masks, even "herd immunity" – they're *all* doing the same thing:
+*Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "lockdown", Selbstisolationen, "contact tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
 
-Getting R < 1.
+Zu erreichen, dass: R < 1
 
-So now, let's use our "epidemic flight simulator" to figure this out: How can we get R < 1 in a way **that also protects our mental health *and* financial health?**
+**Starten wir nun unseren "epidemischen Flugsimulator", um folgende Frage beantworten zu können: Wie erreichen wir unter Berücksichtigung unserer Gesundheit und finanziellen Interessen, dass R < 1 wird?**
 
-Brace yourselves for an emergency landing...
+Bereite dich auf eine Notlandung vor... 
 
 <div class="section chapter">
     <div>
