@@ -28,7 +28,7 @@ Sicher hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst f�
 
 Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass Du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **interaktive Simulationen** zu erstellen. Unser Ziel ist, dass Du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
 
-* **Über die letzten paar Monate** (1x1 der Epidemiologie 101, SEIR-Modell, R & R0)
+* **Über die letzten paar Monate** (1x1 der Epidemiologie, SEIR-Modell, R & R0)
 * **Über die nächsten paar Monate** (Lockdowns, Contact Tracing, Masken)
 * **Über die nächsten paar Jahre** (Verlust der Immunität? Kein Impfstoff?)
 
