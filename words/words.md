@@ -49,7 +49,7 @@ Also schnall dich an: Wir erwarten einige Turbulenzen.
 
 Pilotinnen und Piloten trainieren mit Flugsimulatoren, um künftige Abstürze zu verhindern.
 
-**Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie man die Menschheit vor dem Aussterben bewahrt.**
+**Epidemiologinnen und Epidemiologen trainieren in Epidemiesimulatoren, den Absturz der Menschheit zu verhindern.**
 
 Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> ungeschütze Menschen in <icon i></icon> ansteckende Menschen verwandeln:
 
@@ -67,7 +67,7 @@ Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,
     
     Eine Vereinfachung: Wenn man bei dieser Simulation folgendes einstellt: "Alle X Tage einen neuen Menschen infizieren", steigt die Zahl der Infizierten tatsächlich um 1/X pro Tag. Dasselbe gilt für zukünftige Einstellungen in diesen Simulationen - "Alle X Tage erholen" bedeutet tatsächlich, dass die Zahl der Infizierten jeden Tag um 1/X abnimmt.
     
-    Diese sind *nicht* identisch, aber es ist genau genug, und für Bildungszwecke ist es weniger undurchsichtig als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
+    Diese sind *nicht* identisch, aber ähnlich genug und zu Lernzwecken ist es leichter zu durchschauen als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
