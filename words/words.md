@@ -36,7 +36,7 @@ Diese interaktive Simulation (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→
 
 [^timestamp]: Die Fußnoten in dieser Simulation enthalten Quellen, Links oder zusätzliche Kommentare. Wie dieser erste Kommentar!
 
-    **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden sicher bald obsolet werden, aber wir sind zuversichtlich, dass dieser Wegweiser 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie ohne Verfallsdatum nützlich bleiben wird.
+    **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden sicher bald obsolet werden, aber wir sind zuversichtlich, dass dieser Wegweiser 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemiologie ohne Verfallsdatum nützlich bleiben wird.
 
 Also schnall dich an: Wir erwarten einige Turbulenzen. 
 
