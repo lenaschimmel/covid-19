@@ -181,7 +181,7 @@ Der R<sub>0</sub>-Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], ob
 In unseren Simulationen infiziert - *zu Beginn und durchschnittlich* - ein <icon i></icon> im Laufe von 10 Tagen alle 4 Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, das heißt, dass - *zu Beginn und durchschnittlich* - jede und jeder <icon i></icon> 2,5 weitere Personen infiziert. Es gilt hier also R<sub>0</sub> = 2,5. (Vorbehalte:[^r0_caveats_sim])
 
 
-[^r0_caveats_sim]: Wir nehmen hier an, dass man in seiner "infektiösen Phase" immer gleichbleibend infektiös ist. Auch hier wurden die Vereinfachungen zum besseren Verständnis gemacht. (übersetzt): This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.
+[^r0_caveats_sim]: Wir nehmen hier an, dass man in seiner "infektiösen Phase" immer gleichbleibend infektiös ist. Auch hier wurden die Vereinfachungen zum besseren Verständnis gemacht. 
 
 
 
