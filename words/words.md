@@ -47,7 +47,7 @@ Also schnall dich an: Wir erwarten einige Turbulenzen.
     </div>
 </div>
 
-Piloten und Pilotinnen benutzen Flugsimulatoren, um zu lernen, wie man fliegt.
+Pilotinnen und Piloten trainieren mit Flugsimulatoren, um künftige Abstürze zu verhindern.
 
 **Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie man die Menschheit vor dem Aussterben bewahrt.**
 
