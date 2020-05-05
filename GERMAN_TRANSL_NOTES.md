@@ -22,7 +22,7 @@
 | NextMonths: Scenario 4   | [L361-L471](https://github.com/TQueV/covid-19/blame/master/words/words.md#L361-L471) | @eBildungslabor in Github übertragen                           |           |                  |
 | NextMonths: Scenario 4+  | [L473-L573](https://github.com/TQueV/covid-19/blame/master/words/words.md#L473-L573) | @herrhundt in Github übertragen                                |           |                  |
 | NextYears                | [L575-L682](https://github.com/TQueV/covid-19/blame/master/words/words.md#L575-L682) | @jkoelling https://hackmd.okfn.de/oU3YSW4aRQqEYrpBW7a_Rw?both# |           |                  |
-| The Now                  | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) | felixrindt                                                     |           |                  |
+| The Now                  | [L684-L711](https://github.com/TQueV/covid-19/blame/master/words/words.md#L684-L711) | @felixrindt in Github übertragen                               |           |                  |
 
 ## offene Punkte
 
