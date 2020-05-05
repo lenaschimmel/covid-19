@@ -390,50 +390,60 @@ Aber wenn wir die stattgefundenen und engsten Kontakte einer Person, die Symptom
 
 ![](pics/timeline3.png)
 
-Diese Idee wird als **Kontaktverfolgung** bezeichnet. Sie wurde bereits zur Eindämmung von Ebola[^ebola] verwendet, und ist jetzt zentraler Bestandteil der Eindämmungsstrategie von COVID-19 in Taiwan & Südkorea!
+Diese Idee wird als **contact tracing** (Kontaktverfolgung) bezeichnet. Es ist eine alte Idee, die im großen Maßstab erstmals zur Eindämmung von Ebola[^ebola] verwendet wurde. Jetzt ist sie zentraler Bestandteil der Eindämmungsstrategie von COVID-19 in Taiwan & Südkorea!
 
-[^ebola]: Kontaktverfolgung war eine entscheidende Intervention in Liberia und stellte eine der größten Kontaktverfolgungsbemühungen während einer Epidemie in der Geschichte dar. [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
+[^ebola]: "Contact tracing war eine entscheidende Maßnahme in Liberia und stellte eine der größten Kontaktverfolgungsbemühungen während einer Epidemie in der Geschichte dar." (Übersetzung: “Contact tracing was a critical intervention in Liberia and represented one of the largest contact tracing efforts during an epidemic in history.”) [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
 
-(Dies ermöglicht uns auch, unsere begrenzten Test-Kapazitäten effizienter zu nutzen, um <icon i></icon> vor dem Ausbruch von Symptomen zu finden, ohne so gut wie alle testen zu müssen.)
+(Dies ermöglicht uns auch, unsere begrenzten Test-Kapazitäten effizienter zu nutzen, um <icon i></icon> vor dem Ausbruch von Symptomen zu finden, ohne so fast alle Leute testen zu müssen.)
 
-Normalerweise werden Kontakte durch persönliche Interviews gefunden, aber diese *alleine* sind zu langsam für das ~48-Stunden-Fenster von COVID-19. Aus diesem Grund brauchen Kontaktverfolger Hilfe und werden deshalb unterstützt von - *NICHT* ersetzt durch - Kontaktverfolgungs-Apps.
+Normalerweise werden Kontakte durch persönliche Interviews gefunden, aber das *alleine* geht zu langsam für das ~48-Stunden-Fenster von COVID-19. Deshalb brauchen die Suchenden Hilfe und werden unterstützt von - *NICHT* ersetzt durch - Contact-tracing-Apps.
 
 (Diese Idee stammt nicht von "Nerds": Die Verwendung einer App zur Bekämpfung von COVID-19 wurde zuerst von [einem Team von Epidemiolog\*innen aus Oxford](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936) vorgeschlagen.)
 
-Aber warte, Apps, die zurückverfolgen, mit wem du in Kontakt warst?... Bedeutet das, Deine Privatsphäre aufzugeben und Big Brother zu opfern?
+Warte mal, Apps, die zurückverfolgen, mit wem du Kontakt hattest?... Bedeutet das, deine Privatsphäre aufzugeben und sie Big Brother zu opfern?
 
-Verdammt nein! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, ein Team von Epidemiolog\*innen & Verschlüsselungsexpert\*innen (darunter einer von uns, Marcel Salathé), entwickelt *bereits* eine Anwendung zur Kontaktverfolgung - mit einem für die Öffentlichkeit zugänglichen Code -, die **keine Informationen preisgibt über Deine Identität, Deinen Standort, wer Deine Kontakte sind und nicht einmal darüber, *wie viele Kontakte* Du hattest.**
+Um Gottes Willen, nein! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, ein Team von Epidemiolog\*innen & Verschlüsselungsexpert\*innen (darunter einer von uns, Marcel Salathé), entwickelt *bereits* eine Contact-tracing-App - mit öffentlich zugänglichem Code -, die **keine Informationen preisgibt über deine Identität, deinen Standort, wer deine Kontakte sind und nicht einmal darüber, *wie viele Kontakte* du hattest.**
 
-Das funktioniert so:
+Das funktioniert folgendermaßen:
 
 ![](pics/dp3t.png)
 
-(& [hier findest Du den vollständigen Comic](https://ncase.me/contact-tracing/))
+([Hier findest Du den vollständigen Comic](https://ncase.me/contact-tracing/). Details zu "pranking" / Fehlalarme / etc. in der Fußnote:[^dp3t_details])
 
-Zusammen mit ähnlichen Teams wie TCN Protocol[^tcn] und MIT PACT[^pact] haben sie Apple & Google dazu gebracht, Kontaktverfolgung bei Wahrung der Privatsphäre direkt in Android/iOS zu implementieren.[^gapple] (Du traust Google/Apple nicht? Gut! Das Schöne an diesem System ist, dass es kein Vertrauen *benötigt*). Bald wird Deine örtliche Gesundheitsbehörde Dich vielleicht bitten, eine App herunterzuladen. Wenn der Schutz der Privatsphäre dabei gesichert und der Code öffentlich zugänglich ist, dann tue das bitte!
+[^dp3t_details]: Um "pranking" (Leute geben fälschlicherweise an, infiziert zu sein) vorzubeugen, setzt das DP-3T-Protokoll voraus, dass dir das Krankenhaus zunächst einen einmaligen Zugangscode schickt, mit dem du deine Nachrichten hochladen kannst.
+    
+    Fehlalarme sind ein Problem sowohl beim manuellen wie beim digitalen contact tracing. Doch wir können sie auf 2 Arten reduzieren: 1) Indem Bob nur benachrichtigt wird, wenn die App, sagen wir mal, 30 oder mehr Minuten lang Nachrichten erhalten hat, nicht bloß eine Nachricht im Vorübergehen. Und 2) Wenn die App *wirkloch* denkt dass Bob exponiert war, kann sie ihn an eine\*n *manuelle\*n* Kontaktverfolger\*in verweisen, um ein ausführliches Folgegespräch zu führen.
+    
+    Zu anderen Themen wie Datenbandbreite, Quellenintegrität und weiteren Sicherheitsfragen, lest euch die [open-source DP-3T whitepapers](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing) durch!
 
-[^tcn]: [Temporary Contact Numbers, ein dezentralisiertes Protokoll zur Kontaktverfolgung unter Wahrung der Privatsphäre](https://github.com/TCNCoalition/TCN#tcn-protocol)
+Zusammen mit ähnlichen Teams wie TCN Protocol[^tcn] und MIT PACT[^pact] haben sie Apple & Google dazu gebracht, contact tracing unter Wahrung der Privatsphäre direkt in Android/iOS zu implementieren.[^gapple] (Du traust Google/Apple nicht? Gut! Das Schöne an diesem System ist, dass es kein Vertrauen *benötigt*). Bald wird deine örtliche Gesundheitsbehörde dich vielleicht bitten, eine App herunterzuladen. Wenn der Schutz der Privatsphäre dabei gesichert und der Code öffentlich zugänglich ist, dann mach das bitte!
+
+[^tcn]: [Temporary Contact Numbers, ein dezentralisiertes Contact-tracing-Protokoll zur Kontaktverfolgung unter Wahrung der Privatsphäre](https://github.com/TCNCoalition/TCN#tcn-protocol)
 
 [^pact]: [PACT: Private Automated Contact Tracing](https://pact.mit.edu/)
 
-[^gapple]: [Apple und Google kooperieren bei einer COVID-19 Kontaktverfolgungs-Techhnologie ](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Bitte beachte: Sie entwickeln diese Apps nicht *selbst*, sondern nur die Umgebungen, die diese Apps *unterstützen*.
+[^gapple]: [Apple und Google partner on COVID-19 contact tracing technology](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Bitte beachte: Sie entwickeln diese Apps nicht *selbst*, sondern nur die Systemumgebungen, die diese Apps *unterstützen*.
 
-Aber was ist mit den Menschen ohne Smartphones? Oder Infektionen durch Türklinken? Oder "echte" asymptomatische Fälle? Apps zur Kontaktverfolgung können nicht alle Übertragungen erfassen... *und das ist okay!* Wir müssen nicht *alle* Übertragungen erfassen, nur 60%+ um R < 1 zu erreichen.
+Aber was ist mit den Menschen ohne Smartphones? Oder Infektionen durch Türklinken? Oder "echte" asymptomatische Fälle? Contact-tracing-Apps können nicht alle Übertragungen erfassen... *und das ist okay!* Wir müssen nicht *alle* Übertragungen erfassen, nur über 60%, um R < 1 zu erreichen.
 
-(Dazu ein Rant über die Verwirrung zwischen prä-symptomatisch und "echter" Asymptomatik. "Echte" Asymptomatiken sind selten:[^rant])
+(Dazu ein Rant über die Verwirrung zwischen präsymptomatisch und "echt" asymptomatisch - "echte" Asymptomatiken sind selten:[^rant])
 
-[^rant]: Viele Nachrichtenberichte - und ehrlich gesagt auch viele wissenschaftlichen Arbeiten - unterscheiden nicht zwischen "Fällen, die keine Symptome zeigten, als wir sie getestet haben" (präsymptomatisch) und "Fällen, die *immer* keine Symptome zeigten". (wirklich asymptomatisch). Sie könnten den Unterschied nur feststellen, wenn sie die Fälle später nachverfolgen würden. Genau das hat [diese Studie] (https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) getan. In einem Callcenter in Südkorea, das einen COVID-19-Ausbruch hatte, blieben nur 4 (1,9 %) Fälle innerhalb von 14 Tagen nach der Quarantäne asymptomatisch, und keiner ihrer Haushaltskontakte erwarb Sekundärinfektionen (Disclaimer: Vorzeitige Veröffentlichungen von Artikeln, gelten nicht als endgültige Versionen.) Das bedeutet also, dass "echte Asymptomatik" selten ist, und die Ansteckung mit einer echten Asymptomatik kann sogar noch seltener sein!
+[^rant]: Viele Nachrichtenbeiträge - und ehrlich gesagt auch viele wissenschaftliche Arbeiten - unterscheiden nicht zwischen "Fällen, die keine Symptome zeigten, als wir sie getestet haben" (präsymptomatisch) und "Fällen, die *immer* keine Symptome zeigten". (echt asymptomatisch). Der Unterschied könnte nur dann festgestellt werden, wenn sie die Fälle später nachverfolgen würden.
 
-Die Isolierung *symptomatischer* Fälle würde R um bis zu 40% reduzieren, und die Quarantäne ihrer *pre/a-symptomatischen* Kontakte würde R um bis zu 50% reduzieren[^oxford]:
+	Genau das hat [diese Studie] (https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) getan. (Disclaimer: "Vorzeitige Veröffentlichungen von Artikeln gelten nicht als endgültige Versionen.") In einem Callcenter in Südkorea, das einen COVID-19-Ausbruch erlebte, blieben nur 4 (1,9%) Fälle innerhalb von 14 Tagen nach der Quarantäne asymptomatisch, und keiner ihrer Haushaltskontakte hatte Sekundärinfektionen. 
+	
+	Das bedeutet also, dass "echte Asymptomatik" selten ist, und die Ansteckung bei einer echten Asymptomatik kann sogar noch seltener sein!
 
-[^oxford]: From the same Oxford study that first recommended apps to fight COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Figure 2. Assuming R<sub>0</sub> = 2.0, they found that:    
+Die Isolierung *symptomatischer* Fälle würde R um bis zu 40% reduzieren, und die Quarantäne ihrer *prä- bzw. asymptomatischen* Kontakte würde R um bis zu 50% reduzieren[^oxford]:
+
+[^oxford]: Von derselben Oxford-Studie, die zuerst Apps im Kampf gegen COVID-19 empfohlen hat: [Luca Ferretti & Chris Wymant et al.](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Siehe Abbildung 2. Angenommen R<sub>0</sub> = 2.0, fanden sie heraus:    
     
-    * Symptomatics contribute R = 0.8 (40%)
-    * Pre-symptomatics contribute R = 0.9 (45%)
-    * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
-    * Environmental stuff like doorknobs contribute R = 0.2 (10%)
+    * Beitrag der symptomiatischen Fälle zu R = 0.8 (40%)
+    * Beitrag der präsymptomatischen Fälle zu R = 0.9 (45%)
+    * Beitrag der asymptomatischen Fälle zu R = 0.1 (5%, obwohl ihr Modell Ungewissheiten beinhaltet und der Beitrag viel niedriger sein könnte)
+    * Beitrag von Umwelteinflüssen wie z.B. Türklinken zu R = 0.2 (10%)
 
-    And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!
+    Zählt man die prä- und asymptomatischen Kotakte (45% + 5%) zusammen, kommt man auf 50% von R!
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
