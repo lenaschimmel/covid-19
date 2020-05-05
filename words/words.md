@@ -97,7 +97,7 @@ Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckend
 
 Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  ansteckend.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
 
-[^infectiousness]: “Der Median der Zeitspanne in welcher Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Mittwelwert" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber genügend ähnlich.
+[^infectiousness]: “Der Median der Zeitspanne, in der Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Mittwelwert" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber ähnlich genug.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
@@ -105,46 +105,46 @@ Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  anstecken
 
 Dies ist das Gegenteil von exponentiellem Wachstum, die **exponentielle Zerfallskurve.**
 
-Nun, was passiert, wenn Sie S-förmiges logistisches Wachstum *mit* Erholung simulieren?
+Nun, was passiert, wenn wir S-förmiges logistisches Wachstum *mit* Erholung simulieren?
 
 ![](pics/graphs_q.png)
 
 Lass es uns herausfinden:
 
 die <b style='color:#ff4040'>Rote Kurve</b> gibt die *aktuellen* Fälle <icon i></icon> wieder,    
-die <b style='color:#999999'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuelle + genesene) wieder <icon r></icon>),
+die <b style='color:#999999'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuelle + genesene) wieder <icon r></icon>) und
 beginnt bei nur 0,001 %. <icon i></icon>:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-Und *hier* kommt diese berühmte Kurve her! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber du hast sie zigmal gesehen und wurdest gebeten, sie abzuflachen.
+Und *so* kommt diese berühmte Kurve zustande! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber du hast sie schon zigmal gesehen und wurdest inständig gebeten, sie abzuflachen.
 
 Dies ist das **SIR-Modell**,[^sir]    
-(<icon s></icon> **S**usceptible *anfällig/ungeschützt* <icon i></icon> **I**nfectious *ansteckend/infektiös* <icon r></icon> **R**ecovered *erholt/genesen*)      
+(<icon s></icon> **S**usceptible *anfällig/ungeschützt* <icon i></icon> **I**nfectious *ansteckend/infektiös* <icon r></icon> **R**ecovered *erholt/genesen*),      
 die *zweit*-wichtigste Idee im 1x1 der Epidemiologie:
 
-[^sir]: Weitere technische Erläuterungen zum SIR-Modell finden Sie unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)
+[^sir]: Für weitere technische Erläuterungen zum SIR-Modell, siehe [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) und [Wikipedia](https://de.wikipedia.org/wiki/SIR-Modell)
 
 ![](pics/sir.png)
 
-**ANMERKUNG: Die Simulationen, welche die Politik informieren, sind *wesentlich* ausgefeilter als das!** Aber das SIR-Modell kann immer noch die gleichen allgemeinen Ergebnisse erklären, auch wenn die Nuancen fehlen.
+**ANMERKUNG: Die Simulationen, auf deren Basis die Politik entscheidet, sind *wesentlich* ausgefeilter als das hier!** Das SIR-Modell kann aber trotzem die gleichen allgemeinen Ergebnisse erklären, auch wenn die Nuancen fehlen.
 
-Eigentlich sollten wir noch eine weitere Nuance hinzufügen: Bevor ein <icon s></icon> zu einem <icon i></icon> wird, werden sie erst <icon e></icon> exponiert. Das ist, wenn sie das Virus bereits haben, es aber noch nicht weitergeben können - *infiziert*, aber noch nicht *infektiös*.
+Eigentlich sollten wir noch eine weitere Nuance hinzufügen: Bevor ein <icon s></icon> zu einem <icon i></icon> wird, wird es zunächst <icon e></icon> exponiert. Das ist, wenn sie oder er das Virus bereits hat, es aber noch nicht weitergeben kann - *infiziert*, aber noch nicht *infektiös*.
 
 ![](pics/seir.png)
 
-(Diese Variante wird das **SEIR-Modell**[^seir] genannt, wobei das "E" für <Icon e></icon> **E**xposed *exponiert* steht. Bitte beachten Sie, daß dies *nicht* die alltägliche Bedeutung von "exponiert" ist, wo Sie das Virus haben können oder nicht. In dieser technischen Definition bedeutet "exponiert", dass Sie das Virus definitiv haben. Die wissenschaftliche Terminologie ist hier nicht endeutig).
+(Diese Variante wird das **SEIR-Modell**[^seir] genannt, wobei das "E" für <Icon e></icon> **E**xposed *exponiert* steht. Bitte beachte, dass dies *nicht* die Alltagsbedeutung von "exponiert" ist, welche da wäre: Man kann das Virus haben oder nicht. In dieser technischen Definition bedeutet "exponiert", dass man das Virus definitiv hat. Die wissenschaftliche Terminologie ist hier nicht endeutig).
 
-[^seir]: Weitere technische Erläuterungen zum SEIR-Modell finden Sie unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)
+[^seir]: Weitere technische Erläuterungen zum SEIR-Modell findest du unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) und [Wikipedia](https://de.wikipedia.org/wiki/SEIR-Modell)
 
-Für CoViD-19 wird angenommen, dass <icon e></icon> im Durchschnitt 3 Tage lang infiziert, aber noch nicht infektiös sind, *im Durchschnitt*. [^latent] Was passiert, wenn wir das zur Simulation hinzufügen?
+Für COVID-19 wird angenommen, dass <icon e></icon> 3 Tage lang infiziert, aber noch nicht infektiös ist, *im Durchschnitt*. [^latent] Was passiert, wenn wir das zur Simulation hinzufügen?
 
-[^latent]: “Ausgehend von einer Verteilung der Inkubationszeitspanne  von im Mittel über 5.2 Tagen aus einer anderen Studie über frühe COVID-19 Fälle schlossen wir, dass die Ansteckungsfähigkeit 2.3 Tage (95% CI, 0.8–3.0 Tage) vor dem Auftreten von Symptomen auftrat.” Übersetzung: Angenommen die Symptome fangen am 5 Tag an, dann fängt die Ansteckungsfähigkeit 2 Tage davor an (also am 3. Tag). (“Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset”) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Ausgehend von einer Verteilung der Inkubationszeitspanne von im Mittel über 5,2 Tage aus einer anderen Studie über frühe COVID-19 Fälle schlossen wir, dass die Ansteckungsfähigkeit 2,3 Tage (95% CI, 0,8–3,0 Tage) vor dem Auftreten von Symptomen auftrat.” Übersetzung: Angenommen die Symptome fangen am 5. Tag an, dann fängt die Ansteckungsfähigkeit 2 Tage davor an (also am 3. Tag). (“Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset”) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
-die <b style='color:#ff4040'>Rote <b style='color:#FF9393'>+ Pinke</b> Kurve</b> geben die *aktuellen* Fälle (infektiös <icon i></icon> + exponiert <icon e></icon>) wieder,    
-die <b style='color:#888'>Graue Kurve</b> gibt die *gesamte* Fälle (aktuell + genesen <icon r></icon>) wieder:
+Die <b style='color:#ff4040'>Rote <b style='color:#FF9393'>+ Pinke</b> Kurve</b> geben die *aktuellen* Fälle (infektiös <icon i></icon> + exponiert <icon e></icon>) wieder,    
+die <b style='color:#888'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuell + genesen <icon r></icon>) wieder:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
