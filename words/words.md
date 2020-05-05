@@ -162,26 +162,30 @@ Kurz für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Me
 
 **R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
 
-**R<sub>0</sub>** (ausgesprochen R-Null) ist die Reproduktionszahl zum *Beginn eines Ausbruchs, also vor einer Immunität und vor Intenventionen* R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
+**R<sub>0</sub>** (Aussprache R-Null) ist die Basisreproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität und vor Intenventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
 (Die meisten Zeitungsartikel - und teilweise sogar wissenschaftliche Veröffentlichungen! - verwechseln R und R<sub>0</sub>. Wie gesagt - wissenschaftliche Terminologie ist ein schwieriges Feld.)
 
-Das R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Das bedeutet, dass zu Beginn eines Grippeausbruchs jede und jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls du dich wunderst, dass 1,28 keine ganze Zahl ist: Die "durchschnittliche" Mutter hat 2,4 Kinder. Das bedeutet nicht, dass irgendwo auf der Welthalbe Kinder herumrennen.)
+Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Das bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls du dich wunderst, dass 1,28 keine ganze Zahl ist: Eine "durchschnittliche" Mutter hat 2,4 Kinder. Das bedeutet ja auch nicht, dass irgendwo halbe Kinder herumlaufen.)
 
-[^r0_flu]: “Der Median-R-Wert der saisonalen Grippe lag bei 1,28 (IQR: 1,19–1,37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Der Median-R-Wert der saisonalen Grippe lag bei 1,28 (IQR: 1,19–1,37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
+
+ [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
 Der R<sub>0</sub>-Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es *noch nicht fertiggestellte* Forschungen gibt, die einen Wert von 5,7(!) für Wuhan angeben.[^r0_wuhan]
 
-[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 von 2019-nCoV auf etwa 2,2 (90% high density interval: 1,4–3,8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 von 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “wir berechnen einen Median-R0-Wert von 5,7  (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechneten einen Median-R0-Wert von 5,7 (95% CI 3,8–8,9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In unseren Simulationen infiziert - *zu Beginn und durchschnittlich* - ein <icon i></icon> im Laufe von 10 Tagen alle 4 Tage eine andere Person. Das Verhältnis 10 Tage zu 4 Tagen beträgt genau 2,5, das heißt, dass - *zu Beginn und durchschnittlich* - jede und jeder <icon i></icon> 2,5 weitere Personen infiziert. Es gilt hier also R<sub>0</sub> = 2,5. (Vorbehalte:[^r0_caveats_sim]) 
+In unseren Simulationen infiziert - *zu Beginn und durchschnittlich* - ein <icon i></icon> im Laufe von 10 Tagen alle 4 Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, das heißt, dass - *zu Beginn und durchschnittlich* - jede und jeder <icon i></icon> 2,5 weitere Personen infiziert. Es gilt hier also R<sub>0</sub> = 2,5. (Vorbehalte:[^r0_caveats_sim])
 
 
-[^r0_caveats_sim]: Wir nehmen hier an, dass man in der Zeit, in mn in der "infektiösen Phase" immer gleichbleibend infektiös ist. Auch hier - Vereinfachungen zu Gunsten des einfacheren Verständnisses.
+[^r0_caveats_sim]: Wir nehmen hier an, dass man in seiner "infektiösen Phase" immer gleichbleibend infektiös ist. Auch hier wurden die Vereinfachungen zum besseren Verständnis gemacht. (übersetzt): This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes.
 
-**Variiere R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
+
+
+**Spiele an R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
@@ -193,7 +197,7 @@ Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <ic
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man Herdenimmunität. 
+Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man *Herdenimmunität*. 
 Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
 
 Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
