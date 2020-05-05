@@ -168,7 +168,7 @@ Kurz für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Me
 
 Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Das bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls du dich wunderst, dass 1,28 keine ganze Zahl ist: Eine "durchschnittliche" Mutter hat 2,4 Kinder. Das bedeutet ja auch nicht, dass irgendwo halbe Kinder herumlaufen.)
 
-[^r0_flu]: “Der Median-R-Wert der saisonalen Grippe lag bei 1,28 (IQR: 1,19–1,37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
+[^r0_flu]: “Der Median des R-Werts der saisonalen Grippe lag bei 1,28 (IQR: 1,19–1,37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
 
  [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
