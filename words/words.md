@@ -135,7 +135,7 @@ Eigentlich sollten wir noch eine weitere Nuance hinzufügen: Bevor ein <icon s><
 
 ![](pics/seir.png)
 
-(Diese Variante wird das **SEIR-Modell**[^seir] genannt, wobei das "E" für <Icon e></icon> **E**xposed *exponiert* steht. Bitte beachte, dass dies *nicht* die Alltagsbedeutung von "exponiert" ist, welche da wäre: Man kann das Virus haben oder nicht. In dieser technischen Definition bedeutet "exponiert", dass man das Virus definitiv hat. Die wissenschaftliche Terminologie ist hier nicht endeutig).
+(Diese Variante wird das **SEIR-Modell**[^seir] genannt, wobei das "E" für <Icon e></icon> **E**xposed *exponiert* steht. Bitte beachte, dass dies *nicht* die Alltagsbedeutung von "exponiert" ist, welche da wäre: Man kann das Virus haben oder nicht. In dieser technischen Definition bedeutet "exponiert", dass man das Virus definitiv hat. Wissenschaftliche Terminologie ist eine schwierige Sache).
 
 [^seir]: Weitere technische Erläuterungen zum SEIR-Modell findest du unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) und [Wikipedia](https://de.wikipedia.org/wiki/SEIR-Modell)
 
