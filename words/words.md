@@ -176,7 +176,7 @@ Der R<sub>0</sub>-Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], ob
 
 [^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 von 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “wir berechneten einen Median-R0-Wert von 5,7 (95% CI 3,8–8,9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechneten den Median des R0-Werts als 5,7 (95% CI 3,8–8,9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
 In unseren Simulationen infiziert - *zu Beginn und durchschnittlich* - ein <icon i></icon> im Laufe von 10 Tagen alle 4 Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, das heißt, dass - *zu Beginn und durchschnittlich* - jede und jeder <icon i></icon> 2,5 weitere Personen infiziert. Es gilt hier also R<sub>0</sub> = 2,5. (Vorbehalte:[^r0_caveats_sim])
 
@@ -716,4 +716,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
