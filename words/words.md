@@ -160,7 +160,7 @@ Abkürzend für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl
 
 ![](pics/r2.png)
 
-**R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
+**R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Maßnahmen. 
 
 **R<sub>0</sub>** (Aussprache R-Null) ist die Basisreproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
@@ -309,7 +309,7 @@ Drei Anmerkungen:
 
 1. Dies *verringert* die Gesamtzahl der Fälle! **Selbst wenn R < 1 nicht erreicht wird, rettet die Reduzierung von R immer noch Leben, indem sie den 'Überhang' bis zur Herdenimmunität reduziert.** Viele Menschen denken, dass mit dem Abflachen der Kurve die Fälle zeitlich gestreckt werden, ohne aber die Gesamtzahl zu reduzieren. Doch das steht im Widerspruch zu *jedem* grundlegenden Epidemiologie-Modell. Aber weil in den Nachrichten "80%+ werden infiziert sein" als unvermeidlich berichtet wurde, kommt es zu der weitläufigen Annahme, dass die Gesamtzahl der Fälle in jedem Fall gleich bleiben würde. *Seufz.*
 
-2. Aufgrund der zusätzlichen Interventionen erreichen die aktuellen Fälle ihren Höhepunkt *bevor* die Herdenimmunität erreicht wird. Tatsächlich schießt in dieser Simulation die Gesamtzahl der Fälle nur *ein kleines bisschen* über die Herdenimmunität hinaus - der Plan des Vereinigten Königreichs! An diesem Punkt, R < 1, kann man alle anderen Interventionen loslassen, und COVID-19 bleibt eingedämmt! Es gibt nur ein Problem ...
+2. Aufgrund der zusätzlichen Maßnahmen erreichen die aktuellen Fälle ihren Höhepunkt *bevor* die Herdenimmunität erreicht wird. Tatsächlich schießt in dieser Simulation die Gesamtzahl der Fälle nur *ein kleines bisschen* über die Herdenimmunität hinaus - der Plan des Vereinigten Königreichs! An diesem Punkt, R < 1, kann man alle anderen Maßnahmen loslassen, und COVID-19 bleibt eingedämmt! Es gibt nur ein Problem ...
 
 3. Es fehlen die Betten auf den Intensivstationen. Und das über mehrere Monate. (und dabei haben wir die Betten auf den Intensivstationen für diese Simulation *bereits* verdreifacht)
 
@@ -338,7 +338,7 @@ Was also tun? Einen Lockdown nach dem anderen?
 
 Diese Option wurde zuerst im Bericht des Imperial College vom 16. März und später erneut in einem Harvard-Papier vorgeschlagen [^lockdown_harvard].
 
-[^lockdown_harvard]: In Abwesenheit anderer Interventionen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivpflege überschritten werden. Um dies zu vermeiden, kann eine längere oder zeitweilige soziale Distanzierung bis ins Jahr 2022 erforderlich sein. [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivpflege überschritten werden. Um dies zu vermeiden, kann eine längere oder zeitweilige soziale Distanzierung bis ins Jahr 2022 erforderlich sein. [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
 **Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst Du versuchen, Deinen *eigenen* Lockdown-Plan zu simulieren, indem Du den Schieberegler änderst ** während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
 
@@ -392,7 +392,7 @@ Aber, wenn wir die stattgefundenen und engsten Kontakte einer Person, die Sympto
 
 Diese Idee wird als **Kontaktverfolgung** bezeichnet. Sie wurde bereits zur Eindämmung von Ebola[^ebola] verwendet, und ist jetzt zentraler Bestandteil der Eindämmungsstrategie von COVID-19 in Taiwan & Südkorea!
 
-[^ebola]: Kontaktverfolgung war eine entscheidende Intervention in Liberia und stellte eine der größten Kontaktverfolgungsbemühungen während einer Epidemie in der Geschichte dar. [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
+[^ebola]: Kontaktverfolgung war eine entscheidende Maßnahme in Liberia und stellte eine der größten Kontaktverfolgungsbemühungen während einer Epidemie in der Geschichte dar. [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
 
 (Dies ermöglicht uns auch, unsere begrenzten Test-Kapazitäten effizienter zu nutzen, um <icon i></icon> vor dem Ausbruch von Symptomen zu finden, ohne so gut wie alle testen zu müssen.)
 
@@ -473,7 +473,7 @@ Der Pessimist erfindet den Fallschirm.
 ###Szenario 4+: Masken für alle, Sommer, Lockdown! 
 <!-- circuit breaker als Lockdown?! Übersetzung fehlt-->
 
-Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Interventionen nicht schaffen würden, R auf unter 1 zu drücken? 
+Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Maßnahmen nicht schaffen würden, R auf unter 1 zu drücken? 
 
 Selbst wenn wir es nicht schaffen, R < 1 zu erreichen, reduziert das Drücken dieser Reproduktionszahl die Anzahl der Fälle und rettet damit Leben. Nichtsdestotrotz bleibt R < 1 das Ideal und hier sind ein paar weitere Möglichkeiten, dieses zu erreichen: 
 
@@ -525,7 +525,7 @@ Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn 
 
 **Sommer:**
 
-Okay, das ist keine "Intervention", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird ihn reduzieren.  
+Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird ihn reduzieren.  
 
 Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (2,2° Fahrenheit) zu einer Reduktion des R-Werts um 1,2%.[^heat]  Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 15°C (60°F), sodass der Sommer eine Reduktion des R-Wertes um 18% bewirkt.  
 
@@ -616,7 +616,7 @@ Das ist das **SEIRS Modell**. Das letzte "S" steht wieder für <icon s></icon> "
 
 ![](pics/seirs.png)
 
-Lass uns jetzt einen COVID-19 Ausbruch über 10 Jahre, ohne Interventionen simulieren... *wenn Immunität nur ein Jahr anhält:*
+Lass uns jetzt einen COVID-19 Ausbruch über 10 Jahre, ohne Maßnahmen simulieren... *wenn Immunität nur ein Jahr anhält:*
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-2&format=lines&height=600" width="800" height="600"></iframe>
@@ -660,13 +660,13 @@ Dennoch haben Forscher für Infektionskrankheiten Besorgnis geäußert: Was ist,
 
 Selbst im Albtraumszenario "kein Impfstoff", haben wir noch 3 Auswege. Vom aller schlimmsten zum am wenigsten schlimmen:
 
-1) Mach einen periodischen Lockdown oder lockere R < 1 Interventionen, um "natürliche Herdenimmunität" zu erreichen. (Warnung: Das würde zu vielen Todesfällen & beschädigten Lungen führen. *Und* es wird nicht funktionieren, falls Immunität nicht anhält.)
+1) Mach einen periodischen Lockdown oder lockere R < 1 Maßnahmen, um "natürliche Herdenimmunität" zu erreichen. (Warnung: Das würde zu vielen Todesfällen & beschädigten Lungen führen. *Und* es wird nicht funktionieren, falls Immunität nicht anhält.)
 
-2) Mach die R < 1 Interventionen für immer. Kontaktverfolgung & das Tragen von Masken werden zur neuen Normalität in der Welt nach COVID-19, so wie Tests auf Geschlechtskrankheiten & das Tragen von Kondomen die neue Normalität in der Welt nach HIV wurden.
+2) Mach die R < 1 Maßnahmen für immer. Kontaktverfolgung & das Tragen von Masken werden zur neuen Normalität in der Welt nach COVID-19, so wie Tests auf Geschlechtskrankheiten & das Tragen von Kondomen die neue Normalität in der Welt nach HIV wurden.
 
-3) Mach die R < 1 Interventionen bis wir Behandlungsoptionen entwickelt haben die es viel, viel unwahrscheinlicher machen, dass COVID-19 Intensivmedizin erfordert. (Das sollten wir *auf jeden Fall* tun!) Den Bedarf für Intensivstationen um das 10-fache zu senken hat den gleichen Effekt wie die Kapazität der Intensivstationen um das 10-fache zu erhöhen:
+3) Mach die R < 1 Maßnahmen bis wir Behandlungsoptionen entwickelt haben die es viel, viel unwahrscheinlicher machen, dass COVID-19 Intensivmedizin erfordert. (Das sollten wir *auf jeden Fall* tun!) Den Bedarf für Intensivstationen um das 10-fache zu senken hat den gleichen Effekt wie die Kapazität der Intensivstationen um das 10-fache zu erhöhen:
 
-**Hier ist eine Simulation *ohne* anhaltende Immunität, *ohne* Impfsstoff und selbst ohne irgendeine Intervention – einfach ein langsamer Anstiegt der Kapazitäten um die langfristigen Spitzen zu überleben:**
+**Hier ist eine Simulation *ohne* anhaltende Immunität, *ohne* Impfsstoff und selbst ohne irgendeine Maßnahme – einfach ein langsamer Anstiegt der Kapazitäten um die langfristigen Spitzen zu überleben:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
