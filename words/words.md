@@ -183,8 +183,6 @@ In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i><
 
 [^r0_caveats_sim]: Man nimmt hier an, dass man über die Zeit der Ansteckungsfähigkeit gleichermaßen infektiös ist. Hier wurden die Vereinfachungen zum besseren Verständnis gemacht. (übersetzt): This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes. 
 
-
-
 **Spiele an R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
 <div class="sim">
@@ -198,26 +196,26 @@ Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <ic
 </div>
 
 Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man *Herdenimmunität*. 
-Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
+Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist denkbar schlecht! (Aber nicht aus dem Grund, den du vielleicht annimmst - wir werden das später erklären!)
 
-Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
+Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die Zeit, sowie die Grenze der Herdenimmunität zeigt: 
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-**HINWEIS: Die Gesamtzahl der Infizierten *stoppt nicht* an der Grenze der Herdenimmunität, sondern geht darüber hinaus!** Zudem überschreitet die Gesamtzahl der Infizierten die Schwelle der Herdenimmunität *genau* zum Zeitpunkt der höchsten aktuellen Fallzahl. (Dies ist unabhängig von der Wahl der Parameter - teste es selbst!) 
+**HINWEIS: Die Gesamtzahl der Infizierten *stoppt nicht* an der Grenze der Herdenimmunität, sondern geht darüber hinaus!** Zudem überschreitet die Gesamtzahl der Infizierten die Herdenimmunitätsgrenze *genau* zum Zeitpunkt der höchsten aktuellen Fallzahl. (Dies ist unabhängig von der Wahl der Parameter - teste es selbst!) 
 
 Warum ist das so? Wenn es mehr Nicht-<icon s></icon> als die Schwelle der Herdenimmunität gibt, so wird R < 1. Und wenn R < 1 ist, stoppt das Wachstum neuer Fälle: ein Hochpunkt ist erreicht. 
 
-**Wenn Du Dir nur eine Sache aus dieser Anleitung merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
+**Wenn Du Dir nur eine Sache aus diesem Wegweiser merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
 
 ![](pics/r3.png)
 
 
 **Es bedeutet: Wir müssen NICHT alle Übertragungen abfangen, auch nicht fast alle, um COVID-19 zu stoppen!**
 
-Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, müssen wir "nur" mehr als 60% der Infektionen verhindern. 60%?! Als Schulnote wäre das ein "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, ist das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
+Dies scheint paradox! COVID-19 ist eine extrem anstreckende Krankheit, jedoch reicht es aus, "nur" mehr als 60% der Infektionen zu verhindern, um sie einzudämmen. 60%?! Als Schulnote wäre das "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, wäre das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
 
 [^exact_formula]: Zur Erinnerung R = R<sub>0</sub> * Anteil der zugelassenen Übertragungen. Dabei ist der Anteil der zugelassenen Übertragungen = 1 - Anteil der *vereitelten* Übertragungen.
 
