@@ -73,11 +73,11 @@ Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
 </div>
 
-Dies ist die **exponentielle Wachstumskurve.** Sie fängt klein an und explodiert dann. "Oh, es ist nur eine Grippe" bis "Oh richtig, Grippe schafft keine *Massengräber in reichen Städten*". 
+Dies ist die **exponentielle Wachstumskurve.** Sie fängt klein an und explodiert dann. Von "Ach, es ist nur eine Grippe" bis "Oh richtig, eine Grippe schafft keine *Massengräber in reichen Städten*". 
 
 ![](pics/exponential.png)
 
-Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Ein Grund, welcher die Ausbreitung eines Virus verhindert, ist wenn es andere *bereits* haben:
+Diese Simulation ist aber falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Die Ausbreitung eines Virus wird zum Beispiel dadurch gestoppt, dass andere es *bereits* haben:
 
 ![](pics/susceptibles.png)
 
@@ -93,9 +93,9 @@ Dies ist eine "S-förmige" **logistische Wachstumskurve.** Sie fängt klein an, 
 
 Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckenden Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
 
-Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denken Sie aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> nicht wieder infiziert werden können, und lassen Sie uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
+Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denkt aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> können nicht wieder infiziert werden, lasst ns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
 
-Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  ansteckend.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
+Es wird angenommen, dass sie mit COVID-19 *im Durchschnitt* 10 Tage lang ansteckend sind.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
 
 [^infectiousness]: “Der Median der Zeitspanne in welcher Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Mittwelwert" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber genügend ähnlich.
 
