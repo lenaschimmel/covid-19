@@ -470,8 +470,7 @@ Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereit
 
 Der Pessimist erfindet den Fallschirm.
 
-###Szenario 4+: Masken für alle, Sommer, Lockdown! 
-<!-- circuit breaker als Lockdown?! Übersetzung fehlt-->
+###Szenario 4+: Masken für alle, Sommer, Stromkreisunterbrechung!
 
 Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Interventionen nicht schaffen würden, R auf unter 1 zu drücken? 
 
@@ -537,17 +536,17 @@ Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (2,2° Fahrenhe
 
 Der Sommer allein wird R nicht unter 1 drücken, aber wenn wir nur eingeschränkte Mittel haben, können wir einige Maßnahmen im Sommer lockern und im Winter wieder *stärker* anziehen. 
 
-**Ein "Ausschalter"-*Lockdown*:**
+**Ein *Lockdown* als Unterbechung des Stromkreises:**
 
 Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, könnten wir einen anderen *Lockdown* versuchen. 
 
-Aber wir müssten nicht wieder und wieder 2-Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: es *ist* genau der Erfolg.)
+Aber wir müssten nicht wieder und wieder 2-Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Stromkreisunterbrechungs"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: es *ist* genau der Erfolg.)
 
 Hier ist eine Simulation eines *laze case*-Szenarios: 
 
 1. Lockdown, danach
 2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danch... 
-3. ein weiterer "Ausschalter-*Lockdown* bevor ein Impfstoff entwickelt wird.  
+3. ein weiterer "Stromkreisunterbrechungs"-*Lockdown* bevor ein Impfstoff entwickelt wird.  
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
