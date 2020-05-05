@@ -233,11 +233,11 @@ Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, 
 
 ![](pics/r4.png)
 
-Falls Du glaubst, dass R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind - super! Damit hinterfragst du unsere Annahmen. Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passiert.) 
+(Vielleicht fragst du dich, ob R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind. Super, wenn du unsere Annahmen hinterfragst! Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passieren würde.) 
 
-*Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "lockdown", Selbstisolationen, "contact tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
+*Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "Lockdown", Selbstisolationen, "Contact Tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
 
-Zu erreichen, dass: R < 1
+Sie sollen erreichen, dass R < 1 wird. 
 
 **Starten wir nun unseren "epidemischen Flugsimulator", um folgende Frage beantworten zu können: Wie erreichen wir unter Berücksichtigung unserer Gesundheit und finanziellen Interessen, dass R < 1 wird?**
 
@@ -254,11 +254,11 @@ Bereite dich auf eine Notlandung vor...
 
 ###Szenario 0: Überhaupt nichts tun
 
-Etwa 1 von 20 Menschen, die sich COVID-19 infiziert haben, benötigen intensivmedizinische Behandlung.[^icu_covid] In einem reichen Land wie den USA kommt ein Intensivplatz auf 3.400 Menschen.[^icu_us] Daher können die USA damit umgehen, dass 20 von 3400 Menschen *gleichzeitig* infiziert sind - oder 0,6% der Bevölkerung.
+Etwa 1 von 20 Menschen, die sich mit COVID-19 infiziert haben, benötigen eine intensivmedizinische Behandlung.[^icu_covid] In einem reichen Land wie den USA steht ein Intensivplatz pro 3.400 Menschen zur Verfügung.[^icu_us] Daher können die USA damit umgehen, dass 20 von 3400 Menschen *gleichzeitig* infiziert sind - oder 0,6% der Bevölkerung.
 
-[^icu_covid]: [Prozentualer Anteil der COVID-19-Fälle in den USA vom 12. Februar bis 16. März 2020, die eine intensivmedizinische Behandlung benötigten, nach Altersgruppe](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Zwischen 4,9% und 11,5% *aller* COVID-19-Fälle benötigten eine intensivmedizinische Behandlung. Wenn man die unterste Schätzung wählt, sind das 5 Prozent oder 1 von 20. Diese Gesamtzahl ist spezifisch für die Altersstruktur der USA. In Ländern mit älterer Bevölkerung wird sie höher und in Ländern mit jüngerer Bevölkerung niedriger sein.
+[^icu_covid]: [Prozentualer Anteil der COVID-19-Fälle in den USA vom 12. Februar bis 16. März 2020, die eine intensivmedizinische Behandlung benötigten, nach Altersgruppe](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/)(übersetzt):"Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group". Zwischen 4,9% und 11,5% *aller* COVID-19-Fälle benötigten eine intensivmedizinische Behandlung. Wenn man die unterste Schätzung wählt, sind das 5 Prozent oder 1 von 20. Diese Gesamtzahl ist spezifisch für die Altersstruktur der USA. In Ländern mit älterer Bevölkerung wird sie höher und in Ländern mit jüngerer Bevölkerung niedriger sein. (übersetzt): Between 4.9% to 11.5% of all COVID-19 cases required ICU. Generously picking the lower range, that's 5% or 1 in 20. Note that this total is specific to the US's age structure, and will be higher in countries with older populations, lower in countries with younger populations. 
 
-[^icu_us]: Anzahl der Betten auf der Intensivstation = 96.596. Von [der Gesellschaft für Intensivmedizin] (https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Die Bevölkerung der USA betrug im Jahr 2019 rund 328.200.000 Personen. 96.596 von 328.200.000 macht ungefähr 1 von 3400. 
+[^icu_us]: Anzahl der Betten auf der Intensivstation = 96.596. Von [der Gesellschaft für Intensivmedizin] (https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Die Bevölkerung der USA betrug im Jahr 2019 rund 328.200.000 Personen. 96.596 von 328.200.000 macht ungefähr 1 von 3400. (übersetzt):“Number of ICU beds = 96,596”. From the Society of Critical Care Medicine USA Population was 328,200,000 in 2019. 96,596 out of 328,200,000 = roughly 1 in 3400.  
 
 Selbst wenn wir diese Kapazität auf 2% *mehr als verdreifacht* hätten, wäre Folgendes passiert, *wenn wir absolut nichts getan hätten:*
 
@@ -279,13 +279,13 @@ Selbst wenn nur 0,5% der Infizierten sterben - eine sehr optimistische Annahme, 
 
 Der Plan "Flatten The Curve" (Abflachen der Kurve) wurde von allen Gesundheitsorganisation angepriesen, während der ursprüngliche britische Plan der "Herdenimmunität" allgemein ausgepfiffen wurde. Allerdings handelte es sich dabei eigentlich um *denselben Plan.* Großbritannien kommunizierte ihn nur schlecht.[^yong]
 
-(^yong): Übersetztes Zitat: Er sagt, dass das eigentliche Ziel dasselbe ist wie in anderen Ländern: die Kurve abflachen, indem der Ausbruch von Infektionen zeitlich versetzt wird. Als Folge davon kann die Nation Herdenimmunität erreichen; das ist ein Nebeneffekt, kein Ziel. [...] Der aktuelle Coronavirus-Aktionsplan der Regierung, der online verfügbar ist, erwähnt die Herdenimmunität überhaupt nicht. (Aus einem [The Atlantic-Artikel von Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/))
+(^yong): Übersetztes Zitat: Er sagt, dass das eigentliche Ziel dasselbe ist wie in anderen Ländern: die Kurve abflachen, indem der Ausbruch von Infektionen zeitlich versetzt wird. Als Folge davon kann die Nation Herdenimmunität erreichen; das ist ein Nebeneffekt, kein Ziel. [...] Der aktuelle Coronavirus-Aktionsplan der Regierung, der online verfügbar ist, erwähnt die Herdenimmunität überhaupt nicht. (Aus einem [The Atlantic-Artikel von Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)) (übersetzt):“He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all.” From a The Atlantic article by Ed Yong
 
 Beide Pläne hatten jedoch einen fatalen Fehler.
 
 Betrachten wir zunächst die beiden Hauptmöglichkeiten, mit denen sich die Kurve abflachen lässt: Händewaschen und soziale Distanzierung.
 
-Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Ländern mit hohem Einkommen um ~25%[^handwashing] reduziert, während die stadtweite Abriegelung in London enge Kontakte um ~70%[^london] einschränkt. Nehmen wir also an, durch Händewaschen kann R um *bis zu* 25% reduziert werden, und durch Distanzierung kann R um *bis zu* 70% reduziert werden:
+Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Ländern mit hohem Einkommen um ~25%[^handwashing] reduziert, während die stadtweite Abriegelung in London enge Kontakte um ~70%[^london] einschränkt. Nehmen wir also an, durch Händewaschen kann R um *bis zu* 25% reduziert werden und durch Distanzierung kann R um *bis zu* 70% reduziert werden:
 
 [^handwashing]: Alle acht in Frage kommenden Studien berichteten, dass das Händewaschen das Risiko einer Atemwegsinfektion senkt, wobei die Risikominderung zwischen 6% und 44% liegt. Gepoolter Wert 24% (95% CI 6-40%). (Der Einfachheit halber haben wir in diesen Simulationen den gepoolten Wert auf 25% aufgerundet.) [Rabie, T. und Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Anmerkung: Wie diese Meta-Analyse aufzeigt, ist die Qualität der Studien zum Händewaschen (zumindest in Ländern mit hohem Einkommen) miserabel.
 
