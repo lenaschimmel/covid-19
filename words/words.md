@@ -47,9 +47,7 @@ Also schnall dich an: Wir erwarten einige Turbulenzen.
     </div>
 </div>
 
-Piloten und Pilotinnen benutzen Flugsimulatoren, um zu lernen, wie man ein Flugzeug wieder heil landet.
-
-**Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie die Menschheit wieder heil landet.**
+**Epidemiologinnen und Epidemiologen trainieren in Epidemiesimulatoren, den Absturz der Menschheit zu verhindern.**
 
 Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> ungeschütze Menschen in weitere <icon i></icon> ansteckende Menschen verwandeln:
 
@@ -67,7 +65,7 @@ Simulieren wir also "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die
     
     Eine Vereinfachung: Wenn man bei dieser Simulation folgendes einstellt: "Alle X Tage einen neuen Menschen infizieren", steigt die Zahl der Infizierten tatsächlich um 1/X pro Tag. Dasselbe gilt für zukünftige Einstellungen in diesen Simulationen - "Alle X Tage erholen" bedeutet tatsächlich, dass die Zahl der Infizierten jeden Tag um 1/X abnimmt.
     
-    Diese sind *nicht* identisch, aber es ist genau genug, und zu Lernzwecken ist es leichter zu durchschauen als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
+    Diese sind *nicht* identisch, aber ähnlich genug und zu Lernzwecken ist es leichter zu durchschauen als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
@@ -81,7 +79,7 @@ Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise
 
 ![](pics/susceptibles.png)
 
-Je mehr <icon i></icon> es gibt, desto schneller werden <icon s></icon> zu <icon i></icon>, **aber je weniger <icon s></icon> es gibt, desto  *langsamer* werden <icon s></icon> zu <icon i></icon>.**
+Je mehr <icon i></icon> es gibt, desto schneller werden <icon s></icon> zu <icon i></icon>, **aber je weniger <icon s></icon> es gibt, desto *langsamer* werden <icon s></icon> zu <icon i></icon>.**
 
 Wie verändert dies das Wachstum einer Epidemie? Lass es uns herausfinden:
 
@@ -91,7 +89,7 @@ Wie verändert dies das Wachstum einer Epidemie? Lass es uns herausfinden:
 
 Dies ist eine "S-förmige" **logistische Wachstumskurve.** Sie fängt klein an, explodiert und verlangsamt sich dann wieder.
 
-Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckenden Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
+Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckende Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
 
 Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denken Sie aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> nicht wieder infiziert werden können, und lassen Sie uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
 
@@ -162,26 +160,30 @@ Abkürzend für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl
 
 **R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
 
-**R<sub>0</sub>** (Aussprache R-Null) ist die Reproduktionszahl zum *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen* R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
+**R<sub>0</sub>** (Aussprache R-Null) ist die Basisreproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
-(Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Wiederum - wissenschaftliche Terminologie ist übel.)
+(Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Hier ist die wissenschaftliche Terminologie teilweise uneindeutig.)
 
-Das R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: die "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet nicht, dass irgendwo halbe Kinder rumrennen.)
+Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: eine "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet ja auch nicht, dass irgendwo halbe Kinder herumlaufen.)
 
-[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
+
+ [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
 Der R<sub>0</sub> Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es noch *nicht-fertiggestellte* Forschungen gibt, die einen Wert von 5,7 (!) in Wuhan angeben.[^r0_wuhan]
 
-[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “wir berechnen einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechnten einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 Tage zu 4 Tagen beträgt genau 2,5, sodass hier R<sub>0</sub> = 2.5 gilt. (caveats:[^r0_caveats_sim]) 
+In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, sodass hier R<sub>0</sub> = 2,5 gilt. (caveats:[^r0_caveats_sim]) 
 
 
-[^r0_caveats_sim]: Man gibt hier vor, dass man über die Zeit der Ansteckungsfähigkeit gleichermassen infektiös ist. Wiederum - Vereinfachungen zu Gunsten des einfacheren Verständnisses.
+[^r0_caveats_sim]: Man nimmt hier an, dass man über die Zeit der Ansteckungsfähigkeit gleichermaßen infektiös ist. Hier wurden die Vereinfachungen zum besseren Verständnis gemacht. (übersetzt): This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes. 
 
-**Variiere R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
+
+
+**Spiele an R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
@@ -193,7 +195,7 @@ Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <ic
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man Herdenimmunität. 
+Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man *Herdenimmunität*. 
 Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
 
 Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
