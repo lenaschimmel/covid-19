@@ -514,7 +514,7 @@ Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um
 
 [^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
 
-**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir das Händewaschen, denn es ist besser, es nicht-perfekt zu tun, als gar nicht. 
+**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir das Händewaschen, denn es ist besser, es nicht perfekt zu tun, als gar nicht. 
 
 **"Das Tragen einer Maske macht die Menschen sorgloser im Umgang mit dem Händewaschen &  Abstandhalten."** Klar, Sicherheitsgurte verleiten einige Menschen dazu, Stop-Schilder zu missachten, und dank Zahnseide können die Menschen Steine essen. Wir sollten ernsthaft mit dem Gegenteil argumentieren: Masken sind ein *dauerhafte physische Erinnerung* zur Umsicht - und in Ostasien zudem ein Symbol von Solidarität! 
 
