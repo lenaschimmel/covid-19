@@ -386,7 +386,7 @@ Und in der Tat verlaufen 44% aller Übertragungen so: Sie finden *vor* dem Auftr
 
 [^pre_symp]: Wir schätzten, dass 44% (95% Konfidenzintervall, 25-69%) der sekundären Fälle während des präsymptomatischen Stadiums der Indexfälle infiziert wurden. (Übersetzung: "We estimated that 44% (95% confidence interval, 25–69%) of secondary cases were infected during the index cases’ presymptomatic stage”) [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
 
-Aber, wenn wir die letzten engsen Kontakte einer Person, die Symptome hat, finden *und unter Quarantäne stellen* ... stoppen wir die Ausbreitung, indem wir ihr einen Schritt voraus bleiben!
+Aber, wenn wir die letzten engen Kontakte einer Person, die Symptome hat, finden *und unter Quarantäne stellen* ... stoppen wir die Ausbreitung, indem wir ihr einen Schritt voraus bleiben!
 
 ![](pics/timeline3.png)
 
