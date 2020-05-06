@@ -215,7 +215,7 @@ Warum ist das so? Wenn es mehr Nicht-<icon s></icon> als die Schwelle der Herden
 
 **Es bedeutet: Wir müssen NICHT alle Übertragungen abfangen, auch nicht fast alle, um COVID-19 zu stoppen!**
 
-Dies scheint paradox! COVID-19 ist eine extrem anstreckende Krankheit, jedoch reicht es aus, "nur" mehr als 60% der Infektionen zu verhindern, um sie einzudämmen. 60%?! Als Schulnote wäre das "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, wäre das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
+Dies scheint paradox! COVID-19 ist eine extrem ansteckende Krankheit, jedoch reicht es aus, "nur" mehr als 60% der Infektionen zu verhindern, um sie einzudämmen. 60%?! Als Schulnote wäre das "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, wäre das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
 
 [^exact_formula]: Zur Erinnerung R = R<sub>0</sub> * Anteil der zugelassenen Übertragungen. Dabei ist der Anteil der zugelassenen Übertragungen = 1 - Anteil der *vereitelten* Übertragungen.
 
