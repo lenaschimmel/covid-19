@@ -172,7 +172,7 @@ Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefä
 
  [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
-Der R<sub>0</sub>-Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es *noch nicht fertiggestellte* Forschungen gibt, die einen Wert von 5,7(!) für Wuhan angeben.[^r0_wuhan]
+Der R<sub>0</sub>-Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es eine *noch nicht fertiggestellte* Studie gibt, die einen Wert von 5,7(!) für Wuhan schätzt.[^r0_wuhan]
 
 [^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 von 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
