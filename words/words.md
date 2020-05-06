@@ -5,7 +5,7 @@
         	Wie geht es weiter?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			Zukunftsszenarien von COVID-19, erklärt mit spielbaren Simulationen
+			Zukunftsszenarien von COVID-19: ein Simulationsspiel
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
