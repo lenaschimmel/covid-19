@@ -196,7 +196,7 @@ Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <ic
 </div>
 
 Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man *Herdenimmunität*. 
-Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist denkbar schlecht! (Aber nicht aus dem Grund, den du vielleicht annimmst - wir werden das später erklären!)
+Für Grippeviren wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist denkbar schlecht! (Aber nicht aus dem Grund, den du vielleicht annimmst - wir werden das später erklären!)
 
 Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die Zeit, sowie die Grenze der Herdenimmunität zeigt: 
 
@@ -714,4 +714,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
