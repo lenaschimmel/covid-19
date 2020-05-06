@@ -162,7 +162,7 @@ Kurz für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Me
 
 **R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
 
-**R<sub>0</sub>** (Aussprache R-Null) ist die Basisreproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität und vor Intenventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
+**R<sub>0</sub>** (gesprochen R-Null, auch "Basisreproduktionszahl") ist die Reproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität und vor Interventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
 (Die meisten Zeitungsartikel - und teilweise sogar wissenschaftliche Veröffentlichungen! - verwechseln R und R<sub>0</sub>. Wie gesagt - wissenschaftliche Terminologie ist ein schwieriges Feld.)
 
