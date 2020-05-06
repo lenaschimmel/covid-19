@@ -24,19 +24,19 @@
 
 "Das Einzige, was man fürchten muss, ist die Angst selbst", war ein dummer Ratschlag.
 
-Sicher hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns Energie, um jetzt diese Gefahren anzugehen und uns später auf diese vorzubereiten.
+Sicher hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns die Energie mit den jetzigen Gefahren umzugehen und uns auf kommende Gefahren vorzubereiten.
 
-Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass Du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **interaktive Simulationen** zu erstellen. Unser Ziel ist, dass Du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
+Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass Du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **spielbaren Simulationen** zu erstellen. Unser Ziel ist, dass Du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
 
 * **Über die letzten paar Monate** (1x1 der Epidemiologie, SEIR-Modell, R & R0)
-* **Über die nächsten paar Monate** (Lockdowns, Contact Tracing, Masken)
+* **Über die nächsten paar Monate** (Lockdown, Contact Tracing, Masken)
 * **Über die nächsten paar Jahre** (Verlust der Immunität? Kein Impfstoff?)
 
-Diese interaktive Simulation (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→[^timestamp]) soll Dir zugleich Hoffnung geben und Angst machen. Denn um COVID-19 auf eine Weise zu schlagen, die auch **unsere geistige Gesundheit und unsere finanzielle Lage schützt**, brauchen wir zum einen Optimismus, um einen Plan zu machen, zum anderen Pessimismus, um einen Plan B zu entwickeln. Wie Gladys Bronwyn Stern einmal sagte: *"Der Optimist erfindet das Flugzeug und der Pessimist den Fallschirm."*
+Dieser Wegweiser (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→[^timestamp]) soll Dir zugleich Hoffnung geben und Angst machen. Denn um COVID-19 auf eine Weise zu schlagen, die auch **unsere geistige Gesundheit und unsere finanzielle Situation schützt**, brauchen wir zum einen Optimismus, um Pläne zu machen, zum anderen Pessimismus, um Backup-Pläne zu erstellen. Wie Gladys Bronwyn Stern einmal sagte: *"Der Optimist erfindet das Flugzeug und der Pessimist den Fallschirm."*
 
 [^timestamp]: Die Fußnoten in dieser Simulation enthalten Quellen, Links oder zusätzliche Kommentare. Wie dieser erste Kommentar!
 
-    **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden sicher bald obsolet werden, aber wir sind zuversichtlich, dass dieser Wegweiser 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemiologie ohne Verfallsdatum nützlich bleiben wird.
+    **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass dieser Führer 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie 101 ohne Verfallsdatum nützlich bleiben wird.
 
 Also schnall dich an: Wir erwarten einige Turbulenzen. 
 
@@ -47,9 +47,9 @@ Also schnall dich an: Wir erwarten einige Turbulenzen.
     </div>
 </div>
 
-Piloten und Pilotinnen benutzen Flugsimulatoren, um zu lernen, wie man fliegt.
+Pilotinnen und Piloten trainieren mit Flugsimulatoren, um künftige Abstürze zu verhindern.
 
-**Epidemiologen verwenden Epidemiesimulatoren, um zu lernen, wie man die Menschheit vor dem Aussterben bewahrt.**
+**Epidemiologinnen und Epidemiologen trainieren in Epidemiesimulatoren, den Absturz der Menschheit zu verhindern.**
 
 Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In dieser Simulation können <icon i></icon> ansteckende Menschen <icon s></icon> ungeschütze Menschen in <icon i></icon> ansteckende Menschen verwandeln:
 
@@ -57,7 +57,7 @@ Also, nehmen wir uns einen sehr, *sehr* einfachen "Epidemie-Flugsimulator"! In d
 
 Es wird angenommen, dass *zu Beginn* eines COVID-19-Ausbruchs das Virus *im Durchschnitt* alle 4 Tage von einem <icon i></icon> ansteckenden Menschen zu einem <icon s></icon> ungeschützten Menschen springt.[^serial_interval] (bedenke, dass es viele Variationen gibt)
 
-[^serial_interval]: "Das mittlere \[serielle\] Interval war 3.96 Tage (95% CI 3.53–4.39 Tage)" (“The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”) [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Hinweis: "Frühveröffentlichungen" können nicht als endgültige Version von Artikeln angesehen werden)
+[^serial_interval]: "Das mittlere \[serielle\] Intervall war 3.96 Tage (95% CI 3.53–4.39 Tage)" (“The mean [serial] interval was 3.96 days (95% CI 3.53–4.39 days)”) [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article) (Hinweis: "Frühveröffentlichungen" können nicht als endgültige Version von Artikeln angesehen werden)
 
 Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,001 % <icon i></icon> beginnt, und *nichts anderes* simulieren was passiert dann?
 
@@ -67,7 +67,7 @@ Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,
     
     Eine Vereinfachung: Wenn man bei dieser Simulation folgendes einstellt: "Alle X Tage einen neuen Menschen infizieren", steigt die Zahl der Infizierten tatsächlich um 1/X pro Tag. Dasselbe gilt für zukünftige Einstellungen in diesen Simulationen - "Alle X Tage erholen" bedeutet tatsächlich, dass die Zahl der Infizierten jeden Tag um 1/X abnimmt.
     
-    Diese sind *nicht* identisch, aber es ist genau genug, und für Bildungszwecke ist es weniger undurchsichtig als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
+    Diese sind *nicht* identisch, aber ähnlich genug und zu Lernzwecken ist es leichter zu durchschauen als die direkte Festlegung der Übertragungs-/Wiederherstellungsraten.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
@@ -81,7 +81,7 @@ Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise
 
 ![](pics/susceptibles.png)
 
-Je mehr <icon i></icon> es gibt, desto schneller werden <icon s></icon> zu <icon i></icon>, **aber je weniger <icon s></icon> es gibt, desto  *langsamer* werden <icon s></icon> zu <icon i></icon>.**
+Je mehr <icon i></icon> es gibt, desto schneller werden <icon s></icon> zu <icon i></icon>, **aber je weniger <icon s></icon> es gibt, desto *langsamer* werden <icon s></icon> zu <icon i></icon>.**
 
 Wie verändert dies das Wachstum einer Epidemie? Lass es uns herausfinden:
 
@@ -91,7 +91,7 @@ Wie verändert dies das Wachstum einer Epidemie? Lass es uns herausfinden:
 
 Dies ist eine "S-förmige" **logistische Wachstumskurve.** Sie fängt klein an, explodiert und verlangsamt sich dann wieder.
 
-Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckenden Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
+Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckende Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
 
 Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denken Sie aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> nicht wieder infiziert werden können, und lassen Sie uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
 
@@ -162,26 +162,30 @@ Abkürzend für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl
 
 **R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Interventionen. 
 
-**R<sub>0</sub>** (Aussprache R-Null) ist die Reproduktionszahl zum *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen* R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
+**R<sub>0</sub>** (Aussprache R-Null) ist die Basisreproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
-(Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Wiederum - wissenschaftliche Terminologie ist übel.)
+(Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Hier ist die wissenschaftliche Terminologie teilweise uneindeutig.)
 
-Das R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: die "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet nicht, dass irgendwo halbe Kinder rumrennen.)
+Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: eine "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet ja auch nicht, dass irgendwo halbe Kinder herumlaufen.)
 
-[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
+[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
+
+ [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
 Der R<sub>0</sub> Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es noch *nicht-fertiggestellte* Forschungen gibt, die einen Wert von 5,7 (!) in Wuhan angeben.[^r0_wuhan]
 
-[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (90% high density interval: 1.4–3.8)” [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “wir berechnen einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechnten einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 Tage zu 4 Tagen beträgt genau 2,5, sodass hier R<sub>0</sub> = 2.5 gilt. (caveats:[^r0_caveats_sim]) 
+In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, sodass hier R<sub>0</sub> = 2,5 gilt. (caveats:[^r0_caveats_sim]) 
 
 
-[^r0_caveats_sim]: Man gibt hier vor, dass man über die Zeit der Ansteckungsfähigkeit gleichermassen infektiös ist. Wiederum - Vereinfachungen zu Gunsten des einfacheren Verständnisses.
+[^r0_caveats_sim]: Man nimmt hier an, dass man über die Zeit der Ansteckungsfähigkeit gleichermaßen infektiös ist. Hier wurden die Vereinfachungen zum besseren Verständnis gemacht. (übersetzt): This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes. 
 
-**Variiere R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
+
+
+**Spiele an R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
 <div class="sim">
 		<iframe src="sim?stage=epi-6a&format=calc" width="285" height="255"></iframe>
@@ -193,7 +197,7 @@ Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <ic
 		<iframe src="sim?stage=epi-6b&format=calc" width="285" height="390"></iframe>
 </div>
 
-Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man Herdenimmunität. 
+Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man *Herdenimmunität*. 
 Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
 
 Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
@@ -289,7 +293,7 @@ Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Länd
 
 **Probiere mit diesem Rechner aus, um mit unterschiedlichen % von Nicht-<icon s></icon> zu sehen, wie Händewaschen und Distanzierung R reduzieren:** (dieser Rechner visualisiert ihre *relativen* Effekte, weshalb die Erhöhung des einen Merkmals so *aussieht*, als ob es die Wirkung des anderen verringert.[^log_caveat])
 
-[^log_caveat]: Diese Verzerrung würde verschwinden, wenn wir R auf einer logarithmischen Skala auftragen würden... aber dann müssten wir *logarithmische Skalen.* erklären
+[^log_caveat]: Diese Verzerrung würde verschwinden, wenn wir R auf einer logarithmischen Skala auftragen würden... aber dann müssten wir *logarithmische Skalen* erklären
 
 <div class="sim">
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
@@ -382,7 +386,7 @@ Und in der Tat sind 44% aller Übertragungen so: Sie finden *vor* dem Auftreten 
 
 [^pre_symp]: Wir schätzten, dass 44% (95% Konfidenzintervall, 25-69%) der sekundären Fälle während des präsymptomatischen Stadiums der Indexfälle infiziert wurden. [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
 
-Aber, wenn wir die stattgefundenen und engsten Kontakte einer Person, die Symptome hat, finden *und unter Quarantäne stellen* ... stoppen wir die Ausbreitung, indem wir einen Schritt voraus bleiben!
+Aber wenn wir die stattgefundenen und engsten Kontakte einer Person, die Symptome hat, finden *und unter Quarantäne stellen* ... stoppen wir die Ausbreitung, indem wir einen Schritt voraus bleiben!
 
 ![](pics/timeline3.png)
 
@@ -466,7 +470,7 @@ Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereit
 
 Der Pessimist erfindet den Fallschirm.
 
-###Szenario 4+: Masken für alle, Sommer, Lockdown! 
+###Szenario 4+: Masken für alle, Sommer, Lockdown!
 <!-- circuit breaker als Lockdown?! Übersetzung fehlt-->
 
 Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Interventionen nicht schaffen würden, R auf unter 1 zu drücken? 
@@ -543,7 +547,7 @@ Hier ist eine Simulation eines *laze case*-Szenarios:
 
 1. Lockdown, danach
 2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danch... 
-3. ein weiterer "Ausschalter-*Lockdown* bevor ein Impfstoff entwickelt wird.  
+3. ein weiterer "Ausschalter"-*Lockdown* bevor ein Impfstoff entwickelt wird.  
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
