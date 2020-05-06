@@ -1,4 +1,13 @@
+This is the home of the German translation. See [GERMAN_TRANSL_NOTES.md](GERMAN_TRANSL_NOTES.md) and the pull requests for current status, and [join us on Gitter](https://gitter.im/ncase-covid-19-translators/german#) for discussion (which currently takes place in German).
+
 [Play it here!](https://ncase.me/covid-19/)
+
+# How To Build
+You need to [install pandoc](https://pandoc.org/installing.html) in order to use the `build.sh` or `build.cmd` script.
+
+Run `build.sh` on MacOS or Linux, or run `build.cmd` on Windows. It will convert `words/words.md` into html and join it with `index_head.html` and  `index_tail.html` to form a new `index.html`.
+
+You can open `index.html` in your Browser from the file system, using an URL like `file:///your/local/path/covid-19/index.html`.
 
 # How To Translate
 
@@ -25,18 +34,12 @@ announcing that you're translating for that language!
 
 Step 3)
 
-Translate `words.md`, (6000 words) then export it to html
-– make sure your Markdown app supports footnotes –
-and copy-paste that into the `<article></article>` part of `index.html`.
-
-Translate the `<head>`, sidebars, & footer of `index.html` (200 words)
-
-Translate the images in `/pics` (800 words)
-If you don't have image-editing software, ask for help on the Github Issue!
-
-Translate `sim/index.html` (100 words)
-
-Translate the thumbnail `sharing/thumbnail.png`
+* Translate `words.md`, (6000 words)
+* Translate the `<head>`, sidebars, & footer of `index_head.html` and `index_tail.html` (200 words)
+* Translate the images in `/pics` (800 words). If you don't have image-editing software, ask for help on the Github Issue!
+* Translate `sim/index.html` (100 words)
+* Translate the thumbnail `sharing/thumbnail.png`
+* Use the build script (see "How to build" above) to generate `index.html`
 
 Step 4)
 
