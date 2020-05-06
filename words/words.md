@@ -121,7 +121,7 @@ beginnt bei nur 0,001 %. <icon i></icon>:
 
 Und *so* kommt diese berühmte Kurve zustande! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber du hast sie schon zigmal gesehen und wurdest inständig gebeten, sie abzuflachen.
 
-Dies ist das **SIR-Modell**,[^sir]    
+Das hier ist das **SIR-Modell**,[^sir]    
 (<icon s></icon> **S**usceptible *anfällig/ungeschützt* <icon i></icon> **I**nfectious *ansteckend/infektiös* <icon r></icon> **R**ecovered *erholt/genesen*),      
 die *zweit*-wichtigste Idee im 1x1 der Epidemiologie:
 
@@ -712,4 +712,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
