@@ -498,13 +498,13 @@ Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf d
 [^replication]: Any actual scientist who read that last sentence is probably laugh-crying right now. See: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
 
 
-Pandemien scheinen einem Pokerspiel zu gleichen: **Wette nur, wenn du dir 95% sicher bist mit deinem ganzen Einsatz!** Wie aus einem aktuellen Artikel[^precautionary] über Masken im British Medical Journal hervorging, *müssen* unsere Kosten/Nutzen-Analysen mit einem Unsicherheitsfaktor behaftet sein. 
+Pandemien sind wie Poker: **Wette nur, wenn du dir zu 95% sicher bist und du sonst alles verlieren wirst.** Wie aus einem aktuellen Artikel[^precautionary] über Masken im British Medical Journal hervorgeht, *müssen* unsere Kosten/Nutzen-Analysen mit einem Unsicherheitsfaktor berechnet werden. In etwa so:
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Kosten: Alltagsmasken sind günstig (und etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind). 
+Kosten: Wenn Alltagsmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn chirurgische Masken, dann wird das teurer, aber immer noch ziemlich billig.
 
-Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit einem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
+Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit unserem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
@@ -512,16 +512,16 @@ Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um
 
 (weitere Argumente für/gegen Masken:[^mask_args])
 
-[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
+[^mask_args]: **"Wir müssen unsere Vorräte für unsere Krankenhäuser sichern."** *Auf jeden Fall.* Aber das ist eher ein Argument dafür, die Produktion von Masken zu erhöhen, nicht, sie zu rationieren. In der Zwischenzeit können wir Alltagsmasken machen.
 
-**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir das Händewaschen, denn es ist besser, es nicht-perfekt zu tun, als gar nicht. 
+**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir Händewaschen, denn es ist besser, es nicht-perfekt zu machen, als gar nicht. 
 
 **"Das Tragen einer Maske macht die Menschen sorgloser im Umgang mit dem Händewaschen &  Abstandhalten."** Klar, Sicherheitsgurte verleiten einige Menschen dazu, Stop-Schilder zu missachten, und dank Zahnseide können die Menschen Steine essen. Wir sollten ernsthaft mit dem Gegenteil argumentieren: Masken sind ein *dauerhafte physische Erinnerung* zur Umsicht - und in Ostasien zudem ein Symbol von Solidarität! 
 
     
 
 
-Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,1 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde R < 1 sein. Das Virus wäre eingedämmt! 
+Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,10 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde es zu R < 1 kippen. Virus eingedämmt! 
 
 **Sommer:**
 
