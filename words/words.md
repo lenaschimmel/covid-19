@@ -340,7 +340,7 @@ Diese Option wurde zuerst im Bericht des Imperial College vom 16. März und spä
 
 [^lockdown_harvard]: In Abwesenheit anderer Interventionen ist das Überschreiten der Intensivpflege-Kapazitäten eine Schlüsselgröße für den Erfolg des social distancing. Um dies zu vermeiden, kann längeres oder zeitweiliges social distancing bis ins Jahr 2022 erforderlich sein. (übersetzt): “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.”[Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst ** während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
+**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst *während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
@@ -716,4 +716,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
