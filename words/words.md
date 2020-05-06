@@ -695,11 +695,11 @@ Lass uns abschließend zurückkehren zu...
     </div>
 </div>
 
-Das Flugzeug ist gesunken. Zusammengedrängt hocken wir in den Rettungsinseln. Es ist Zeit, Land zu suchen.[^dry_land]
+Das Flugzeug ist versunken. Wir hocken zusammengedrängt in den Rettungsbooten. Es ist Zeit, Festland zu suchen.[^dry_land]
 
 [^dry_land]: Festland-Metapher [von Marc Lipsitch und Yonatan Grad, auf STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
-Teams aus Epidemiologinnen und Menschen in der Politik ([links](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [rechts](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), und [überparteilich](https://ethics.harvard.edu/covid-roadmap)) haben einen Konsens darüber erzielt, wie wir COVID-19 schlagen können und gleichzeitig unser Leben *und* unsere Freiheiten schützen.
+Teams aus Epidemiologinnen und Epidemiologen und Menschen in der Politik ([links](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [rechts](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), und [überparteilich](https://ethics.harvard.edu/covid-roadmap)) haben einen Konsens darüber erzielt, wie wir COVID-19 schlagen können und gleichzeitig unser Leben *und* unsere Freiheiten schützen.
 
 Hier ist die grobe Idee, mit einigen (weniger konsensfähigen) Backup-Plänen:
 
@@ -707,13 +707,13 @@ Hier ist die grobe Idee, mit einigen (weniger konsensfähigen) Backup-Plänen:
 
 Was bedeutet das für DICH, jetzt gerade?
 
-**Für jeden:** Respektiere die Ausgangsbeschränkungen, damit wir so schnell wie möglich aus Phase I herauskommen können. Wasche dir weiter die Hände. Stelle deine eigenen Masken her. Lade eine *privatsphäreschützende* App zur Ermittlung von Kontaktpersonen herunter, sobald diese im nächsten Monat verfügbar ist. Bleib gesund - körperlich und geistig! Und schreib den lokalen Entscheidungsträgern, dass sie ihren Hintern hochbewegen sollen und...
+**Für jede und jeden:** Respektiere die Ausgangsbeschränkungen, damit wir so schnell wie möglich aus Phase I herauskommen können. Wasche dir weiter die Hände. Stelle deine eigenen Masken her. Lade eine *privatsphäreschützende* App zur Ermittlung von Kontaktpersonen herunter, sobald diese im nächsten Monat verfügbar sind. Bleib gesund - körperlich und geistig! Und schreib den lokalen Entscheidungstragenden, dass sie ihren Hintern hochkriegen sollen und...
 
-**Für Politiker\*innen:** Machen Sie Gesetze zur Unterstützung von Menschen, die sich selbst isolieren/quarantänisieren müssen. Stellen Sie mehr menschliche Kontaktverfolger\*innen ein, *unterstützt* durch datenschutzfreundliche Apps. Leiten Sie mehr Mittel in die Dinge, die wir aufbauen sollten, wie..
+**Für Politikerinnen und Politiker:** Machen Sie Gesetze zur Unterstützung von Menschen, die sich selbst isolieren/quarantänisieren müssen. Stellen Sie mehr menschliche Kontaktverfolgerinnen und Kontaktverfolger ein, *unterstützt* durch datenschutzfreundliche Apps. Leiten Sie mehr Mittel in die Dinge, die wir aufbauen sollten, wie..
 
-**Für Machende:** Baut Tests. Baut Beatmungsgeräte. Baut persönliche Schutzausrüstung für Krankenhäuser und Praxen. Baut Tests. Baut Masken. Baut Apps. Baut antivirale Medikamente, Prophylaktika und andere Behandlungen, die keine Impfstoffe sind. Baut Impfstoffe. Baut Tests. Baut Tests. Baut Tests. Baut Hoffnung.
+**Für Machende:** Baut Tests. Baut Beatmungsgeräte. Baut Personenschutzausrüstung für Krankenhäuser und Praxen. Baut Tests. Baut Masken. Baut Apps. Baut antivirale Medikamente, Prophylaktika und andere Behandlungen, die keine Impfstoffe sind. Baut Impfstoffe. Baut Tests. Baut Tests. Baut Tests. Baut Hoffnung.
 
-Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
+Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Durch Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
 
