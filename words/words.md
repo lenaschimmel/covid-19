@@ -93,7 +93,7 @@ Dies ist eine "S-förmige" **logistische Wachstumskurve.** Sie fängt klein an, 
 
 Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckenden Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
 
-Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denkt aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> können nicht wieder infiziert werden, lasst ns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
+Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denkt aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> können nicht wieder infiziert werden, lasst uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
 
 Es wird angenommen, dass sie mit COVID-19 *im Durchschnitt* 10 Tage lang ansteckend sind.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
 
@@ -712,4 +712,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
