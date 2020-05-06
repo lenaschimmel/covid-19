@@ -97,7 +97,7 @@ Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckend
 
 Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  ansteckend.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
 
-[^infectiousness]: “Der Median der Zeitspanne, in der Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Mittwelwert" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber ähnlich genug.
+[^infectiousness]: “Der Median der Zeitspanne, in der Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Durchschnitt" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber ähnlich genug.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
