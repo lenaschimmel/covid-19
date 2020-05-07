@@ -546,7 +546,7 @@ Aber wir müssten nicht immer wieder 2-Monate schließen und einen Monat öffnen
 Hier ist eine Simulation eines "lazy case"-Szenarios: 
 
 1. Lockdown, danach
-2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie annehmbaren Maskenpflicht, danach ...
+2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie annehmbarer Maskenpflicht, danach ...
 3. ein weiterer "Ausschalter"-Lockdown, bevor ein Impfstoff entwickelt wird.  
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
