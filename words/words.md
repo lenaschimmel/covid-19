@@ -5,7 +5,7 @@
         	Wie geht es weiter?
        	</div>
 		<div style="font-weight: 500;top: 140px;left: 10px;font-size: 29px;">
-			Zukunftsszenarien von COVID-19, erklärt mit spielbaren Simulationen
+			Zukunftsszenarien von COVID-19: ein Simulationsspiel
 		</div>
 		<div style="font-weight: 100;top: 189px;left: 10px;font-size: 19px;line-height: 21px;">
 			<b>
@@ -36,7 +36,7 @@ Dieser Wegweiser (veröffentlicht am 1. Mai 2020. Siehe Fußnote!→[^timestamp]
 
 [^timestamp]: Die Fußnoten in dieser Simulation enthalten Quellen, Links oder zusätzliche Kommentare. Wie dieser erste Kommentar!
 
-    **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass dieser Führer 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie 101 ohne Verfallsdatum nützlich bleiben wird.
+    **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass dieser 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie 101 ohne Verfallsdatum nützlich bleiben wird.
 
 Also schnall dich an: Wir erwarten einige Turbulenzen. 
 
@@ -73,11 +73,11 @@ Wenn wir "eine Verdoppelung alle 4 Tage", bei einer Bevölkerung, die mit nur 0,
 		<iframe src="sim?stage=epi-1" width="800" height="540"></iframe>
 </div>
 
-Dies ist die **exponentielle Wachstumskurve.** Sie fängt klein an und explodiert dann. "Oh, es ist nur eine Grippe" bis "Oh richtig, Grippe schafft keine *Massengräber in reichen Städten*". 
+Dies ist die **exponentielle Wachstumskurve.** Sie fängt klein an und explodiert dann. Von "Ach, es ist nur eine Grippe" bis "Oh richtig, eine Grippe schafft keine *Massengräber in reichen Städten*". 
 
 ![](pics/exponential.png)
 
-Aber diese Simulation ist falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Ein Grund, welcher die Ausbreitung eines Virus verhindert, ist wenn es andere *bereits* haben:
+Diese Simulation ist aber falsch. Exponentielles Wachstum kann glücklicherweise nicht ewig anhalten. Die Ausbreitung eines Virus wird zum Beispiel dadurch gestoppt, dass andere es *bereits* haben:
 
 ![](pics/susceptibles.png)
 
@@ -93,11 +93,11 @@ Dies ist eine "S-förmige" **logistische Wachstumskurve.** Sie fängt klein an, 
 
 Aber auch diese Simulation ist *immer noch* falsch. Wir übersehen die Tatsache, dass <icon i></icon> ansteckende Menschen schließlich aufhören, ansteckend zu sein, entweder indem sie 1) sich erholen, 2) sich mit Lungenschäden "erholen" oder 3) sterben.
 
-Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denken Sie aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> nicht wieder infiziert werden können, und lassen Sie uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
+Der Einfachheit halber wollen wir so tun, als ob alle <icon i></icon> ansteckenden Menschen wieder genesen <icon r></icon> würden. (Denkt aber daran, dass in Wirklichkeit einige von ihnen sterben.) <icon r></icon> können nicht wieder infiziert werden, lasst uns - *vorläufig!* - so tun, als ob sie ein Leben lang immun bleiben.
 
-Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  ansteckend.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
+Es wird angenommen, dass Personen mit COVID-19 *im Durchschnitt* 10 Tage lang ansteckend sind.[^infectiousness] Das bedeutet, dass manche <icon i></icon> Menschen sich früher als nach 10 Tagen erholen, andere später. **So sieht das bei einer Simulation aus, die mit 100 % <icon i></icon> *beginnt*:**
 
-[^infectiousness]: “Der Median der Zeitspanne in welcher Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Mittwelwert" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber genügend ähnlich.
+[^infectiousness]: “Der Median der Zeitspanne, in der Infizierte ansteckend waren \[...\] war 9.5 Tage.” (“The median communicable period \[...\] was 9.5 days.”) [Hu, Z., Song, C., Xu, C. et al](https://link.springer.com/article/10.1007/s11427-020-1661-4) Ja, wir wissen, dass "Median" und "Durchschnitt" nicht das Gleiche sind. Für didaktische Zwecke sind sie aber ähnlich genug.
 
 <div class="sim">
 		<iframe src="sim?stage=epi-3" width="800" height="540"></iframe>
@@ -105,85 +105,83 @@ Mit COVID-19 sind Sie *im Durchschnitt* schätzungsweise 10 Tage lang  anstecken
 
 Dies ist das Gegenteil von exponentiellem Wachstum, die **exponentielle Zerfallskurve.**
 
-Nun, was passiert, wenn Sie S-förmiges logistisches Wachstum *mit* Erholung simulieren?
+Nun, was passiert, wenn wir S-förmiges logistisches Wachstum *mit* Erholung simulieren?
 
 ![](pics/graphs_q.png)
 
 Lass es uns herausfinden:
 
 die <b style='color:#ff4040'>Rote Kurve</b> gibt die *aktuellen* Fälle <icon i></icon> wieder,    
-die <b style='color:#999999'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuelle + genesene) wieder <icon r></icon>),
+die <b style='color:#999999'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuelle + genesene) wieder <icon r></icon>) und
 beginnt bei nur 0,001 %. <icon i></icon>:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-4" width="800" height="540"></iframe>
 </div>
 
-Und *hier* kommt diese berühmte Kurve her! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber du hast sie zigmal gesehen und wurdest gebeten, sie abzuflachen.
+Und *so* kommt diese berühmte Kurve zustande! Es ist keine Glockenkurve, es ist nicht einmal eine "log-normale" Kurve. Sie hat keinen Namen. Aber du hast sie schon zigmal gesehen und wurdest inständig gebeten, sie abzuflachen.
 
-Dies ist das **SIR-Modell**,[^sir]    
-(<icon s></icon> **S**usceptible *anfällig/ungeschützt* <icon i></icon> **I**nfectious *ansteckend/infektiös* <icon r></icon> **R**ecovered *erholt/genesen*)      
+Das hier ist das **SIR-Modell**,[^sir]    
+(<icon s></icon> **S**usceptible *anfällig/ungeschützt* <icon i></icon> **I**nfectious *ansteckend/infektiös* <icon r></icon> **R**ecovered *erholt/genesen*),      
 die *zweit*-wichtigste Idee im 1x1 der Epidemiologie:
 
-[^sir]: Weitere technische Erläuterungen zum SIR-Modell finden Sie unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)
+[^sir]: Für weitere technische Erläuterungen zum SIR-Modell, siehe [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-sir.html#) und [Wikipedia](https://de.wikipedia.org/wiki/SIR-Modell)
 
 ![](pics/sir.png)
 
-**ANMERKUNG: Die Simulationen, welche die Politik informieren, sind *wesentlich* ausgefeilter als das!** Aber das SIR-Modell kann immer noch die gleichen allgemeinen Ergebnisse erklären, auch wenn die Nuancen fehlen.
+**ANMERKUNG: Die Simulationen, auf deren Basis die Politik entscheidet, sind *wesentlich* ausgefeilter als das hier!** Das SIR-Modell kann aber trotzem die gleichen allgemeinen Ergebnisse erklären, auch wenn die Nuancen fehlen.
 
-Eigentlich sollten wir noch eine weitere Nuance hinzufügen: Bevor ein <icon s></icon> zu einem <icon i></icon> wird, werden sie erst <icon e></icon> exponiert. Das ist, wenn sie das Virus bereits haben, es aber noch nicht weitergeben können - *infiziert*, aber noch nicht *infektiös*.
+Eigentlich sollten wir noch eine weitere Nuance hinzufügen: Bevor ein <icon s></icon> zu einem <icon i></icon> wird, wird es zunächst <icon e></icon> exponiert. Das ist, wenn sie oder er das Virus bereits hat, es aber noch nicht weitergeben kann - *infiziert*, aber noch nicht *infektiös*.
 
 ![](pics/seir.png)
 
-(Diese Variante wird das **SEIR-Modell**[^seir] genannt, wobei das "E" für <Icon e></icon> **E**xposed *exponiert* steht. Bitte beachten Sie, daß dies *nicht* die alltägliche Bedeutung von "exponiert" ist, wo Sie das Virus haben können oder nicht. In dieser technischen Definition bedeutet "exponiert", dass Sie das Virus definitiv haben. Die wissenschaftliche Terminologie ist hier nicht endeutig).
+(Diese Variante wird das **SEIR-Modell**[^seir] genannt, wobei das "E" für <Icon e></icon> **E**xposed (*exponiert*) steht. Bitte beachte, dass dies *nicht* die Alltagsbedeutung von "exponiert" ist, welche da wäre: Man kann das Virus haben oder nicht. In dieser technischen Definition bedeutet "exponiert", dass man das Virus definitiv hat. Wissenschaftliche Terminologie ist eine schwierige Sache).
 
-[^seir]: Weitere technische Erläuterungen zum SEIR-Modell finden Sie unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) and [Wikipedia](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SEIR_model)
+[^seir]: Weitere technische Erläuterungen zum SEIR-Modell findest du unter [the Institute for Disease Modeling](https://www.idmod.org/docs/hiv/model-seir.html) und [Wikipedia](https://de.wikipedia.org/wiki/SEIR-Modell)
 
-Für CoViD-19 wird angenommen, dass <icon e></icon> im Durchschnitt 3 Tage lang infiziert, aber noch nicht infektiös sind, *im Durchschnitt*. [^latent] Was passiert, wenn wir das zur Simulation hinzufügen?
+Für COVID-19 wird angenommen, dass <icon e></icon> 3 Tage lang infiziert, aber noch nicht infektiös ist, *im Durchschnitt*. [^latent] Was passiert, wenn wir das zur Simulation hinzufügen?
 
-[^latent]: “Ausgehend von einer Verteilung der Inkubationszeitspanne  von im Mittel über 5.2 Tagen aus einer anderen Studie über frühe COVID-19 Fälle schlossen wir, dass die Ansteckungsfähigkeit 2.3 Tage (95% CI, 0.8–3.0 Tage) vor dem Auftreten von Symptomen auftrat.” Übersetzung: Angenommen die Symptome fangen am 5 Tag an, dann fängt die Ansteckungsfähigkeit 2 Tage davor an (also am 3. Tag). (“Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset”) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
+[^latent]: “Ausgehend von einer Verteilung der Inkubationszeitspanne von im Mittel über 5,2 Tage aus einer anderen Studie über frühe COVID-19 Fälle schlossen wir, dass die Ansteckungsfähigkeit 2,3 Tage (95% CI, 0,8–3,0 Tage) vor dem Auftreten von Symptomen auftrat.” Übersetzung: Angenommen die Symptome fangen am 5. Tag an, dann fängt die Ansteckungsfähigkeit 2 Tage davor an (also am 3. Tag). (“Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset”) [He, X., Lau, E.H.Y., Wu, P. et al.](https://www.nature.com/articles/s41591-020-0869-5)
 
-die <b style='color:#ff4040'>Rote <b style='color:#FF9393'>+ Pinke</b> Kurve</b> geben die *aktuellen* Fälle (infektiös <icon i></icon> + exponiert <icon e></icon>) wieder,    
-die <b style='color:#888'>Graue Kurve</b> gibt die *gesamte* Fälle (aktuell + genesen <icon r></icon>) wieder:
+Die <b style='color:#ff4040'>Rote <b style='color:#FF9393'>+ Pinke</b> Kurve</b> geben die *aktuellen* Fälle (infektiös <icon i></icon> + exponiert <icon e></icon>) wieder,    
+die <b style='color:#888'>Graue Kurve</b> gibt die *gesamten* Fälle (aktuell + genesen <icon r></icon>) wieder:
 
 <div class="sim">
 		<iframe src="sim?stage=epi-5" width="800" height="540"></iframe>
 </div>
 
-Es ändert sich nicht viel! Wie lange Sie <icon e></icon> exponiert bleiben, ändert zwar das Verhältnis von <icon e></icon> zu <icon i></icon> und *wann* die aktuellen Fälle ihren Höhepunkt erreichen... aber die *Höhe* dieser Spitze und die Gesamtzahl der Fälle bleibt am Ende gleich.
+Es ändert sich nicht viel! Wie lange ein <icon e></icon> exponiert bleibt, ändert zwar das Verhältnis von <icon e></icon> zu <icon i></icon> und *wann* die aktuellen Fälle ihren Höhepunkt erreichen... aber die *Höhe* dieser Spitze und die Gesamtzahl der Fälle bleibt am Ende gleich.
 
 Warum das? Wegen der *wichtigsten* Idee im 1x1 der Epidemiologie:
 
 ![](pics/r.png)
 
-Abkürzend für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Menschen, die ein <icon i></icon> infiziert *bevor* dieser genest (oder stirbt).
+Kurz für Reproduktionszahl. Sie beschreibt die *durchschnittliche* Anzahl an Menschen, die ein <icon i></icon> infiziert *bevor* er sich erholt (oder stirbt).
 
 ![](pics/r2.png)
 
 **R** verändert sich im Laufe des Ausbruchsgeschehens durch gesteigerte Immunität und Maßnahmen. 
 
-**R<sub>0</sub>** (Aussprache R-Null) ist die Basisreproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität oder von Intenventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
+**R<sub>0</sub>** (gesprochen R-Null, auch "Basisreproduktionszahl") ist die Reproduktionszahl zu *Beginn eines Ausbruchs, also vor einer Immunität und vor Interventionen*. R<sub>0</sub> spiegelt damit die Stärke des Virus wider, jedoch schwankt diese Zahl von Ort zu Ort. Beispielsweise ist sie in dicht besiedelten Städten höher als in ländlichen Gegenden. 
 
-(Die meisten Zeitungsartikel - und teilweise auch wissenschaftliche Veröffentlichungen verwechseln R und R<sub>0</sub>. Hier ist die wissenschaftliche Terminologie teilweise uneindeutig.)
+(Die meisten Zeitungsartikel - und teilweise sogar wissenschaftliche Veröffentlichungen! - verwechseln R und R<sub>0</sub>. Wie gesagt - wissenschaftliche Terminologie ist ein schwieriges Feld.)
 
-Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Dies bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls man sich wundert, dass 1,28 keine ganze Zahl ist: eine "durchschnittliche" Mutter hat 2,4 Kinder. Dies bedeutet ja auch nicht, dass irgendwo halbe Kinder herumlaufen.)
+Die Basisreproduktionszahl R<sub>0</sub> der saisonalen Grippe liegt bei ungefähr 1,28. Das bedeutet, dass zu Beginn eines Grippeausbruchs jeder <icon i></icon> *im Durchschnitt* 1,28 andere ansteckt. (Falls du dich wunderst, dass 1,28 keine ganze Zahl ist: Eine "durchschnittliche" Mutter hat 2,4 Kinder. Das bedeutet ja auch nicht, dass irgendwo halbe Kinder herumlaufen.)
 
-[^r0_flu]: “Der Median R Wert der saisonalen Grippe lag bei 1,28 (IQR: 1.19–1.37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
+[^r0_flu]: “Der Median des R-Werts der saisonalen Grippe lag bei 1,28 (IQR: 1,19–1,37)” (übersetzt): “The median R value for seasonal influenza was 1.28 (IQR: 1.19–1.37)” Biggerstaff, M., Cauchemez, S., Reed, C. et al. 
 
  [Biggerstaff, M., Cauchemez, S., Reed, C. et al.](https://bmcinfectdis.biomedcentral.com/articles/10.1186/1471-2334-14-480)
 
-Der R<sub>0</sub> Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es noch *nicht-fertiggestellte* Forschungen gibt, die einen Wert von 5,7 (!) in Wuhan angeben.[^r0_wuhan]
+Der R<sub>0</sub>-Wert für COVID-19 wird auf etwa 2,2 geschätzt[^r0_covid], obwohl es eine *noch nicht fertiggestellte* Studie gibt, die einen Wert von 5,7(!) für Wuhan schätzt.[^r0_wuhan]
 
-[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 der 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
+[^r0_covid]: “Wir schätzen die Basisreproduktionszahl R0 von 2019-nCoV auf etwa 2,2 (übersetzt):“We estimated the basic reproduction number R0 of 2019-nCoV to be around 2.2 (90% high density interval: 1.4–3.8)”  [Riou J, Althaus CL.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001239/)
 
-[^r0_wuhan]: “wir berechnten einen Median R0 Wert von 5,7  (95% CI 3.8–8.9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
+[^r0_wuhan]: “wir berechneten den Median des R0-Werts als 5,7 (95% CI 3,8–8,9)” (übersetzt): “we calculated a median R0 value of 5.7 (95% CI 3.8–8.9)” [Sanche S, Lin YT, Xu C, Romero-Severson E, Hengartner N, Ke R.](https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article)
 
-In unseren Simulationen infiziert *zu Beginn und durchschnittlich* ein <icon i></icon> über zehn Tage alle vier Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, sodass hier R<sub>0</sub> = 2,5 gilt. (caveats:[^r0_caveats_sim]) 
-
-
-[^r0_caveats_sim]: Man nimmt hier an, dass man über die Zeit der Ansteckungsfähigkeit gleichermaßen infektiös ist. Hier wurden die Vereinfachungen zum besseren Verständnis gemacht. (übersetzt): This is pretending that you're equally infectious all throughout your "infectious period". Again, simplifications for educational purposes. 
+In unseren Simulationen infiziert - *zu Beginn und durchschnittlich* - ein <icon i></icon> im Laufe von 10 Tagen alle 4 Tage eine andere Person. Das Verhältnis 10 zu 4 Tage beträgt genau 2,5, das heißt, dass - *zu Beginn und durchschnittlich* - jede und jeder <icon i></icon> 2,5 weitere Personen infiziert. Es gilt hier also R<sub>0</sub> = 2,5. (Vorbehalte:[^r0_caveats_sim])
 
 
+[^r0_caveats_sim]: Wir nehmen hier an, dass man in seiner "infektiösen Phase" immer gleichbleibend infektiös ist. Auch hier wurden die Vereinfachungen zum besseren Verständnis gemacht. 
 
 **Spiele an R<sub>0</sub> im Rechner unten, um zu sehen, wie R<sub>0</sub> von der Genesungszeit und der Neuinfektionsrate abhängt:**
 
@@ -198,26 +196,26 @@ Zur Erinnerung: je weniger <icon s></icon> es gibt, desto *langsamer* werden <ic
 </div>
 
 Sobald genügend Menschen eine Immunität erworben haben und R < 1 ist, hat man das Virus im Griff. Dies nennt man *Herdenimmunität*. 
-Für das Grippevirus wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist furchtbar! (Aber nicht aus dem Grund, den du vielleicht annimmst! Wir werden das später erklären!)
+Für Grippeviren wird Herdenimmunität mittels eines *Impfstoffs* erreicht. Die Idee, "natürliche Herdenimmunität" durch gezielte Infizierungen zu erreichen ist denkbar schlecht! (Aber nicht aus dem Grund, den du vielleicht annimmst - wir werden das später erklären!)
 
-Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die vergangene Zeit, sowie die Schwelle der Herdenimmunität zeigt: 
+Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über die Zeit, sowie den Schwellenwert der Herdenimmunität zeigt: 
 
 <div class="sim">
 		<iframe src="sim?stage=epi-7" width="800" height="540"></iframe>
 </div>
 
-**HINWEIS: Die Gesamtzahl der Infizierten *stoppt nicht* an der Grenze der Herdenimmunität, sondern geht darüber hinaus!** Zudem überschreitet die Gesamtzahl der Infizierten die Schwelle der Herdenimmunität *genau* zum Zeitpunkt der höchsten aktuellen Fallzahl. (Dies ist unabhängig von der Wahl der Parameter - teste es selbst!) 
+**HINWEIS: Die Gesamtzahl der Infizierten *stoppt nicht* an der Grenze der Herdenimmunität, sondern geht darüber hinaus!** Zudem überschreitet die Gesamtzahl der Infizierten den Schwellenwert der Herdenimmunität *genau* zum Zeitpunkt der höchsten aktuellen Fallzahl. (Dies ist unabhängig von der Wahl der Parameter - teste es selbst!) 
 
 Warum ist das so? Wenn es mehr Nicht-<icon s></icon> als die Schwelle der Herdenimmunität gibt, so wird R < 1. Und wenn R < 1 ist, stoppt das Wachstum neuer Fälle: ein Hochpunkt ist erreicht. 
 
-**Wenn Du Dir nur eine Sache aus dieser Anleitung merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
+**Wenn Du Dir nur eine Sache aus diesem Wegweiser merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
 
 ![](pics/r3.png)
 
 
 **Es bedeutet: Wir müssen NICHT alle Übertragungen abfangen, auch nicht fast alle, um COVID-19 zu stoppen!**
 
-Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, müssen wir "nur" mehr als 60% der Infektionen verhindern. 60%?! Als Schulnote wäre das ein "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, ist das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
+Dies scheint paradox! COVID-19 ist eine extrem ansteckende Krankheit, jedoch reicht es aus, "nur" mehr als 60% der Infektionen zu verhindern, um sie einzudämmen. 60%?! Als Schulnote wäre das "befriedigend". Aber wenn R<sub>0</sub> = 2,5 und man 61% davon abzieht, erhält man R = 0,975. Da dann R < 1 ist, wäre das Virus eingedämmt! (exakte Formel: [^exact_formula])) 
 
 [^exact_formula]: Zur Erinnerung R = R<sub>0</sub> * Anteil der zugelassenen Übertragungen. Dabei ist der Anteil der zugelassenen Übertragungen = 1 - Anteil der *vereitelten* Übertragungen.
 
@@ -233,11 +231,11 @@ Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, 
 
 ![](pics/r4.png)
 
-Falls Du glaubst, dass R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind - super! Damit hinterfragst du unsere Annahmen. Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passiert.) 
+(Vielleicht fragst du dich, ob R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind. Super, wenn du unsere Annahmen hinterfragst! Am Ende gibt es einen "Sandkasten-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passieren würde.) 
 
-*Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "lockdown", Selbstisolationen, "contact tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
+*Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "Lockdown", Selbstisolationen, "Contact Tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
 
-Zu erreichen, dass: R < 1
+Sie sollen erreichen, dass R < 1 wird. 
 
 **Starten wir nun unseren "epidemischen Flugsimulator", um folgende Frage beantworten zu können: Wie erreichen wir unter Berücksichtigung unserer Gesundheit und finanziellen Interessen, dass R < 1 wird?**
 
@@ -254,11 +252,11 @@ Bereite dich auf eine Notlandung vor...
 
 ###Szenario 0: Überhaupt nichts tun
 
-Etwa 1 von 20 Menschen, die sich COVID-19 infiziert haben, benötigen intensivmedizinische Behandlung.[^icu_covid] In einem reichen Land wie den USA kommt ein Intensivplatz auf 3.400 Menschen.[^icu_us] Daher können die USA damit umgehen, dass 20 von 3400 Menschen *gleichzeitig* infiziert sind - oder 0,6% der Bevölkerung.
+Etwa 1 von 20 Menschen, die sich mit COVID-19 infiziert haben, benötigen eine intensivmedizinische Behandlung.[^icu_covid] In einem reichen Land wie den USA steht ein Intensivplatz pro 3.400 Menschen zur Verfügung.[^icu_us] Daher können die USA damit umgehen, dass 20 von 3400 Menschen *gleichzeitig* infiziert sind - oder 0,6% der Bevölkerung.
 
-[^icu_covid]: [Prozentualer Anteil der COVID-19-Fälle in den USA vom 12. Februar bis 16. März 2020, die eine intensivmedizinische Behandlung benötigten, nach Altersgruppe](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/). Zwischen 4,9% und 11,5% *aller* COVID-19-Fälle benötigten eine intensivmedizinische Behandlung. Wenn man die unterste Schätzung wählt, sind das 5 Prozent oder 1 von 20. Diese Gesamtzahl ist spezifisch für die Altersstruktur der USA. In Ländern mit älterer Bevölkerung wird sie höher und in Ländern mit jüngerer Bevölkerung niedriger sein.
+[^icu_covid]: [Prozentualer Anteil der COVID-19-Fälle in den USA vom 12. Februar bis 16. März 2020, die eine intensivmedizinische Behandlung benötigten, nach Altersgruppe](https://www.statista.com/statistics/1105420/covid-icu-admission-rates-us-by-age-group/)(übersetzt):"Percentage of COVID-19 cases in the United States from February 12 to March 16, 2020 that required intensive care unit (ICU) admission, by age group". Zwischen 4,9 % und 11,5 % *aller* COVID-19-Fälle benötigten eine intensivmedizinische Behandlung. Wenn man die unterste Schätzung wählt, sind das 5 % oder 1 von 20. Diese Gesamtzahl ist spezifisch für die Altersstruktur der USA. In Ländern mit älterer Bevölkerung wird sie höher und in Ländern mit jüngerer Bevölkerung niedriger sein.
 
-[^icu_us]: Anzahl der Betten auf der Intensivstation = 96.596. Von [der Gesellschaft für Intensivmedizin] (https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Die Bevölkerung der USA betrug im Jahr 2019 rund 328.200.000 Personen. 96.596 von 328.200.000 macht ungefähr 1 von 3400. 
+[^icu_us]: Anzahl der Betten auf der Intensivstation = 96.596. Von [der _Society of Critical Care Medicine_ (Gesellschaft für Intensivmedizin)] (https://sccm.org/Blog/March-2020/United-States-Resource-Availability-for-COVID-19) Die Bevölkerung der USA betrug im Jahr 2019 rund 328.200.000 Personen. 96.596 von 328.200.000 macht ungefähr 1 von 3400.  
 
 Selbst wenn wir diese Kapazität auf 2% *mehr als verdreifacht* hätten, wäre Folgendes passiert, *wenn wir absolut nichts getan hätten:*
 
@@ -279,13 +277,13 @@ Selbst wenn nur 0,5% der Infizierten sterben - eine sehr optimistische Annahme, 
 
 Der Plan "Flatten The Curve" (Abflachen der Kurve) wurde von allen Gesundheitsorganisation angepriesen, während der ursprüngliche britische Plan der "Herdenimmunität" allgemein ausgepfiffen wurde. Allerdings handelte es sich dabei eigentlich um *denselben Plan.* Großbritannien kommunizierte ihn nur schlecht.[^yong]
 
-(^yong): Übersetztes Zitat: Er sagt, dass das eigentliche Ziel dasselbe ist wie in anderen Ländern: die Kurve abflachen, indem der Ausbruch von Infektionen zeitlich versetzt wird. Als Folge davon kann die Nation Herdenimmunität erreichen; das ist ein Nebeneffekt, kein Ziel. [...] Der aktuelle Coronavirus-Aktionsplan der Regierung, der online verfügbar ist, erwähnt die Herdenimmunität überhaupt nicht. (Aus einem [The Atlantic-Artikel von Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/))
+(^yong): Übersetztes Zitat: Er sagt, dass das eigentliche Ziel dasselbe ist wie in anderen Ländern: die Kurve abflachen, indem der Ausbruch von Infektionen zeitlich versetzt wird. Als Folge davon kann die Nation Herdenimmunität erreichen; das ist ein Nebeneffekt, kein Ziel. [...] Der aktuelle Coronavirus-Aktionsplan der Regierung, der online verfügbar ist, erwähnt die Herdenimmunität überhaupt nicht. (Aus einem [The Atlantic-Artikel von Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/)) (übersetzt):“He says that the actual goal is the same as that of other countries: flatten the curve by staggering the onset of infections. As a consequence, the nation may achieve herd immunity; it’s a side effect, not an aim. [...] The government’s actual coronavirus action plan, available online, doesn’t mention herd immunity at all.” From a The Atlantic article by Ed Yong
 
 Beide Pläne hatten jedoch einen fatalen Fehler.
 
 Betrachten wir zunächst die beiden Hauptmöglichkeiten, mit denen sich die Kurve abflachen lässt: Händewaschen und soziale Distanzierung.
 
-Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Ländern mit hohem Einkommen um ~25%[^handwashing] reduziert, während die stadtweite Abriegelung in London enge Kontakte um ~70%[^london] einschränkt. Nehmen wir also an, durch Händewaschen kann R um *bis zu* 25% reduziert werden, und durch Distanzierung kann R um *bis zu* 70% reduziert werden:
+Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Ländern mit hohem Einkommen um ~25%[^handwashing] reduziert, während die stadtweite Abriegelung in London enge Kontakte um ~70%[^london] einschränkt. Nehmen wir also an, durch Händewaschen kann R um *bis zu* 25% reduziert werden und durch Distanzierung kann R um *bis zu* 70% reduziert werden:
 
 [^handwashing]: Alle acht in Frage kommenden Studien berichteten, dass das Händewaschen das Risiko einer Atemwegsinfektion senkt, wobei die Risikominderung zwischen 6% und 44% liegt. Gepoolter Wert 24% (95% CI 6-40%). (Der Einfachheit halber haben wir in diesen Simulationen den gepoolten Wert auf 25% aufgerundet.) [Rabie, T. und Curtis, V.](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2006.01568.x) Anmerkung: Wie diese Meta-Analyse aufzeigt, ist die Qualität der Studien zum Händewaschen (zumindest in Ländern mit hohem Einkommen) miserabel.
 
@@ -350,27 +348,27 @@ Dies *würde* Fälle unter der Kapazität der Intensivstationen halten! Und es i
 
 Es scheint zunächst sinnvoll, solch einen Plan anhand der Kapazitäten der Intensivstationen zu machen, aber dabei übersehen wir zahlreiche wesentliche Dinge, die wir hier *nicht* simulieren können. Zum Beispiel:
 
-**Psychische Aspekte:** Einsamkeit ist einer der größten Risikofaktoren für Depressionen, Angstzustände und Selbstmord. Und sie führt statistisch gesehen genauso häufig zu einem frühen Tod, wie das Rauchen von 15 Zigaretten am Tag..[^loneliness]
+**Psychische Gesundheit:** Einsamkeit ist einer der größten Risikofaktoren für Depressionen, Angstzustände und Selbstmord. Und sie führt statistisch gesehen genauso häufig zu einem frühen Tod wie das Rauchen von 15 Zigaretten am Tag..[^loneliness]
 
-.[^loneliness]: Siehe [Abbildung 6 aus Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Natürlich müssen wir einschränkend die Frage stellen, ob sie tatsächlich eine *Korrelation* gefunden haben. Aber wenn wir Menschen nicht nach dem Zufallsprinzip ein Leben in Einsamkeit verordnen wollen, müssen wir für unsere Annahmen auf solche Beobachtungen zurückgreifen.
+.[^loneliness]: Siehe [Abbildung 6 aus Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Natürlich müssen wir einschränkend darauf hinweise, dass sie lediglich eine *Korrelation* gefunden haben. Aber so lange wir nicht nach dem Zufallsprinzip für einzelne Menschen lebenslange Einsamkeit anordnen wollen, sind solche Beobachtungsstudien alles was wir haben.
 
-**Wirtschaftliche Aspekte:** Die Frage nach der Wirtschaft klingt so, als ob man sich mehr um Dollar als um Leben kümmert, aber "die Wirtschaft" besteht nicht nur aus Aktien: Es geht um die Fähigkeit der Menschen, sich um ihre Liebsten zu kümmern, in die Zukunft ihrer Kinder zu investieren und Kunst, Essen und Videospiele zu genießen. All das also, was das Leben lebenswert macht. Dazu kommt, dass Armut *an sich* gravierende Auswirkungen auf die geistige und körperliche Gesundheit hat.
+**Wirtschaftliche Aspekte:** Die Frage nach der Wirtschaft klingt so, als ob man sich mehr ums Geld als um das Leben kümmert, aber "die Wirtschaft" besteht nicht nur aus Aktien: Es geht um die Fähigkeit der Menschen, sich um ihre Liebsten zu kümmern, in die Zukunft ihrer Kinder zu investieren und Kunst, Essen und Videospiele zu genießen. All das also, was das Leben lebenswert macht. Dazu kommt, dass Armut *an sich* gravierende Auswirkungen auf die geistige und körperliche Gesundheit hat.
 
-Das ist kein Plädoyer gegen erneute Lockdowns! Wir werden uns später mit möglichen Vorgehensweisen dazu befassen. Trotzdem ist es nicht ideal.
+Dies ist kein Plädoyer gegen erneute Lockdowns! Wir werden uns später mit möglichen Vorgehensweisen dazu befassen. Trotzdem ist es nicht ideal.
 
-Was also tun? Hmmm ... haben Taiwan und Südkorea nicht *bereits* COVID-19 in den Griff bekommen? Für vier ganze Monate und *ohne* längerfristige Lockdowns?
+Warte mal... haben Taiwan und Südkorea nicht *bereits* COVID-19 in den Griff bekommen? Für vier ganze Monate und *ohne* längerfristige Lockdowns?
 
 Wie ist das möglich?
 
 ###Szenario 4: Testen, Verfolgen, Isolieren
 
-*Sicherlich hätten wir das tun können, was Taiwan und Südkorea am Anfang getan haben. Aber dazu ist es jetzt ist es zu spät. Wir haben den Start verpasst. "*
+*Sicherlich hätten wir das tun können, was Taiwan und Südkorea am Anfang getan haben. Aber dazu ist es jetzt ist es zu spät. Wir haben den Anfang verpasst."*
 
-Aber erinnert euch daran: "Ein Lockdown ist keine Heilung, es ist nur ein Neustart"... **und ein Neustart ist das, was wir brauchen.**
+Doch genau das ist es! "Ein Lockdown ist keine Heilung, es ist nur ein Neustart"... **und ein Neustart ist das, was wir brauchen.**
 
 Um zu verstehen, wie Taiwan und Südkorea COVID-19 in den Griff bekommen haben, müssen wir den genauen zeitlichen Ablauf einer typischen COVID-19-Infektion verstehen[^timeline]:
 
-[^timeline]: **durchschnittlich 3 Tage bis zur Ansteckungsgefahr:** "Unter der Annahme einer Verteilung der Inkubationszeit von durchschnittlich 5,2 Tagen aus einer separaten Studie über frühe COVID-19-Fälle folgerten wir, dass die Ansteckung 2,3 Tage (95% CI, 0,8-3,0 Tage) vor Symptombeginn lag" (Das bedeutet: Wenn die Symptome nach 5 Tagen beginnen, hat man sich schon 2 Tage vorher angesteckt = Ansteckungsgefahr 3 Tage nach der Ansteckung)
+[^timeline]: **durchschnittlich 3 Tage bis eine Person infektiös wird:** "Unter der Annahme einer Verteilung der Inkubationszeit von durchschnittlich 5,2 Tagen aus einer separaten Studie über frühe COVID-19-Fälle folgerten wir, dass die Ansteckung 2,3 Tage (95% CI, 0,8-3,0 Tage) vor Symptombeginn lag" (Übersetzung: "Assuming an incubation period distribution of mean 5.2 days from a separate study of early COVID-19 cases, we inferred that infectiousness started from 2.3 days (95% CI, 0.8–3.0 days) before symptom onset") (Das bedeutet: Wenn die Symptome nach 5 Tagen beginnen, ist man schon 2 Tage vorher ansteckend = Ansteckungsgefahr 3 Tage nach der Ansteckung) [He, X., Lau, E.H.Y., Wu, P. et al.] (https://www.nature.com/articles/s41591-020-0869-5)
     
     ** durchschnittlich 4 Tage bis zur Ansteckung einer anderen Person:** "Das durchschnittliche [serielle] Intervall betrug 3,96 Tage (95% CI 3,53-4,39 Tage)" [Du Z, Xu X, Wu Y, Wang L, Cowling BJ, Ancel Meyers L](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article)
  
@@ -378,62 +376,72 @@ Um zu verstehen, wie Taiwan und Südkorea COVID-19 in den Griff bekommen haben, 
 
 ![](pics/timeline1.png)
 
-Wenn sich Menschen erst dann selbst isolieren, wenn sie wissen, dass sie krank sind (d.h. wenn sie Symptome spüren), kann sich das Virus trotzdem ausbreiten:
+Wenn sich die Personen erst dann selbst isolieren, wenn sie wissen, dass sie krank sind (d.h. wenn sie Symptome spüren), kann sich das Virus trotzdem ausbreiten:
 
 ![](pics/timeline2.png)
 
-Und in der Tat sind 44% aller Übertragungen so: Sie finden *vor* dem Auftreten von Symptomen statt! [^pre_symp]
+Und in der Tat verlaufen 44% aller Übertragungen so: Sie finden *vor* dem Auftreten der Symptome statt![^pre_symp]
 
-[^pre_symp]: Wir schätzten, dass 44% (95% Konfidenzintervall, 25-69%) der sekundären Fälle während des präsymptomatischen Stadiums der Indexfälle infiziert wurden. [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
+[^pre_symp]: Wir schätzten, dass 44% (95% Konfidenzintervall, 25-69%) der sekundären Fälle während des präsymptomatischen Stadiums der Indexfälle infiziert wurden. (Übersetzung: "We estimated that 44% (95% confidence interval, 25–69%) of secondary cases were infected during the index cases’ presymptomatic stage”) [He, X., Lau, E.H.Y., Wu, P. et al](https://www.nature.com/articles/s41591-020-0869-5)
 
-Aber wenn wir die stattgefundenen und engsten Kontakte einer Person, die Symptome hat, finden *und unter Quarantäne stellen* ... stoppen wir die Ausbreitung, indem wir einen Schritt voraus bleiben!
+Aber, wenn wir die letzten engen Kontakte einer Person, die Symptome hat, finden *und unter Quarantäne stellen* ... stoppen wir die Ausbreitung, indem wir ihr einen Schritt voraus bleiben!
 
 ![](pics/timeline3.png)
 
-Diese Idee wird als **Kontaktverfolgung** bezeichnet. Sie wurde bereits zur Eindämmung von Ebola[^ebola] verwendet, und ist jetzt zentraler Bestandteil der Eindämmungsstrategie von COVID-19 in Taiwan & Südkorea!
+Diese Idee wird als **contact tracing** (Kontaktverfolgung) bezeichnet. Es ist eine alte Idee, die im großen Maßstab erstmals zur Eindämmung von Ebola[^ebola] verwendet wurde. Jetzt ist sie zentraler Bestandteil der Eindämmungsstrategie von COVID-19 in Taiwan & Südkorea!
 
-[^ebola]: Kontaktverfolgung war eine entscheidende Maßnahme in Liberia und stellte eine der größten Kontaktverfolgungsbemühungen während einer Epidemie in der Geschichte dar. [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
+[^ebola]: "Contact tracing war eine entscheidende Maßnahme in Liberia und stellte eine der größten Kontaktverfolgungsbemühungen während einer Epidemie in der Geschichte dar." (Übersetzung: “Contact tracing was a critical intervention in Liberia and represented one of the largest contact tracing efforts during an epidemic in history.”) [Swanson KC, Altare C, Wesseh CS, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152989/)
 
-(Dies ermöglicht uns auch, unsere begrenzten Test-Kapazitäten effizienter zu nutzen, um <icon i></icon> vor dem Ausbruch von Symptomen zu finden, ohne so gut wie alle testen zu müssen.)
+(Dies ermöglicht uns auch, unsere begrenzten Test-Kapazitäten effizienter zu nutzen, um <icon i></icon> vor dem Ausbruch von Symptomen zu finden, ohne so fast alle Leute testen zu müssen.)
 
-Normalerweise werden Kontakte durch persönliche Interviews gefunden, aber diese *alleine* sind zu langsam für das ~48-Stunden-Fenster von COVID-19. Aus diesem Grund brauchen Kontaktverfolger Hilfe und werden deshalb unterstützt von - *NICHT* ersetzt durch - Kontaktverfolgungs-Apps.
+Normalerweise werden Kontakte durch persönliche Interviews gefunden, aber das *alleine* geht zu langsam für das ~48-Stunden-Fenster von COVID-19. Deshalb brauchen die Suchenden Hilfe und werden unterstützt von - *NICHT* ersetzt durch - Contact-tracing-Apps.
 
 (Diese Idee stammt nicht von "Nerds": Die Verwendung einer App zur Bekämpfung von COVID-19 wurde zuerst von [einem Team von Epidemiolog\*innen aus Oxford](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936) vorgeschlagen.)
 
-Aber warte, Apps, die zurückverfolgen, mit wem du in Kontakt warst?... Bedeutet das, Deine Privatsphäre aufzugeben und Big Brother zu opfern?
+Warte mal, Apps, die zurückverfolgen, mit wem du Kontakt hattest?... Bedeutet das, deine Privatsphäre aufzugeben und sie Big Brother zu opfern?
 
-Verdammt nein! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, ein Team von Epidemiolog\*innen & Verschlüsselungsexpert\*innen (darunter einer von uns, Marcel Salathé), entwickelt *bereits* eine Anwendung zur Kontaktverfolgung - mit einem für die Öffentlichkeit zugänglichen Code -, die **keine Informationen preisgibt über Deine Identität, Deinen Standort, wer Deine Kontakte sind und nicht einmal darüber, *wie viele Kontakte* Du hattest.**
+Um Gottes Willen, nein! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, ein Team von Epidemiolog\*innen & Verschlüsselungsexpert\*innen (darunter einer von uns, Marcel Salathé), entwickelt *bereits* eine Contact-tracing-App - mit öffentlich zugänglichem Code -, die **keine Informationen preisgibt über deine Identität, deinen Standort, wer deine Kontakte sind und nicht einmal darüber, *wie viele Kontakte* du hattest.**
 
-Das funktioniert so:
+Das funktioniert folgendermaßen:
 
 ![](pics/dp3t.png)
 
-(& [hier findest Du den vollständigen Comic](https://ncase.me/contact-tracing/))
+([Hier findest Du den vollständigen Comic](https://ncase.me/contact-tracing/). Details zu "pranking" / Fehlalarme / etc. in der Fußnote:[^dp3t_details])
 
-Zusammen mit ähnlichen Teams wie TCN Protocol[^tcn] und MIT PACT[^pact] haben sie Apple & Google dazu gebracht, Kontaktverfolgung bei Wahrung der Privatsphäre direkt in Android/iOS zu implementieren.[^gapple] (Du traust Google/Apple nicht? Gut! Das Schöne an diesem System ist, dass es kein Vertrauen *benötigt*). Bald wird Deine örtliche Gesundheitsbehörde Dich vielleicht bitten, eine App herunterzuladen. Wenn der Schutz der Privatsphäre dabei gesichert und der Code öffentlich zugänglich ist, dann tue das bitte!
+[^dp3t_details]: Um "pranking" (Leute geben fälschlicherweise an, infiziert zu sein) vorzubeugen, setzt das DP-3T-Protokoll voraus, dass dir das Krankenhaus zunächst einen einmaligen Zugangscode schickt, mit dem du deine Nachrichten hochladen kannst.
+    
+    Fehlalarme sind ein Problem sowohl beim manuellen wie beim digitalen contact tracing. Doch wir können sie auf 2 Arten reduzieren: 1) Indem Bob nur benachrichtigt wird, wenn die App, sagen wir mal, 30 oder mehr Minuten lang Nachrichten erhalten hat, nicht bloß eine Nachricht im Vorübergehen. Und 2) Wenn die App *wirkloch* denkt dass Bob exponiert war, kann sie ihn an eine\*n *manuelle\*n* Kontaktverfolger\*in verweisen, um ein ausführliches Folgegespräch zu führen.
+    
+    Zu anderen Themen wie Datenbandbreite, Quellenintegrität und weiteren Sicherheitsfragen, lest euch die [open-source DP-3T whitepapers](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing) durch!
 
-[^tcn]: [Temporary Contact Numbers, ein dezentralisiertes Protokoll zur Kontaktverfolgung unter Wahrung der Privatsphäre](https://github.com/TCNCoalition/TCN#tcn-protocol)
+Zusammen mit ähnlichen Teams wie TCN Protocol[^tcn] und MIT PACT[^pact] haben sie Apple & Google dazu gebracht, contact tracing unter Wahrung der Privatsphäre direkt in Android/iOS zu implementieren.[^gapple] (Du traust Google/Apple nicht? Gut! Das Schöne an diesem System ist, dass es kein Vertrauen *benötigt*). Bald wird deine örtliche Gesundheitsbehörde dich vielleicht bitten, eine App herunterzuladen. Wenn der Schutz der Privatsphäre dabei gesichert und der Code öffentlich zugänglich ist, dann mach das bitte!
+
+[^tcn]: [Temporary Contact Numbers, ein dezentralisiertes Contact-tracing-Protokoll zur Kontaktverfolgung unter Wahrung der Privatsphäre](https://github.com/TCNCoalition/TCN#tcn-protocol)
 
 [^pact]: [PACT: Private Automated Contact Tracing](https://pact.mit.edu/)
 
-[^gapple]: [Apple und Google kooperieren bei einer COVID-19 Kontaktverfolgungs-Techhnologie ](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Bitte beachte: Sie entwickeln diese Apps nicht *selbst*, sondern nur die Umgebungen, die diese Apps *unterstützen*.
+[^gapple]: [Apple und Google partner on COVID-19 contact tracing technology](https://www.apple.com/ca/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/). Bitte beachte: Sie entwickeln diese Apps nicht *selbst*, sondern nur die Systemumgebungen, die diese Apps *unterstützen*.
 
-Aber was ist mit den Menschen ohne Smartphones? Oder Infektionen durch Türklinken? Oder "echte" asymptomatische Fälle? Apps zur Kontaktverfolgung können nicht alle Übertragungen erfassen... *und das ist okay!* Wir müssen nicht *alle* Übertragungen erfassen, nur 60%+ um R < 1 zu erreichen.
+Aber was ist mit den Menschen ohne Smartphones? Oder Infektionen durch Türklinken? Oder "echte" asymptomatische Fälle? Contact-tracing-Apps können nicht alle Übertragungen erfassen... *und das ist okay!* Wir müssen nicht *alle* Übertragungen erfassen, nur über 60%, um R < 1 zu erreichen.
 
-(Dazu ein Rant über die Verwirrung zwischen prä-symptomatisch und "echter" Asymptomatik. "Echte" Asymptomatiken sind selten:[^rant])
+(Dazu ein Rant über die Verwirrung zwischen präsymptomatisch und "echt" asymptomatisch - "echte" Asymptomatiken sind selten:[^rant])
 
-[^rant]: Viele Nachrichtenberichte - und ehrlich gesagt auch viele wissenschaftlichen Arbeiten - unterscheiden nicht zwischen "Fällen, die keine Symptome zeigten, als wir sie getestet haben" (präsymptomatisch) und "Fällen, die *immer* keine Symptome zeigten". (wirklich asymptomatisch). Sie könnten den Unterschied nur feststellen, wenn sie die Fälle später nachverfolgen würden. Genau das hat [diese Studie] (https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) getan. In einem Callcenter in Südkorea, das einen COVID-19-Ausbruch hatte, blieben nur 4 (1,9 %) Fälle innerhalb von 14 Tagen nach der Quarantäne asymptomatisch, und keiner ihrer Haushaltskontakte erwarb Sekundärinfektionen (Disclaimer: Vorzeitige Veröffentlichungen von Artikeln, gelten nicht als endgültige Versionen.) Das bedeutet also, dass "echte Asymptomatik" selten ist, und die Ansteckung mit einer echten Asymptomatik kann sogar noch seltener sein!
+[^rant]: Viele Nachrichtenbeiträge - und ehrlich gesagt auch viele wissenschaftliche Arbeiten - unterscheiden nicht zwischen "Fällen, die keine Symptome zeigten, als wir sie getestet haben" (präsymptomatisch) und "Fällen, die *immer* keine Symptome zeigten". (echt asymptomatisch). Der Unterschied könnte nur dann festgestellt werden, wenn sie die Fälle später nachverfolgen würden.
 
-Die Isolierung *symptomatischer* Fälle würde R um bis zu 40% reduzieren, und die Quarantäne ihrer *pre/a-symptomatischen* Kontakte würde R um bis zu 50% reduzieren[^oxford]:
+	Genau das hat [diese Studie] (https://wwwnc.cdc.gov/eid/article/26/8/20-1274_article) getan. (Disclaimer: "Vorzeitige Veröffentlichungen von Artikeln gelten nicht als endgültige Versionen.") In einem Callcenter in Südkorea, das einen COVID-19-Ausbruch erlebte, blieben nur 4 (1,9%) Fälle innerhalb von 14 Tagen nach der Quarantäne asymptomatisch, und keiner ihrer Haushaltskontakte hatte Sekundärinfektionen. 
+	
+	Das bedeutet also, dass "echte Asymptomatik" selten ist, und die Ansteckung bei einer echten Asymptomatik kann sogar noch seltener sein!
 
-[^oxford]: From the same Oxford study that first recommended apps to fight COVID-19: [Luca Ferretti & Chris Wymant et al](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) See Figure 2. Assuming R<sub>0</sub> = 2.0, they found that:    
+Die Isolierung *symptomatischer* Fälle würde R um bis zu 40% reduzieren, und die Quarantäne ihrer *prä- bzw. asymptomatischen* Kontakte würde R um bis zu 50% reduzieren[^oxford]:
+
+[^oxford]: Von derselben Oxford-Studie, die zuerst Apps im Kampf gegen COVID-19 empfohlen hat: [Luca Ferretti & Chris Wymant et al.](https://science.sciencemag.org/content/early/2020/04/09/science.abb6936/tab-figures-data) Siehe Abbildung 2. Angenommen R<sub>0</sub> = 2.0, fanden sie heraus:    
     
-    * Symptomatics contribute R = 0.8 (40%)
-    * Pre-symptomatics contribute R = 0.9 (45%)
-    * Asymptomatics contribute R = 0.1 (5%, though their model has uncertainty and it could be much lower)
-    * Environmental stuff like doorknobs contribute R = 0.2 (10%)
+    * Beitrag der symptomiatischen Fälle zu R = 0.8 (40%)
+    * Beitrag der präsymptomatischen Fälle zu R = 0.9 (45%)
+    * Beitrag der asymptomatischen Fälle zu R = 0.1 (5%, obwohl ihr Modell Ungewissheiten beinhaltet und der Beitrag viel niedriger sein könnte)
+    * Beitrag von Umwelteinflüssen wie z.B. Türklinken zu R = 0.2 (10%)
 
-    And add up the pre- & a-symptomatic contacts (45% + 5%) and you get 50% of R!
+    Zählt man die prä- und asymptomatischen Kotakte (45% + 5%) zusammen, kommt man auf 50% von R!
 
 <div class="sim">
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
@@ -496,13 +504,13 @@ Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf d
 
 [^replication]: Echte Wissenschaftler*innen haben den letzten Satz wahrscheinlich mit einem lachenden und einem weinenden Auge gelesen. Siehe auch: [p-hacking](https://de.wikipedia.org/wiki/P-Hacking), [the replication crisis (Englisch)](https://en.wikipedia.org/wiki/Replication_crisis)
 
-Pandemien scheinen einem Pokerspiel zu gleichen: **Wette nur, wenn du dir 95% sicher bist mit deinem ganzen Einsatz!** Wie aus einem aktuellen Artikel[^precautionary] über Masken im British Medical Journal hervorging, *müssen* unsere Kosten/Nutzen-Analysen mit einem Unsicherheitsfaktor behaftet sein. 
+Pandemien sind wie Poker: **Wette nur, wenn du dir zu 95% sicher bist und du sonst alles verlieren wirst.** Wie aus einem aktuellen Artikel[^precautionary] über Masken im British Medical Journal hervorgeht, *müssen* unsere Kosten/Nutzen-Analysen mit einem Unsicherheitsfaktor berechnet werden. In etwa so:
 
 [^precautionary]: "Es ist Zeit, das Vorsorgeprinzip anzuwenden" (übersetzt): "It is time to apply the precautionary principle"" [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Kosten: Alltagsmasken sind günstig (und etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind). 
+Kosten: Wenn Alltagsmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn es sich um chirurgische Masken handelt, wird es teurer, aber immer noch ziemlich billig.
 
-Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit einem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
+Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit unserem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
 
 <div class="sim">
 		<iframe src="sim?stage=int-6a&format=calc" width="285" height="380"></iframe>
@@ -510,16 +518,17 @@ Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um
 
 (weitere Argumente für/gegen Masken:[^mask_args])
 
-[^mask_args]: **"We need to save supplies for hospitals."** *Absolutely agreed.* But that's more of an argument for increasing mask production, not rationing. In the meantime, we can make cloth masks.
+[^mask_args]: **"Wir müssen unsere Vorräte für unsere Krankenhäuser sichern."** *Auf jeden Fall.* Aber das ist eher ein Argument dafür, die Produktion von Masken zu erhöhen, nicht, sie zu rationieren. In der Zwischenzeit können wir Alltagsmasken machen.
 
-**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir das Händewaschen, denn es ist besser, es nicht-perfekt zu tun, als gar nicht. 
+**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir Händewaschen, denn es ist besser, es nicht-perfekt zu machen, als gar nicht. 
+
 
 **"Das Tragen einer Maske macht die Menschen sorgloser im Umgang mit dem Händewaschen &  Abstandhalten."** Klar, Sicherheitsgurte verleiten einige Menschen dazu, Stop-Schilder zu missachten, und dank Zahnseide können die Menschen Steine essen. Wir sollten ernsthaft mit dem Gegenteil argumentieren: Masken sind ein *dauerhafte physische Erinnerung* zur Umsicht - und in Ostasien zudem ein Symbol von Solidarität! 
 
     
 
 
-Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,1 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde R < 1 sein. Das Virus wäre eingedämmt! 
+Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,10 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde es zu R < 1 kippen. Virus eingedämmt! 
 
 **Sommer:**
 
@@ -550,7 +559,7 @@ Hier ist eine Simulation eines *laze case*-Szenarios:
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
 
-Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R weiter zu drücken: 
+Und dann sind da noch die *weiteren* Maßnahmen, die wir ergreifen könnten, um R weiter zu senken: 
 
 * Reiseeinschränkungen / Quarantäne
 * Fieber-Checks in Einkaufsmärkten & Schulen 
@@ -560,15 +569,15 @@ Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R w
 
 . . .
 
-Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen. 
+Wir hoffen, dass diese Möglichkeiten etwas Hoffnung machen. 
 
 **Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Senken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
 
-Klar, das ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich daran erfreuen, *am Leben* zu sein. 
+Klar, das Ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen im Kino verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein. 
 
-Selbst wenn es zu einem der *worst-case*-Seznarien kommen sollte, man wird es aushalten können.  
+Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben ist beharrlich.
 
-Also machen wir uns bereit für ein wirklich *übles* *worst-case*-Szenario. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
+Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
 <!-- Ende Übersetzung von Julian @herr_hundt -->
 <!-- "The next few years" übersetzt von jan.koelling -->
 <div class="section chapter">
@@ -644,47 +653,48 @@ Zum Glück ist die Lösung hierfür recht klar – impft die Menschen jeden Herb
 		<iframe src="sim?stage=yrs-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-Hier ist die erschreckendere Frage:
+Aber hier ist die erschreckendere Frage:
 
 Was ist, wenn es über *Jahre* keinen Impfstoff gibt? Oder *niemals*?
 
-**Zur Klarstellung: das ist unwahrscheinlich.** Die meisten Epidemiologen rechnen mit einem Impfstoff in 1 bis 2 Jahren. Ja, es gab noch nie einen Impfstoff für eines der anderen Coronaviren, aber das liegt daran, dass SARS schnell ausgelöscht wurde und die normale Erkältung die Investition nicht gerechtfertigt hat. 
+**Zur Klarstellung: das ist unwahrscheinlich.** Die meisten Epidemiologinnen und Epidemiologen rechnen mit einem Impfstoff in 1 bis 2 Jahren. Ja, es gab noch nie einen Impfstoff für eines der anderen Coronaviren, aber das liegt daran, dass SARS schnell ausgelöscht wurde und die "normale" Erkältung die Investition nicht gerechtfertigt hat. 
 
-Dennoch haben Forscher für Infektionskrankheiten Besorgnis geäußert: Was ist, wenn wir nicht genug herstellen können?[^vax_enough] Was, wenn wir es überstürzen und es nicht sicher ist?[^vax_safe]
+Dennoch haben Forscherinnen und Forscher für Infektionskrankheiten Besorgnis geäußert: Was ist, wenn wir nicht genug herstellen können?[^vax_enough] Was, wenn wir es überstürzen und es nicht sicher ist?[^vax_safe]
 
-[^vax_enough]: Falls ein Impfstoff für Coronavirus erscheint, kann die Welt genug davon herstellen? [by Roxanne Khamsi, on Nature](https://www.nature.com/articles/d41586-020-01063-8)
+[^vax_enough]: Falls ein Impfstoff für das Coronavirus erscheint, kann die Welt genug davon herstellen? [von Roxanne Khamsi, auf Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
-[^vax_safe]: Drängt nicht auf die Herausgabe von COVID-19 Impfstoffen und Medikamenten ohne ausreichende Sicherheitsgrantien [by Shibo Jiang, on Nature](https://www.nature.com/articles/d41586-020-00751-9)
+[^vax_safe]: Drängt nicht auf die Herausgabe von COVID-19 Impfstoffen und Medikamenten ohne ausreichende Sicherheitsgarantien [von Shibo Jiang, auf Nature](https://www.nature.com/articles/d41586-020-00751-9)
 
-Selbst im Albtraumszenario "kein Impfstoff", haben wir noch 3 Auswege. Vom aller schlimmsten zum am wenigsten schlimmen:
+Selbst im Albtraumszenario "kein Impfstoff" haben wir noch 3 Auswege. Vom allerschlimmsten zum am wenigsten schlimmen:
 
-1) Mach einen periodischen Lockdown oder lockere R < 1 Maßnahmen, um "natürliche Herdenimmunität" zu erreichen. (Warnung: Das würde zu vielen Todesfällen & beschädigten Lungen führen. *Und* es wird nicht funktionieren, falls Immunität nicht anhält.)
+1) Mach' periodische Lockdowns oder lockere R < 1 Maßnahmen, um "natürliche Herdenimmunität" zu erreichen. (Warnung: Das würde zu vielen Todesfällen & beschädigten Lungen führen. *Und* es wird nicht funktionieren, falls Immunität nicht anhält.)
 
-2) Mach die R < 1 Maßnahmen für immer. Kontaktverfolgung & das Tragen von Masken werden zur neuen Normalität in der Welt nach COVID-19, so wie Tests auf Geschlechtskrankheiten & das Tragen von Kondomen die neue Normalität in der Welt nach HIV wurden.
+2) Mach' die R < 1 Maßnahmen für immer. Kontaktverfolgung & das Tragen von Masken werden zur neuen Normalität in der Welt nach COVID-19, so wie Tests auf Geschlechtskrankheiten & das Tragen von Kondomen die neue Normalität in der Welt nach HIV wurden.
 
-3) Mach die R < 1 Maßnahmen bis wir Behandlungsoptionen entwickelt haben die es viel, viel unwahrscheinlicher machen, dass COVID-19 Intensivmedizin erfordert. (Das sollten wir *auf jeden Fall* tun!) Den Bedarf für Intensivstationen um das 10-fache zu senken hat den gleichen Effekt wie die Kapazität der Intensivstationen um das 10-fache zu erhöhen:
+3) Mach' die R < 1 Maßnahmen, bis wir Behandlungsoptionen entwickelt haben, die es viel, viel unwahrscheinlicher machen, dass COVID-19 Intensivmedizin erfordert. (Das sollten wir *auf jeden Fall* tun!) Den Bedarf für Intensivstationen um das 10-fache zu senken, hat den gleichen Effekt wie die Kapazität der Intensivstationen um das 10-fache zu erhöhen:
 
-**Hier ist eine Simulation *ohne* anhaltende Immunität, *ohne* Impfsstoff und selbst ohne irgendeine Maßnahme – einfach ein langsamer Anstiegt der Kapazitäten um die langfristigen Spitzen zu überleben:**
+**Hier ist eine Simulation *ohne* anhaltende Immunität, *ohne* Impfsstoff und selbst ohne irgendeine Maßnahme – einfach ein langsamer Anstieg der Kapazitäten, um die langfristigen Spitzen zu überleben:**
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Selbst im schlimmsten Worst-Case Szenario... das Leben hält durch.
+Selbst im schlimmsten Worst-Case-Szenario... das Leben hält durch.
+
 
 . . .
 
 Vielleicht möchtest du unsere Annahmen hinterfragen und andere R<sub>0</sub>'s oder Werte ausprobierne. Oder deine *eigene* Kombination von Interventionsmaßnahmen ausprobieren!
 
-**Hier ist ein (optionaler) Sandkastenmodus bei dem *alles* verfügbar ist. (Scrolle um alle Einstellungen zu sehen) Simuliere und spiele nach Herzenslust herum:**
+**Hier ist ein (optionaler) Sandkastenmodus, bei dem *alles* verfügbar ist. (Scrolle, um alle Einstellungen zu sehen) Simuliere und spiele nach Herzenslust herum:**
 
 <div class="sim">
 		<iframe src="sim?stage=SB&format=sb" width="800" height="540"></iframe>
 </div>
 
-Dieser einfache "epidemische Flugsimulator" hat uns viel beigebracht. Er hat es ermöglicht Fragen zu den letzten paar Monaten, den nächsten paar Monaten und den nächsten paar Jahren zu beantworten.
+Dieser einfache "epidemische Flugsimulator" hat uns viel beigebracht. Er hat es ermöglicht, Fragen zu den letzten paar Monaten, den nächsten paar Monaten und den nächsten paar Jahren zu beantworten.
 
-Lass uns abschließend zurückkehren zu...
+Lass uns endlich zurückkehren zu ...
 
 <div class="section chapter">
     <div>
