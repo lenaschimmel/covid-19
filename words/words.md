@@ -650,9 +650,9 @@ Aber hier ist die erschreckendere Frage:
 
 Was ist, wenn es über *Jahre* keinen Impfstoff gibt? Oder *niemals*?
 
-**Zur Klarstellung: das ist unwahrscheinlich.** Die meisten Epidemiologen rechnen mit einem Impfstoff in 1 bis 2 Jahren. Ja, es gab noch nie einen Impfstoff für eines der anderen Coronaviren, aber das liegt daran, dass SARS schnell ausgelöscht wurde und die "normale" Erkältung die Investition nicht gerechtfertigt hat. 
+**Zur Klarstellung: das ist unwahrscheinlich.** Die meisten Epidemiologinnen und Epidemiologen rechnen mit einem Impfstoff in 1 bis 2 Jahren. Ja, es gab noch nie einen Impfstoff für eines der anderen Coronaviren, aber das liegt daran, dass SARS schnell ausgelöscht wurde und die "normale" Erkältung die Investition nicht gerechtfertigt hat. 
 
-Dennoch haben Forscher für Infektionskrankheiten Besorgnis geäußert: Was ist, wenn wir nicht genug herstellen können?[^vax_enough] Was, wenn wir es überstürzen und es nicht sicher ist?[^vax_safe]
+Dennoch haben Forscherinnen und Forscher für Infektionskrankheiten Besorgnis geäußert: Was ist, wenn wir nicht genug herstellen können?[^vax_enough] Was, wenn wir es überstürzen und es nicht sicher ist?[^vax_safe]
 
 [^vax_enough]: Falls ein Impfstoff für das Coronavirus erscheint, kann die Welt genug davon herstellen? [von Roxanne Khamsi, auf Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
