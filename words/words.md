@@ -494,7 +494,7 @@ Um es mit Zahlen zu untermauern: Trägt eine *infizierte Person* eine chirurgisc
 
 Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf das Infektionsgeschehen von COVID-19. Als wissenschaftlich valide gilt ein Ergebnis erst, wenn es zu 95% sicher ist. Auch erst dann sollte es publiziert werden. (...sollte.)[^replication] Alltagsmasken sind zum Zeitpunkt 1. Mai 2020 zu weniger als "95% sicher").  
 
-[^replication]: Any actual scientist who read that last sentence is probably laugh-crying right now. See: [p-hacking](https://en.wikipedia.org/wiki/Data_dredging), [the replication crisis](https://en.wikipedia.org/wiki/Replication_crisis))
+[^replication]: Echte Wissenschaftler*innen haben den letzten Satz wahrscheinlich mit einem lachenden und einem weinenden Auge gelesen. Siehe auch: [p-hacking](https://de.wikipedia.org/wiki/P-Hacking), [the replication crisis (Englisch)](https://en.wikipedia.org/wiki/Replication_crisis)
 
 Pandemien scheinen einem Pokerspiel zu gleichen: **Wette nur, wenn du dir 95% sicher bist mit deinem ganzen Einsatz!** Wie aus einem aktuellen Artikel[^precautionary] über Masken im British Medical Journal hervorging, *müssen* unsere Kosten/Nutzen-Analysen mit einem Unsicherheitsfaktor behaftet sein. 
 
@@ -714,4 +714,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
