@@ -500,7 +500,7 @@ Das stimmt. Alltagsmasken schützen dich nicht vor einer Infektion.[^incoming]..
 
 Um es mit Zahlen zu untermauern: Trägt eine *infizierte Person* eine chirurgische Gesichtsmaske, reduziert das die Anzahl der Erkältungs- und Grippeviren der Aerosole um 70%.[^outgoing] Eine Reduktion der Ansteckung um 70% entspricht in etwa der Auswirkung eines *Lockdowns*!  
 
-Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf das Infektionsgeschehen von COVID-19. Als wissenschaftlich valide gilt ein Ergebnis erst, wenn es zu 95% sicher ist. Auch erst dann sollte es publiziert werden. (...sollte.)[^replication] Alltagsmasken sind zum Zeitpunkt 1. Mai 2020 zu weniger als "95% sicher").  
+Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf das Infektionsgeschehen von COVID-19. Als wissenschaftlich valide gilt ein Ergebnis erst, wenn es zu 95% sicher ist. Auch erst dann sollte es publiziert werden. (...sollte.)[^replication] Alltagsmasken sind zum Zeitpunkt 1. Mai 2020 zu weniger als "95% sicher".  
 
 [^replication]: Echte Wissenschaftler*innen haben den letzten Satz wahrscheinlich mit einem lachenden und einem weinenden Auge gelesen. Siehe auch: [p-hacking](https://de.wikipedia.org/wiki/P-Hacking), [the replication crisis (Englisch)](https://en.wikipedia.org/wiki/Replication_crisis)
 
