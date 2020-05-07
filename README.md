@@ -2,12 +2,14 @@ This is the home of the German translation. See [GERMAN_TRANSL_NOTES.md](GERMAN_
 
 [Play it here!](https://ncase.me/covid-19/)
 
-# How To Build
+# How To Build and Run
 You need to [install pandoc](https://pandoc.org/installing.html) in order to use the `build.sh` or `build.cmd` script.
 
 Run `build.sh` on MacOS or Linux, or run `build.cmd` on Windows. It will convert `words/words.md` into html and join it with `index_head.html` and  `index_tail.html` to form a new `index.html`.
 
-You can open `index.html` in your Browser from the file system, using an URL like `file:///your/local/path/covid-19/index.html`.
+You can open `index.html` in your browser from the file system, using an URL like `file:///your/local/path/covid-19/index.html`. 
+
+Firefox users watch out: The simulators are embedded in iframes, which won't show up directly in e.g. Firefox when opened from the file system. This is due to security reasons. You can either use another browser (e.g. Chrome) or serve your page through a simple http server (e.g. run `ruby -run -e httpd . -p 8000` and open `http://localhost:8000`).
 
 # How To Translate
 
