@@ -474,7 +474,7 @@ So schlagen wir COVID-19.
 
 ...
 
-Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereits schrecklich schief gelaufen. Wer so überlegt hat Angst - und das ist gut so! Angst gibt uns Energie, um *Sicherungspläne* zu erstellen.
+Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereits schrecklich schief gelaufen. Wer so überlegt hat Angst - und das ist gut so! Angst gibt uns Energie, um *Alternativpläne* zu erstellen.
 
 Der Pessimist erfindet den Fallschirm.
 
