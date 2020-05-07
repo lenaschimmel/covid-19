@@ -564,7 +564,7 @@ Und dann sind da noch die *weiteren* Maßnahmen, die wir ergreifen könnten, um 
 
 Wir hoffen, dass diese Möglichkeiten etwas Hoffnung machen. 
 
-**Selbst bei einem pessimistischen Szenario *ist* es möglich, COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen.** Durch den *Lockdown* als "Reset", das gleichzeitige Senken des Reproduktionsfaktors (R < 1) mit Fallisolierung sowie einer datenschutzkonformen App zur Nachverfolgung der Kontakte und *wenigstens* Alltagsmasken für alle ... kann es gelingen, dass das Leben wieder in sowas wie Normalität zurückkehrt.  
+**Selbst bei einem pessimistischen Szenario *ist* es möglich, COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen.** Durch den *Lockdown* als "Reset", das gleichzeitige Senken des Reproduktionsfaktors (R < 1) mit Fallisolierung sowie einer datenschutzkonformen App zur Nachverfolgung der Kontakte und *wenigstens* Alltagsmasken für alle ... kann es gelingen, dass das Leben wieder in so etwas wie Normalität zurückkehrt.  
 
 Klar, das Ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen im Kino verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein. 
 
