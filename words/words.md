@@ -233,7 +233,7 @@ Dies scheint paradox! COVID-19 ist extrem anstreckend, aber um es einzugrenzen, 
 
 ![](pics/r4.png)
 
-(Vielleicht fragst du dich, ob R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind. Super, wenn du unsere Annahmen hinterfragst! Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passieren würde.) 
+(Vielleicht fragst du dich, ob R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind. Super, wenn du unsere Annahmen hinterfragst! Am Ende gibt es einen "Sandkasten-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passieren würde.) 
 
 *Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "Lockdown", Selbstisolationen, "Contact Tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
 
@@ -716,4 +716,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
