@@ -2,11 +2,11 @@
 
 | Datei                            | Übersetzung  | Korrektur | Qualitätsprüfung |
 | -------------------------------- | ------------ | --------- | ---------------- |
-| index.html Kopfzeile             | @widomattern |           |                  |
-| index.html Fusszeile             | @widomattern |           |                  |
-| index.html Seitenleiste          | @widomattern |           |                  |
+| index.html Kopfzeile             | @widomattern | @herrhundt|                  |
+| index.html Fusszeile             | @widomattern | @herrhundt|                  |
+| index.html Seitenleiste          | @widomattern | @herrhundt|                  |
 | /pics                            | siehe unten  |           |                  |
-| sharing/thumbnail.png            |              |           |                  |
+| sharing/thumbnail.png            |              | @herrhundt|                  |
 | sharing/thumbnail.png            |              |           |                  |
 | [words/words.md](words/words.md) | siehe unten  |           |                  |
 
