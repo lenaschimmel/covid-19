@@ -10,10 +10,10 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@master
       - uses: docker://pandoc/core:2.9
         with:
           args: "--from markdown_strict+footnotes words/words.md -o words/words.html"
-      - uses: actions/checkout@master
       - name: Create local changes
         run: |
           cat index_head.html words/words.html index_tail.html > index.html
