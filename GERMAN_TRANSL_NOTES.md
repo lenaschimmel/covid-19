@@ -2,11 +2,11 @@
 
 | Datei                            | Übersetzung  | Korrektur | Qualitätsprüfung |
 | -------------------------------- | ------------ | --------- | ---------------- |
-| index.html Kopfzeile             | @widomattern |           |                  |
-| index.html Fusszeile             | @widomattern |           |                  |
-| index.html Seitenleiste          | @widomattern |           |                  |
+| index.html Kopfzeile             | @widomattern | @herrhundt|                  |
+| index.html Fusszeile             | @widomattern | @herrhundt|                  |
+| index.html Seitenleiste          | @widomattern | @herrhundt|                  |
 | /pics                            | siehe unten  |           |                  |
-| sharing/thumbnail.png            |              |           |                  |
+| sharing/thumbnail.png            |              | @herrhundt|                  |
 | sharing/thumbnail.png            |              |           |                  |
 | [words/words.md](words/words.md) | siehe unten  |           |                  |
 
@@ -32,6 +32,7 @@ Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, di
 - dasselbe für "Lockdown" und "social distancing"?
 - Schreiben wir in der Du-Form, aber Plural (Also z.B.: Probiert diesen Simulator aus .., NICHT: Probieren Sie / Probiere)?
 - L25: "The only thing to fear is fear itself" ist ein Franklin-D.-Roosevelt-Zitat, das als deutsche Version etwas seltsam aussieht. Vielleicht die deutsche Version des Zitats stehen lassen, aber eine Fußnote machen, die das für ein deutschsprachiges Publikum kontextualisiert und folgendermaßen aussieht: "the only thing to fear is fear itself" (Franklin D. Roosevelt während seiner Amtseinführung 1933 in Zeiten der Weltwirtschaftskrise)
+- L411: Wäre schön auf den deutschsprachigen Comic verlinken zu können. Findet der sich irgendwo online?
 
 ## gewählte Bezeichnungen
 
