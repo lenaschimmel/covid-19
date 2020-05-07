@@ -475,7 +475,7 @@ Der Pessimist erfindet den Fallschirm.
 
 Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Maßnahmen nicht schaffen würden, R auf unter 1 zu drücken? 
 
-Selbst wenn wir es nicht schaffen, R < 1 zu erreichen, reduziert das Drücken der Reproduktionszahl die Anzahl der Fälle und rettet damit Leben. Nichtsdestotrotz bleibt R < 1 das Ideal und hier sind ein paar weitere Möglichkeiten, wie wir das schaffen können:  
+Selbst wenn wir es nicht schaffen, R < 1 zu erreichen, reduziert das Senken der Reproduktionszahl die Anzahl der Fälle und rettet damit Leben. Nichtsdestotrotz bleibt R < 1 das Ideal und hier sind ein paar weitere Möglichkeiten, wie wir das schaffen können:  
 
 **Masken für alle:**
 
@@ -562,7 +562,7 @@ Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R w
 
 Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen. 
 
-**Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Drücken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
+**Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Senken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
 
 Klar, das ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich daran erfreuen, *am Leben* zu sein. 
 
