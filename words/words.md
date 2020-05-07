@@ -279,7 +279,7 @@ Selbst wenn nur 0,5% der Infizierten sterben - eine sehr optimistische Annahme, 
 
 Der Plan "Flatten The Curve" (Abflachen der Kurve) wurde von allen Gesundheitsorganisation angepriesen, während der ursprüngliche britische Plan der "Herdenimmunität" allgemein ausgepfiffen wurde. Allerdings handelte es sich dabei eigentlich um *denselben Plan.* Großbritannien kommunizierte ihn nur schlecht.[^yong]
 
-(^yong): Übersetztes Zitat: Er sagt, dass das eigentliche Ziel dasselbe ist wie in anderen Ländern: die Kurve abflachen, indem der Ausbruch von Infektionen zeitlich versetzt wird. Als Folge davon kann die Nation Herdenimmunität erreichen; das ist ein Nebeneffekt, kein Ziel. [...] Der aktuelle Coronavirus-Aktionsplan der Regierung, der online verfügbar ist, erwähnt die Herdenimmunität überhaupt nicht. (Aus einem [The Atlantic-Artikel von Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/))
+[^yong]: Übersetztes Zitat: Er sagt, dass das eigentliche Ziel dasselbe ist wie in anderen Ländern: die Kurve abflachen, indem der Ausbruch von Infektionen zeitlich versetzt wird. Als Folge davon kann die Nation Herdenimmunität erreichen; das ist ein Nebeneffekt, kein Ziel. [...] Der aktuelle Coronavirus-Aktionsplan der Regierung, der online verfügbar ist, erwähnt die Herdenimmunität überhaupt nicht. (Aus einem [The Atlantic-Artikel von Ed Yong](https://www.theatlantic.com/health/archive/2020/03/coronavirus-pandemic-herd-immunity-uk-boris-johnson/608065/))
 
 Beide Pläne hatten jedoch einen fatalen Fehler.
 
@@ -350,9 +350,9 @@ Dies *würde* Fälle unter der Kapazität der Intensivstationen halten! Und es i
 
 Es scheint zunächst sinnvoll, solch einen Plan anhand der Kapazitäten der Intensivstationen zu machen, aber dabei übersehen wir zahlreiche wesentliche Dinge, die wir hier *nicht* simulieren können. Zum Beispiel:
 
-**Psychische Aspekte:** Einsamkeit ist einer der größten Risikofaktoren für Depressionen, Angstzustände und Selbstmord. Und sie führt statistisch gesehen genauso häufig zu einem frühen Tod, wie das Rauchen von 15 Zigaretten am Tag..[^loneliness]
+**Psychische Aspekte:** Einsamkeit ist einer der größten Risikofaktoren für Depressionen, Angstzustände und Selbstmord. Und sie führt statistisch gesehen genauso häufig zu einem frühen Tod, wie das Rauchen von 15 Zigaretten am Tag [^loneliness].
 
-.[^loneliness]: Siehe [Abbildung 6 aus Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Natürlich müssen wir einschränkend die Frage stellen, ob sie tatsächlich eine *Korrelation* gefunden haben. Aber wenn wir Menschen nicht nach dem Zufallsprinzip ein Leben in Einsamkeit verordnen wollen, müssen wir für unsere Annahmen auf solche Beobachtungen zurückgreifen.
+[^loneliness]: Siehe [Abbildung 6 aus Holt-Lunstad & Smith 2010](https://journals.sagepub.com/doi/abs/10.1177/1745691614568352). Natürlich müssen wir einschränkend die Frage stellen, ob sie tatsächlich eine *Korrelation* gefunden haben. Aber wenn wir Menschen nicht nach dem Zufallsprinzip ein Leben in Einsamkeit verordnen wollen, müssen wir für unsere Annahmen auf solche Beobachtungen zurückgreifen.
 
 **Wirtschaftliche Aspekte:** Die Frage nach der Wirtschaft klingt so, als ob man sich mehr um Dollar als um Leben kümmert, aber "die Wirtschaft" besteht nicht nur aus Aktien: Es geht um die Fähigkeit der Menschen, sich um ihre Liebsten zu kümmern, in die Zukunft ihrer Kinder zu investieren und Kunst, Essen und Videospiele zu genießen. All das also, was das Leben lebenswert macht. Dazu kommt, dass Armut *an sich* gravierende Auswirkungen auf die geistige und körperliche Gesundheit hat.
 
@@ -560,8 +560,6 @@ Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R w
 * [Begrüßung per Fuß anstelle eines Handschlags](https://twitter.com/V_actually/status/1233785527788285953)
 * Und alle anderen Dinge, die Menschen einfallen werden
 
-. . .
-
 Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen. 
 
 **Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Drücken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
@@ -585,18 +583,18 @@ Du bekommst COVID-19 und erholst dich. Oder du bekommst die COVID-19-Impfung. So
 ...*für wie lange?*
 
 
-* COVID-19 ist am engsten mit SARS verwandt, welches den Überlebenden 2 Jahre Immunität brachte.[^SARS immunity]
-* Die Coronaviren, die normale Erklältungen auslösen, bringen dir 8 Monate Immunität.[^cold immunity]
+* COVID-19 ist am engsten mit SARS verwandt, welches den Überlebenden 2 Jahre Immunität brachte.[^SARSimmunity]
+* Die Coronaviren, die normale Erklältungen auslösen, bringen dir 8 Monate Immunität.[^coldimmunity]
 * Es gibt Berichte von Leuten die sich von COVID-19 erholt hatten, dann aber wieder positiv gestestet wurden. Es ist noch unklar ob diese falsch postiv waren.[^unclear]
 * Eine *noch nicht fachlich begutachtete* Studie an Affen, zeigte Immunität gegen COVID-19 Coronaviren für zu mindest 28 Tage.[^monkeys]
 
 Aber für COVID-19 *beim Menschen* ist, Stand 1. Mai 2020, "für wie lange" die große Unbekannte.
 
-[^SARS immunity]: SARS-spezifische Antikörper wurden für durchschnittlich 2 Jahre erhalten [...] Daher könnten SARS-Patienten ≥3 Jahre nach ursprünglichem Kontakt für eine Neuinfektion anfällig sein. [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) 
+[^SARSimmunity]: SARS-spezifische Antikörper wurden für durchschnittlich 2 Jahre erhalten [...] Daher könnten SARS-Patienten ≥3 Jahre nach ursprünglichem Kontakt für eine Neuinfektion anfällig sein. [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) 
 "Leider" werden wir niemals wissen wie lange SARS Immunität wirklich erhalten geblieben wäre, da wir es so schnell ausgerottet haben.
 
 <!-- Read paper to check what 'enrollment' stands for in this context. I guessed enrollment of a patient for the study. -->
-[^cold immunity]: Wir konnten keinen signifikaten Unterschied zwischen der Wahrscheinlichkeit für wenigsten einen positiven Test und der Wahrscheinlichkeit eines Wiederauftretens für die Beta-Coronaviren HKU1 und OC43 34 Wochen nach Registrierung für die Studienteilnahme/der Erstinfektion feststellen. [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
+[^coldimmunity]: Wir konnten keinen signifikaten Unterschied zwischen der Wahrscheinlichkeit für wenigsten einen positiven Test und der Wahrscheinlichkeit eines Wiederauftretens für die Beta-Coronaviren HKU1 und OC43 34 Wochen nach Registrierung für die Studienteilnahme/der Erstinfektion feststellen. [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
 [^unclear]: Nachdem eine Person einen Virus abgewährt hat, neigen Viruspartikel dazu eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen aber sie können zu einem positiven Testergebnis führen. [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
@@ -673,8 +671,6 @@ Selbst im Albtraumszenario "kein Impfstoff", haben wir noch 3 Auswege. Vom aller
 </div>
 
 Selbst im schlimmsten Worst-Case Szenario... das Leben hält durch.
-
-. . .
 
 Vielleicht möchtest du unsere Annahmen hinterfragen und andere R<sub>0</sub>'s oder Werte ausprobierne. Oder deine *eigene* Kombination von Interventionsmaßnahmen ausprobieren!
 
