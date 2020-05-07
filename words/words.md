@@ -563,7 +563,7 @@ Hier ist eine Simulation eines *laze case*-Szenarios:
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
 
-Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R weiter zu drücken: 
+Und dann sind da noch die *weiteren* Maßnahmen, die wir ergreifen könnten, um R weiter zu senken: 
 
 * Reiseeinschränkungen / Quarantäne
 * Fieber-Checks in Einkaufsmärkten & Schulen 
@@ -573,15 +573,15 @@ Nicht zu erwähnen die *weiteren* Maßnahmen, die wir ergreifen könnten, um R w
 
 . . .
 
-Wir hoffen, dass diese Möglichkeiten etwas Hoffnung schaffen. 
+Wir hoffen, dass diese Möglichkeiten etwas Hoffnung machen. 
 
-**Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Drücken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
+**Selbst bei einem pessimistischen Szenario *ist* es möglich, COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen.** Durch den *Lockdown* als "Reset", das gleichzeitige Senken des Reproduktionsfaktors (R < 1) mit Fallisolierung sowie einer datenschutzkonformen App zur Nachverfolgung der Kontakte und *wenigstens* Alltagsmasken für alle ... kann es gelingen, dass das Leben wieder in so etwas wie Normalität zurückkehrt.  
 
-Klar, das ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich daran erfreuen, *am Leben* zu sein. 
+Klar, das Ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen im Kino verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein. 
 
-Selbst wenn es zu einem der *worst-case*-Seznarien kommen sollte, man wird es aushalten können.  
+Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben ist beharrlich.
 
-Also machen wir uns bereit für ein wirklich *übles* *worst-case*-Szenario. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
+Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
 <!-- Ende Übersetzung von Julian @herr_hundt -->
 <!-- "The next few years" übersetzt von jan.koelling -->
 <div class="section chapter">
@@ -683,7 +683,8 @@ Selbst im Albtraumszenario "kein Impfstoff" haben wir noch 3 Auswege. Vom allers
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Selbst im *schlimmsten* Worst-Case Szenario ... das Leben ist beharrlich.
+Selbst im schlimmsten Worst-Case-Szenario... das Leben hält durch.
+
 
 . . .
 
