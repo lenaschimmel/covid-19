@@ -512,7 +512,7 @@ Pandemien sind wie Poker: **Wette nur, wenn du dir zu 95% sicher bist und du son
 
 [^precautionary]: “It is time to apply the precautionary principle” [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Kosten: Wenn Alltagsmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn chirurgische Masken, dann wird das teurer, aber immer noch ziemlich billig.
+Kosten: Wenn Alltagsmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn es sich um chirurgische Masken handelt, wird es teurer, aber immer noch ziemlich billig.
 
 Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit unserem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
 
