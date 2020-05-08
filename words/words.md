@@ -694,12 +694,12 @@ Vielleicht möchtest du unsere Annahmen hinterfragen und andere R<sub>0</sub>'s 
 
 Dieser einfache "epidemische Flugsimulator" hat uns viel beigebracht. Er hat es ermöglicht, Fragen zu den letzten paar Monaten, den nächsten paar Monaten und den nächsten paar Jahren zu beantworten.
 
-Lass uns endlich zurückkehren zu ...
+Lass uns endlich zurückkehren zum ...
 
 <div class="section chapter">
     <div>
         <img src="banners/curve.png" height=480 style="position: absolute;"/>
-        <div>Das Jetzt</div>
+        <div>Jetzt</div>
     </div>
 </div>
 
