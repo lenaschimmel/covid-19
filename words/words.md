@@ -532,9 +532,9 @@ Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn 
 
 **Sommer:**
 
-Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird ihn reduzieren.  
+Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird sie reduzieren.  
 
-Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (2,2° Fahrenheit) zu einer Reduktion des R-Werts um 1,2%.[^heat]  Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 15°C (60°F), sodass der Sommer eine Reduktion des R-Wertes um 18% bewirkt.  
+Für COVID-19 führt jeder Temperaturanstieg von 1° Celsius (1,8° Fahrenheit) zu einer Reduktion des R-Wertes um 1,2%.[^heat]  Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 15°C (60°F), so dass der Sommer eine Reduktion des R-Wertes um 18% bewirkt.  
 
 [^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
@@ -546,9 +546,9 @@ Der Sommer allein wird R nicht unter 1 drücken, aber wenn wir nur eingeschränk
 
 **Ein "Ausschalter"-*Lockdown*:**
 
-Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, könnten wir einen anderen *Lockdown* versuchen. 
+Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, dann könnten wir einen weiteren *Lockdown* versuchen. 
 
-Aber wir müssten nicht wieder und wieder 2-Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: es *ist* genau der Erfolg.)
+Wir müssten jedoch nicht wieder und wieder 2 Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste vor kurzem machen, "obwohl" es COVID-19 4 Monate unter Kontrolle hatte. Das ist kein Versagen, ganz im Gegenteil: Das *ist* es, was dn Erfolg ausmacht.)
 
 Hier ist eine Simulation eines *laze case*-Szenarios: 
 
