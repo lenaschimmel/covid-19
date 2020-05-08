@@ -573,7 +573,7 @@ Wir hoffen, dass diese Pläne etwas Hoffnung machen.
 
 **Selbst bei einem pessimistischen Szenario *ist* es möglich COVID-19 zu bekämpfen und unsere Gesundheit und Wirtschaft zu schützen. ** Durch den *Lockdown* als "Reset", das gleichzeitige Senken des Reproduktionsfaktors (R < 1), der Fallisolierung sowie einer breiten Verwendung einer datenschutzkonformen App zur Nachverfolgung der Kontakte und der Maskenpflicht... kann es gelingen, dass das Leben wieder in eine neue Normalität zurückkehrt.  
 
-Klar, deine Hände werden wahrcheinlich ganz spröde sein. Aber du kannst dich wieder zu einem Date im Comicladen verabreden. Du kannst dir mit Freunden zu einn neuen Hollywood-Streifen im Kino ansehen. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein.
+Klar, deine Hände werden wahrscheinlich ganz spröde sein. Aber du kannst dich wieder zu einem Date im Comicladen verabreden. Du kannst dir mit Freunden einen neuen Hollywood-Streifen im Kino ansehen. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein.
 
 Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben ist beharrlich.
 
