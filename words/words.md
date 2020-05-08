@@ -494,8 +494,6 @@ Das stimmt. Alltagsmasken schützen dich nicht vor einer Infektion.[^incoming]..
 
 [^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
-[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.
-
 ![](pics/masks.png)
 
 Um es mit Zahlen zu untermauern: Trägt eine *infizierte Person* eine chirurgische Gesichtsmaske, reduziert das die Anzahl der Erkältungs- und Grippeviren der Aerosole um 70%.[^outgoing] Eine Reduktion der Ansteckung um 70% entspricht in etwa der Auswirkung eines *Lockdowns*!  
@@ -508,7 +506,9 @@ Pandemien sind wie Poker: **Wette nur, wenn du dir zu 95% sicher bist und du son
 
 [^precautionary]: "Es ist Zeit, das Vorsorgeprinzip anzuwenden" (übersetzt): "It is time to apply the precautionary principle"" [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Kosten: Wenn Alltagsmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn es sich um chirurgische Masken handelt, wird es teurer, aber immer noch ziemlich billig.
+Kosten: Handelt es sich um selbstgemachte Stoffmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn es sich um chirurgische Masken handelt, wird es teurer, aber immer noch ziemlich billig.
+
+[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Siehe Tabelle 1: Bei den beiden getesteten bakteriellen Aerosolen hat ein 100%-Baumwoll-T-Shirt ungefähr 2/3 der Filterwirkungsleistung einer chirurgischen Maske.
 
 Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit unserem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
 
