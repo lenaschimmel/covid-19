@@ -575,9 +575,9 @@ Wir hoffen, dass diese Möglichkeiten etwas Hoffnung machen.
 
 Klar, das Ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen im Kino verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein. 
 
-Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben ist beharrlich.
+Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben geht weiter.
 
-Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
+Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. Wasserlandung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
 <!-- Ende Übersetzung von Julian @herr_hundt -->
 <!-- "The next few years" übersetzt von jan.koelling -->
 <div class="section chapter">
