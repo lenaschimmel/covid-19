@@ -338,7 +338,7 @@ Was also tun? Einen Lockdown nach dem anderen?
 
 Diese Option wurde zuerst im Bericht des Imperial College vom 16. März und später erneut in einem Harvard-Papier vorgeschlagen [^lockdown_harvard].
 
-[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivpflege überschritten werden. Um dies zu vermeiden, kann eine längere oder zeitweilige soziale Distanzierung bis ins Jahr 2022 erforderlich sein. [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivstationen überschritten werden. Um dies zu vermeiden, kann eine längere oder periodische räumliche Distanzierung bis ins Jahr 2022 erforderlich sein. (übersetzt): “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
 **Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst *während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
 
