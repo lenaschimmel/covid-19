@@ -603,7 +603,7 @@ Aber für COVID-19 *beim Menschen* ist, Stand 1. Mai 2020, "für wie lange" die 
 [^monkeys]: Aus [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Hinweis: Dieser Artikel ist ein Preprint und wurde (noch) nicht wissenschaftliche begutachtet.* 
 Außerdem, um es hervorzuheben: es wurde nur eine erneute Infektion nach 28 Tagen getestet.
 
-Für die folgenden Simulationen, lass' uns annehmen dass es 1 Jahr ist. 
+Für die folgenden Simulationen, lass uns annehmen dass es 1 Jahr ist. 
 **Hier ist eine Simulation, die mit 100% <icon r></icon> anfängt**, dann exponentiell zerfällt zu nach einem Jahr anfälligen, nicht immunen <icon s></icon>s, im *Mittel*, mit Abweichungen:
 
 <div class="sim">
@@ -716,4 +716,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
