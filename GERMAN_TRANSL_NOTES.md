@@ -7,7 +7,7 @@
 | index.html Seitenleiste          | @widomattern | @herrhundt|                  |
 | /pics                            | siehe unten  |           |                  |
 | sharing/thumbnail.png            |              | @herrhundt|                  |
-| sharing/thumbnail.png            |              |           |                  |
+| sim/index.html                   | @herrhundt   | @TQueV    |                  |
 | [words/words.md](words/words.md) | siehe unten  |           |                  |
 
 ## words.md
