@@ -320,7 +320,7 @@ Das heißt: Es reicht nicht, die Kurve einfach "abzuflachen". Die Kurve muss *ze
 
 ###Szenario 2: Monatelanger Lockdown
 
-Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *zerstampfen*, die <icon i></icon> auf fast null reduzieren und dann endlich – *endlich* – wieder zu unserem normalen Leben zurückkehren:
+Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *drücken*, die <icon i></icon> auf fast null reduzieren und dann endlich – *endlich* – wieder zu unserem normalen Leben zurückkehren:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
