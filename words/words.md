@@ -528,7 +528,7 @@ Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um
     
 
 
-Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,10 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde es zu R < 1 kippen. Virus eingedämmt! 
+Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,10 bringt, und dann nur ein Drittel der Menschen Masken tragen würde, würde es zu R < 1 kippen. Virus eingedämmt! 
 
 **Sommer:**
 
