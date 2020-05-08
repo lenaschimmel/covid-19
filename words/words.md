@@ -586,7 +586,7 @@ Du bekommst COVID-19 und erholst dich. Oder du bekommst die COVID-19-Impfung. So
 
 
 * COVID-19 ist am engsten mit SARS verwandt, welches die Überlebenden für 2 Jahre immun machte.[^SARS immunity]
-* Die Coronaviren, die "normale" Erkältungen auslösen, machen dich 8 Monate immun.[^cold immunity]
+* Die Coronaviren, die "normale" Erkältungen auslösen, machen dich für 8 Monate immun.[^cold immunity]
 * Es gibt Berichte von Leuten, die sich von COVID-19 erholt haben, dann aber wieder positiv gestestet wurden. Es ist noch unklar, ob diese falsch postiv waren.[^unclear]
 * Eine *noch nicht fachlich begutachtete* Studie an Affen zeigte Immunität gegen COVID-19 Coronaviren für mindestens 28 Tage.[^monkeys]
 
