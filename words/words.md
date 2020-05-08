@@ -550,10 +550,10 @@ Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, dann kön
 
 Wir müssten jedoch nicht wieder und wieder 2 Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste das vor kurzem machen, "obwohl" es COVID-19 4 Monate unter Kontrolle hatte. Das ist kein Versagen, ganz im Gegenteil: Das *ist* es, was den Erfolg ausmacht.)
 
-Hier ist eine Simulation eines *laze case*-Szenarios: 
+Hier ist eine Simulation eines *lazy case*-Szenarios: 
 
 1. Lockdown, danach
-2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danch... 
+2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danach... 
 3. ein weiterer "Ausschalter"-*Lockdown* bevor ein Impfstoff entwickelt wird.  
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
