@@ -483,7 +483,7 @@ Der Pessimist erfindet den Fallschirm.
 
 Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Maßnahmen nicht schaffen würden, R auf unter 1 zu drücken? 
 
-Selbst wenn wir es nicht schaffen, R < 1 zu erreichen, reduziert das Senken der Reproduktionszahl die Anzahl der Fälle und rettet damit Leben. Nichtsdestotrotz bleibt R < 1 das Ideal und hier sind ein paar weitere Möglichkeiten, wie wir das schaffen können:  
+Selbst wenn wir es nicht schaffen, R < 1 zu erreichen, reduziert das Senken der Reproduktionszahl die Anzahl der Fälle und rettet damit Leben. R < 1 bleibt aber dennoch unser Ziel und hier sind ein paar weitere Möglichkeiten, wie wir das schaffen können:  
 
 **Masken für alle:**
 
