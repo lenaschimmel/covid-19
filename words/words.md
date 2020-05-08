@@ -695,7 +695,7 @@ Lass uns abschließend zurückkehren zu...
     </div>
 </div>
 
-Das Flugzeug ist versunken. Wir hocken zusammengedrängt in den Rettungsbooten. Es ist Zeit, Festland zu suchen.[^dry_land]
+Das Flugzeug ist untergegangen. Wir hocken zusammengedrängt in den Rettungsbooten. Es ist Zeit, Festland zu suchen.[^dry_land]
 
 [^dry_land]: Festland-Metapher [von Marc Lipsitch und Yonatan Grad, auf STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
@@ -716,4 +716,3 @@ Was bedeutet das für DICH, jetzt gerade?
 Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Durch Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
-
