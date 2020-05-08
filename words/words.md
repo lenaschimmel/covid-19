@@ -447,7 +447,7 @@ Die Isolierung *symptomatischer* Fälle würde R um bis zu 40% reduzieren, und d
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-Das bedeutet, dass wir auch ohne 100%ige Kontaktquarantäne R < 1 bekommen können *ohne Lockdown!* Das ist somit viel besser für unsere psychische und wirtschaftliche Verfassung. (Menschen, die sich selbst isolieren, *müssen von den Regierungen Unterstützung erhalten* - Kostenübernahme für die Tests, Arbeitsschutz, subventionierten bezahlten Urlaub usw. Das ist insgesamt immer noch viel billiger als periodische Lockdowns).
+Das bedeutet, dass wir auch ohne 100%ige Kontaktquarantäne R < 1 bekommen können, und das *ohne Lockdown!* Und somit viel besser für unsere psychische und wirtschaftliche Lage. (Menschen, die sich selbst isolieren, *sollten von ihren Regierungen Unterstützung erhalten* - Kostenübernahme der Tests, Sicherung des Arbeitsplatzes, Subventionierung des bezahlten Urlaubs usw. Das ist immer noch deutlich billiger als periodische Lockdowns).
 
 Wir behalten dann R < 1 bis wir einen Impfstoff haben, der gefährdete <icon s></icon>s zu immunisierten <icon r></icon> macht. Herdenimmunität auf die *richtige* Art:
 
@@ -455,13 +455,13 @@ Wir behalten dann R < 1 bis wir einen Impfstoff haben, der gefährdete <icon s><
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
 </div>
 
-(Hinweis: Dieser Rechner erweckt den Anschein, als seien die Impfstoffe zu 100% wirksam. In Wirklichkeit müssten wir durch Impfung aber *mehr* als "Herdenimmunität" schaffen, um *wirklich* eine Herdenimmunität zu erhalten)
+(Hinweis: Dieser Rechner simuliert zu 100% wirksame Impfstoffe. In der Realität müssten *über* die "Herdenimmunität" hinweg geimpft werden, um *tatsächlich* Herdenimmunität zu erhalten)
 
 Okay, genug der Worte. Das hier ist eine Simulation von ...
 
 1. ... einem Lockdown über wenige Monate, bis wir...
 2. umschalten auf "Testen, Verfolgen, Isolieren", bis wir...
-3. genug Leute impfen, was bedeutet, dass...
+3. genug Leute impfen können, was bedeutet, dass...
 4. wir gewinnen.
 
 <div class="sim">
@@ -474,7 +474,7 @@ So schlagen wir COVID-19.
 
 ...
 
-Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereits schrecklich schief gelaufen. Wer so überlegt hat Angst - und das ist gut so! Angst gibt uns Energie, um *Sicherungspläne* zu erstellen.
+Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereits furchtbar schief gelaufen. Hier spricht die Angst - und das ist gut so! Angst gibt uns Energie, um *Backup-Pläne* zu erstellen.
 
 Der Pessimist erfindet den Fallschirm.
 
