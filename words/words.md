@@ -297,7 +297,7 @@ Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Länd
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
 </div>
 
-Lasst uns nun simulieren, was mit einer COVID-19-Epidemie passiert, wenn wir ab März 2020 das Händewaschen verstärkt hätten, aber nur mit *wenig* sozialer Distanzierung - sodass R niedriger, aber immer noch größer als 1 ist:
+Lass uns nun simulieren, was mit einer COVID-19-Epidemie passiert, wenn wir ab März 2020 das Händewaschen verstärkt hätten, aber nur *wenig* Abstand gehalten hätten - so dass R niedriger, aber immer noch größer als 1 ist:
 
 <div class="sim">
 		<iframe src="sim?stage=int-2&format=lines" width="800" height="540"></iframe>
@@ -305,20 +305,20 @@ Lasst uns nun simulieren, was mit einer COVID-19-Epidemie passiert, wenn wir ab 
 
 Drei Anmerkungen:
 
-1. Dies *verringert* die Gesamtzahl der Fälle! **Selbst wenn R < 1 nicht erreicht wird, rettet die Reduzierung von R immer noch Leben, indem sie den 'Überhang' bis zur Herdenimmunität reduziert.** Viele Menschen denken, dass mit dem Abflachen der Kurve die Fälle zeitlich gestreckt werden, ohne aber die Gesamtzahl zu reduzieren. Doch das steht im Widerspruch zu *jedem* grundlegenden Epidemiologie-Modell. Aber weil in den Nachrichten "80%+ werden infiziert sein" als unvermeidlich berichtet wurde, kommt es zu der weitläufigen Annahme, dass die Gesamtzahl der Fälle in jedem Fall gleich bleiben würde. *Seufz.*
+1. Dies *verringert* die Gesamtzahl der Fälle! **Selbst wenn R < 1 nicht erreicht wird, rettet die Reduzierung von R immer noch Leben, indem sie den 'Überschuss' bis zur Herdenimmunität reduziert.** Viele Menschen denken, dass mit dem Abflachen der Kurve die Fälle zeitlich gestreckt werden, ohne aber die Gesamtzahl zu reduzieren. Doch das steht im Widerspruch zu *jedem* grundlegenden Epidemiologie-Modell. Aber weil in den Nachrichten "80%+ werden infiziert" als unvermeidlich dargestellt wurde, kam es zu der weitläufigen Annahme, dass die Gesamtzahl der Fälle in jedem Fall gleich bleiben würde. *Seufz.*
 
-2. Aufgrund der zusätzlichen Maßnahmen erreichen die aktuellen Fälle ihren Höhepunkt *bevor* die Herdenimmunität erreicht wird. Tatsächlich schießt in dieser Simulation die Gesamtzahl der Fälle nur *ein kleines bisschen* über die Herdenimmunität hinaus - der Plan des Vereinigten Königreichs! An diesem Punkt, R < 1, kann man alle anderen Maßnahmen loslassen, und COVID-19 bleibt eingedämmt! Es gibt nur ein Problem ...
+2. Aufgrund der zusätzlichen Maßnahmen erreichen die aktuellen Fallzahlen ihren Höhepunkt *bevor* die Herdenimmunität erreicht wird. Tatsächlich schießt in dieser Simulation die Gesamtzahl der Fälle nur *ein kleines bisschen* über die Herdenimmunität hinaus - der Plan des Vereinigten Königreichs! An diesem Punkt, R < 1, kann man alle anderen Maßnahmen loslassen, und COVID-19 bleibt eingedämmt! Es gibt nur ein Problem ...
 
-3. Es fehlen die Betten auf den Intensivstationen. Und das über mehrere Monate. (und dabei haben wir die Betten auf den Intensivstationen für diese Simulation *bereits* verdreifacht)
+3. Es fehlen die Betten auf den Intensivstationen. Und das über mehrere Monate. (und dabei haben wir die Betten auf den Intensivstationen für diese Simulation ja *bereits verdreifacht*)
 
-Das führte zum Befund im Bericht des Imperial College vom 16. März, der Großbritannien davon überzeugte, seinen ursprünglichen Plan aufzugeben. Jeder Versuch einer **Milderung** (R reduzieren, aber R > 1) wird scheitern. Der einzige Ausweg ist **Unterdrückung** (R reduzieren, so dass R < 1).
+Das war das andere Ergebnis des Imperial-College-Berichts vom 16. März, der Großbritannien davon überzeugte, seinen ursprünglichen Plan aufzugeben. Jeder Versuch einer **Milderung** (R reduzieren, aber R > 1) wird scheitern. Der einzige Ausweg ist **Unterdrückung** (R reduzieren, so dass R < 1).
 ![](pics/mitigation_vs_suppression.png)
 
 Das heißt: Es reicht nicht, die Kurve einfach "abzuflachen". Die Kurve muss *zerstampft* werden. Zum Beispiel mit ...
 
 ###Szenario 2: Monatelanger Lockdown
 
-Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *zerstampfen*, die <icon i></icon> auf fast gar nichts reduzieren und dann endlich – *endlich* – wieder zu unserem normalen Leben zurückkehren:
+Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *drücken*, die <icon i></icon> auf fast null reduzieren und dann endlich – *endlich* – wieder zu unserem normalen Leben zurückkehren:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -326,7 +326,7 @@ Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *zers
 
 Oh.
 
-Das ist die "zweite Welle", über die alle sprechen. Sobald wir den Lockdown aufheben, erhalten wir wieder R > 1. Ein einzelner, verbliebener <icon i></icon> (oder ein importierter <icon i></icon>) kann also einen Ausschlag verursachen, der fast so schlimm ist, als hätten wir Szenario 0 verfolgt: Absolut nichts getan.
+Das ist die "zweite Welle", über die alle sprechen. Sobald wir den Lockdown aufheben, erhalten wir wieder R > 1. Ein einzelner verbliebener <icon i></icon> (oder ein importierter <icon i></icon>) kann also einen Ausschlag der Fallzahlen verursachen, der fast so schlimm ist, als hätten wir Szenario 0 verfolgt: Absolut nichts getan.
 
 **Ein Lockdown ist keine Heilung, es ist nur ein Neustart.**
 
@@ -336,15 +336,15 @@ Was also tun? Einen Lockdown nach dem anderen?
 
 Diese Option wurde zuerst im Bericht des Imperial College vom 16. März und später erneut in einem Harvard-Papier vorgeschlagen [^lockdown_harvard].
 
-[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivpflege überschritten werden. Um dies zu vermeiden, kann eine längere oder zeitweilige soziale Distanzierung bis ins Jahr 2022 erforderlich sein. [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivstationen überschritten werden. Um dies zu vermeiden, kann eine längere oder periodische räumliche Distanzierung bis ins Jahr 2022 erforderlich sein. (übersetzt): “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst Du versuchen, Deinen *eigenen* Lockdown-Plan zu simulieren, indem Du den Schieberegler änderst ** während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
+**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst *während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-Dies *würde* Fälle unter der Kapazität der Intensivstationen halten! Und es ist *viel* besser als ein 18-monatiger Lockdown, bis ein Impfstoff zur Verfügung steht. Wir müssten also nur... für ein paar Monate einen Lockdown machen, für ein paar Monate öffnen und das solange wiederholen, bis ein Impfstoff verfügbar ist. (Und wenn es keinen Impfstoff gibt, wiederholen wir es, bis die Herdenimmunität erreicht ist... im Jahr 2022).
+Dies *würde* die Fallzahlen unter der Kapazität der Intensivstationen halten! Und es ist *viel* besser als ein 18-monatiger Lockdown, bis ein Impfstoff zur Verfügung steht. Wir müssten also nur... für ein paar Monate einen Lockdown machen, für ein paar Monate öffnen und das so lange wiederholen, bis ein Impfstoff verfügbar ist. (Und wenn es keinen Impfstoff gibt, wiederholen wir es, bis die Herdenimmunität erreicht ist... im Jahr 2022).
 
 Es scheint zunächst sinnvoll, solch einen Plan anhand der Kapazitäten der Intensivstationen zu machen, aber dabei übersehen wir zahlreiche wesentliche Dinge, die wir hier *nicht* simulieren können. Zum Beispiel:
 
@@ -447,7 +447,7 @@ Die Isolierung *symptomatischer* Fälle würde R um bis zu 40% reduzieren, und d
 		<iframe src="sim?stage=int-4a&format=calc" width="285" height="340"></iframe>
 </div>
 
-Das bedeutet, dass wir auch ohne 100%ige Kontaktquarantäne R < 1 bekommen können *ohne Lockdown!* Das ist somit viel besser für unsere psychische und wirtschaftliche Verfassung. (Menschen, die sich selbst isolieren, *müssen von den Regierungen Unterstützung erhalten* - Kostenübernahme für die Tests, Arbeitsschutz, subventionierten bezahlten Urlaub usw. Das ist insgesamt immer noch viel billiger als periodische Lockdowns).
+Das bedeutet, dass wir auch ohne 100%ige Kontaktquarantäne R < 1 bekommen können, und das *ohne Lockdown!* Und somit viel besser für unsere psychische und wirtschaftliche Lage. (Menschen, die sich selbst isolieren, *sollten von ihren Regierungen Unterstützung erhalten* - Kostenübernahme der Tests, Sicherung des Arbeitsplatzes, Subventionierung des bezahlten Urlaubs usw. Das ist immer noch deutlich billiger als periodische Lockdowns).
 
 Wir behalten dann R < 1 bis wir einen Impfstoff haben, der gefährdete <icon s></icon>s zu immunisierten <icon r></icon> macht. Herdenimmunität auf die *richtige* Art:
 
@@ -455,13 +455,13 @@ Wir behalten dann R < 1 bis wir einen Impfstoff haben, der gefährdete <icon s><
 		<iframe src="sim?stage=int-4b&format=calc" width="285" height="230"></iframe>
 </div>
 
-(Hinweis: Dieser Rechner erweckt den Anschein, als seien die Impfstoffe zu 100% wirksam. In Wirklichkeit müssten wir durch Impfung aber *mehr* als "Herdenimmunität" schaffen, um *wirklich* eine Herdenimmunität zu erhalten)
+(Hinweis: Dieser Rechner simuliert zu 100% wirksame Impfstoffe. In der Realität müssten *über* die "Herdenimmunität" hinweg geimpft werden, um *tatsächlich* Herdenimmunität zu erhalten)
 
 Okay, genug der Worte. Das hier ist eine Simulation von ...
 
 1. ... einem Lockdown über wenige Monate, bis wir...
 2. umschalten auf "Testen, Verfolgen, Isolieren", bis wir...
-3. genug Leute impfen, was bedeutet, dass...
+3. genug Leute impfen können, was bedeutet, dass...
 4. wir gewinnen.
 
 <div class="sim">
@@ -474,11 +474,11 @@ So schlagen wir COVID-19.
 
 ...
 
-Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereits schrecklich schief gelaufen. Wer so überlegt hat Angst - und das ist gut so! Angst gibt uns Energie, um *Alternativpläne* zu erstellen.
+Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereits furchtbar schief gelaufen. Hier spricht die Angst - und das ist gut so! Angst gibt uns Energie, um *Backup-Pläne* zu erstellen.
 
 Der Pessimist erfindet den Fallschirm.
 
-###Szenario 4+: Masken für alle, Sommer, Lockdown!
+###Szenario 4+: Masken für alle, Sommer, Notschalter-Lockdown!
 <!-- circuit breaker als Lockdown?! Übersetzung fehlt-->
 
 Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Maßnahmen nicht schaffen würden, R auf unter 1 zu drücken? 
@@ -494,13 +494,11 @@ Das stimmt. Alltagsmasken schützen dich nicht vor einer Infektion.[^incoming]..
 
 [^outgoing]: “The overall 3.4 fold reduction [70% reduction] in aerosol copy numbers we observed combined with a nearly complete elimination of large droplet spray demonstrated by Johnson et al. suggests that surgical masks worn by infected persons could have a clinically significant impact on transmission.” [Milton DK, Fabian MP, Cowling BJ, Grantham ML, McDevitt JJ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3591312/)
 
-[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) See Table 1: a 100% cotton T-shirt has around 2/3 the filtration efficiency as a surgical mask, for the two bacterial aerosols they tested.
-
 ![](pics/masks.png)
 
 Um es mit Zahlen zu untermauern: Trägt eine *infizierte Person* eine chirurgische Gesichtsmaske, reduziert das die Anzahl der Erkältungs- und Grippeviren der Aerosole um 70%.[^outgoing] Eine Reduktion der Ansteckung um 70% entspricht in etwa der Auswirkung eines *Lockdowns*!  
 
-Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf das Infektionsgeschehen von COVID-19. Als wissenschaftlich valide gilt ein Ergebnis erst, wenn es zu 95% sicher ist. Auch erst dann sollte es publiziert werden. (...sollte.)[^replication] Alltagsmasken sind zum Zeitpunkt 1. Mai 2020 zu weniger als "95% sicher").  
+Trotzdem kennen wir weiterhin nicht den *spezifischen* Einfluss von Masken auf das Infektionsgeschehen von COVID-19. Als wissenschaftlich valide gilt ein Ergebnis erst, wenn es zu 95% sicher ist. Auch erst dann sollte es publiziert werden. (...sollte.)[^replication] Alltagsmasken sind zum Zeitpunkt 1. Mai 2020 zu weniger als "95% sicher".  
 
 [^replication]: Echte Wissenschaftler*innen haben den letzten Satz wahrscheinlich mit einem lachenden und einem weinenden Auge gelesen. Siehe auch: [p-hacking](https://de.wikipedia.org/wiki/P-Hacking), [the replication crisis (Englisch)](https://en.wikipedia.org/wiki/Replication_crisis)
 
@@ -508,7 +506,9 @@ Pandemien sind wie Poker: **Wette nur, wenn du dir zu 95% sicher bist und du son
 
 [^precautionary]: "Es ist Zeit, das Vorsorgeprinzip anzuwenden" (übersetzt): "It is time to apply the precautionary principle"" [Trisha Greenhalgh et al \[PDF\]](https://www.bmj.com/content/bmj/369/bmj.m1435.full.pdf)
 
-Kosten: Wenn Alltagsmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn es sich um chirurgische Masken handelt, wird es teurer, aber immer noch ziemlich billig.
+Kosten: Handelt es sich um selbstgemachte Stoffmasken (die etwa ~2/3 so effektiv wie chirurgische Masken[^homemade]) sind), dann ist das superbillig. Wenn es sich um chirurgische Masken handelt, wird es teurer, aber immer noch ziemlich billig.
+
+[^homemade]: [Davies, A., Thompson, K., Giri, K., Kafatos, G., Walker, J., & Bennett, A](https://www.cambridge.org/core/journals/disaster-medicine-and-public-health-preparedness/article/testing-the-efficacy-of-homemade-masks-would-they-protect-in-an-influenza-pandemic/0921A05A69A9419C862FA2F35F819D55) Siehe Tabelle 1: Bei den beiden getesteten bakteriellen Aerosolen hat ein 100%-Baumwoll-T-Shirt ungefähr 2/3 der Filterwirkungsleistung einer chirurgischen Maske.
 
 Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um 0% oder 70% hat, so liegt der Erwartungswert bei 35% und entspricht damit der Hälfte eines *Lockdowns*. Also schätzen wir mit unserem Unsicherheitsfaktor, dass chirurgische Masken R um bis zu 35% reduzieren. (Auch hier können die Annahmen durch Veränderung der Schieberegler hinterfragt und überprüft werden.) 
 
@@ -520,21 +520,21 @@ Nutzen: Selbst wenn eine chirurgische Maske eine 50:50-Chance einer Reduktion um
 
 [^mask_args]: **"Wir müssen unsere Vorräte für unsere Krankenhäuser sichern."** *Auf jeden Fall.* Aber das ist eher ein Argument dafür, die Produktion von Masken zu erhöhen, nicht, sie zu rationieren. In der Zwischenzeit können wir Alltagsmasken machen.
 
-**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir Händewaschen, denn es ist besser, es nicht-perfekt zu machen, als gar nicht. 
+**"Es ist schwer, sie korrekt zu tragen."** Es ist genauso schwer, die Hände gemäß der WHO-Richtlinien zu waschen - ernsthaft, "Schritt 3) die rechte Handfläche über den Handrücken"?! - und trotzdem empfehlen wir Händewaschen, denn es ist besser, es nicht perfekt zu machen, als gar nicht. 
 
 
-**"Das Tragen einer Maske macht die Menschen sorgloser im Umgang mit dem Händewaschen &  Abstandhalten."** Klar, Sicherheitsgurte verleiten einige Menschen dazu, Stop-Schilder zu missachten, und dank Zahnseide können die Menschen Steine essen. Wir sollten ernsthaft mit dem Gegenteil argumentieren: Masken sind ein *dauerhafte physische Erinnerung* zur Umsicht - und in Ostasien zudem ein Symbol von Solidarität! 
+**"Das Tragen einer Maske macht die Menschen sorgloser im Umgang mit dem Händewaschen & Abstandhalten."** Klar, Sicherheitsgurte verleiten einige Menschen dazu, Stop-Schilder zu missachten, und dank Zahnseide können die Menschen Steine essen. Wir sollten ernsthaft mit dem Gegenteil argumentieren: Masken sind eine *dauerhafte physische Erinnerung* zur Umsicht - und in Ostasien zudem ein Symbol von Solidarität! 
 
     
 
 
-Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,10 bringt, und dann nur ein Drittel der Menschen Masken tragen würden, würde es zu R < 1 kippen. Virus eingedämmt! 
+Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn regelmäßiges Händewaschen sowie "Testen - Nachverfolgen - Isolieren" uns zu R = 1,10 bringt, und dann nur ein Drittel der Menschen Masken tragen würde, würde es zu R < 1 kippen. Virus eingedämmt! 
 
 **Sommer:**
 
-Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird ihn reduzieren.  
+Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 senken, aber er *wird* ihn reduzieren.  
 
-Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (2,2° Fahrenheit) zu einer Reduktion des R-Werts um 1,2%.[^heat]  Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 15°C (60°F), sodass der Sommer eine Reduktion des R-Wertes um 18% bewirkt.  
+Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (1,8° Fahrenheit) zu einer Reduktion des R-Werts um 1,2%.[^heat] Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 26°C (47°F), sodass der Sommer eine Reduktion des R-Wertes um etwa 31% bewirkt.  
 
 [^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
@@ -542,19 +542,20 @@ Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (2,2° Fahrenhe
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-Der Sommer allein wird R nicht unter 1 drücken, aber wenn wir nur eingeschränkte Mittel haben, können wir einige Maßnahmen im Sommer lockern und im Winter wieder *stärker* anziehen. 
+Der Sommer allein wird R nicht unter 1 senken, aber wenn wir eingeschränkte Mittel haben, können wir einige Maßnahmen im Sommer lockern und im Winter wieder *stärker* anziehen. 
 
-**Ein "Ausschalter"-*Lockdown*:**
+**Ein "Notschalter"-*Lockdown*:**
 
-Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, könnten wir einen anderen *Lockdown* versuchen. 
+Und wenn das alles *immer noch* nicht genug ist, R auf unter 1 zu bringen, können wir einen anderen Lockdown versuchen. 
 
-Aber wir müssten nicht wieder und wieder 2-Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: es *ist* genau der Erfolg.)
+Aber wir müssten nicht immer wieder 2-Monate schließen und einen Monat öffnen. Weil R reduziert wäre, genügten nur ein oder zwei weitere "Notschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: dadurch *wird* es zum Erfolg.)
 
-Hier ist eine Simulation eines *laze case*-Szenarios: 
+Hier ist eine Simulation eines "lazy case"-Szenarios: 
 
 1. Lockdown, danach
-2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danch... 
-3. ein weiterer "Ausschalter"-*Lockdown* bevor ein Impfstoff entwickelt wird.  
+2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie annehmbarer Maskenpflicht, danach ...
+3. ein "Notschalter"-Lockdown, bevor ein Impfstoff entwickelt wird.  
+
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
@@ -575,9 +576,9 @@ Wir hoffen, dass diese Möglichkeiten etwas Hoffnung machen.
 
 Klar, das Ganze ist anstrengend. Aber du kannst dich wieder in einem Comicladen treffen. Du kannst dich mit Freunden zu einem neuen Hollywood-Streifen im Kino verabreden. Du kannst wieder Leute in der Bücherei beobachten oder dich einfach mit anderen daran erfreuen, *am Leben* zu sein. 
 
-Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben ist beharrlich.
+Selbst wenn es zum Worst-Case-Szenario kommt ... das Leben geht weiter.
 
-Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. Notwasserung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
+Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. Wasserlandung! Nehmen Sie ihre Rettungsweste und begeben Sie sich zu den Notausgängen:  
 <!-- Ende Übersetzung von Julian @herr_hundt -->
 <!-- "The next few years" übersetzt von jan.koelling -->
 <div class="section chapter">
@@ -587,31 +588,31 @@ Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. 
     </div>
 </div>
 
-Du bekommst COVID-19 und erholst dich. Oder du bekommst die COVID-19-Impfung. So oder so bist du jetzt immun...
+Du bekommst COVID-19 und erholst dich. Oder du bekommst die COVID-19-Impfung. So oder so bist du jetzt immun ...
 
 ...*für wie lange?*
 
 
-* COVID-19 ist am engsten mit SARS verwandt, welches den Überlebenden 2 Jahre Immunität brachte.[^SARS immunity]
-* Die Coronaviren, die normale Erklältungen auslösen, bringen dir 8 Monate Immunität.[^cold immunity]
-* Es gibt Berichte von Leuten die sich von COVID-19 erholt hatten, dann aber wieder positiv gestestet wurden. Es ist noch unklar ob diese falsch postiv waren.[^unclear]
-* Eine *noch nicht fachlich begutachtete* Studie an Affen, zeigte Immunität gegen COVID-19 Coronaviren für zu mindest 28 Tage.[^monkeys]
+* COVID-19 ist am engsten mit SARS verwandt, welches die Überlebenden für 2 Jahre immun machte.[^SARS immunity]
+* Die Coronaviren, die "normale" Erkältungen auslösen, machen dich für 8 Monate immun.[^cold immunity]
+* Es gibt Berichte von Leuten, die sich von COVID-19 erholt haben, dann aber wieder positiv gestestet wurden. Es ist noch unklar, ob diese falsch postiv waren.[^unclear]
+* Eine *noch nicht fachlich begutachtete* Studie an Affen zeigte Immunität gegen COVID-19-Coronaviren für mindestens 28 Tage.[^monkeys]
 
 Aber für COVID-19 *beim Menschen* ist, Stand 1. Mai 2020, "für wie lange" die große Unbekannte.
 
 [^SARS immunity]: SARS-spezifische Antikörper wurden für durchschnittlich 2 Jahre erhalten [...] Daher könnten SARS-Patienten ≥3 Jahre nach ursprünglichem Kontakt für eine Neuinfektion anfällig sein. [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) 
-"Leider" werden wir niemals wissen wie lange SARS Immunität wirklich erhalten geblieben wäre, da wir es so schnell ausgerottet haben.
+"Leider" werden wir niemals wissen, wie lange SARS-Immunität wirklich erhalten geblieben wäre, da wir es so schnell ausgerottet haben.
 
 <!-- Read paper to check what 'enrollment' stands for in this context. I guessed enrollment of a patient for the study. -->
 [^cold immunity]: Wir konnten keinen signifikaten Unterschied zwischen der Wahrscheinlichkeit für wenigsten einen positiven Test und der Wahrscheinlichkeit eines Wiederauftretens für die Beta-Coronaviren HKU1 und OC43 34 Wochen nach Registrierung für die Studienteilnahme/der Erstinfektion feststellen. [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
-[^unclear]: Nachdem eine Person einen Virus abgewährt hat, neigen Viruspartikel dazu eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen aber sie können zu einem positiven Testergebnis führen. [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
+[^unclear]: Nachdem eine Person einen Virus abgewehrt hat, neigen Viruspartikel dazu, eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen, aber sie können zu einem positiven Testergebnis führen. [aus STAT News von Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
-[^monkeys]: From [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Hinweis: Dieser Artikel ist ein Preprint und wurde noch nicht wissenschaftliche begutachtet.* 
+[^monkeys]: Aus [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Hinweis: Dieser Artikel ist ein Preprint und wurde (noch) nicht wissenschaftliche begutachtet.* 
 Außerdem, um es hervorzuheben: es wurde nur eine erneute Infektion nach 28 Tagen getestet.
 
 Für die folgenden Simulationen, lass uns annehmen dass es 1 Jahr ist. 
-**Hier ist eine Simulation die mit 100% <icon r></icon> anfängt**, dann nach einem Jahr exponentiell zerfällt zu anfälligen, nicht immunen <icon s></icon>s, im *Mittel*, mit Abweichungen:
+**Hier ist eine Simulation, die mit 100% <icon r></icon> anfängt** und exponentiell zerfällt, mit im Mittel nach einem Jahr nicht mehr immunen, wieder anfälligen <icon s></icon>s mit Abweichungen:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
@@ -661,17 +662,17 @@ Was ist, wenn es über *Jahre* keinen Impfstoff gibt? Oder *niemals*?
 
 Dennoch haben Forscherinnen und Forscher für Infektionskrankheiten Besorgnis geäußert: Was ist, wenn wir nicht genug herstellen können?[^vax_enough] Was, wenn wir es überstürzen und es nicht sicher ist?[^vax_safe]
 
-[^vax_enough]: Falls ein Impfstoff für das Coronavirus erscheint, kann die Welt genug davon herstellen? [von Roxanne Khamsi, auf Nature](https://www.nature.com/articles/d41586-020-01063-8)
+[^vax_enough]: "Falls ein Impfstoff für das Coronavirus erscheint, kann die Welt genug davon herstellen?" (übersetzt): “If a coronavirus vaccine arrives, can the world make enough?” [von Roxanne Khamsi, auf Nature](https://www.nature.com/articles/d41586-020-01063-8)
 
-[^vax_safe]: Drängt nicht auf die Herausgabe von COVID-19 Impfstoffen und Medikamenten ohne ausreichende Sicherheitsgarantien [von Shibo Jiang, auf Nature](https://www.nature.com/articles/d41586-020-00751-9)
+[^vax_safe]: "Drängt nicht auf die Herausgabe von COVID-19 Impfstoffen und Medikamenten ohne ausreichende Sicherheitsgarantien" (übersetzt): “Don’t rush to deploy COVID-19 vaccines and drugs without sufficient safety guarantees” [von Shibo Jiang, auf Nature](https://www.nature.com/articles/d41586-020-00751-9)
 
 Selbst im Albtraumszenario "kein Impfstoff" haben wir noch 3 Auswege. Vom allerschlimmsten zum am wenigsten schlimmen:
 
-1) Mach' periodische Lockdowns oder lockere R < 1 Maßnahmen, um "natürliche Herdenimmunität" zu erreichen. (Warnung: Das würde zu vielen Todesfällen & beschädigten Lungen führen. *Und* es wird nicht funktionieren, falls Immunität nicht anhält.)
+1) Mach' periodische Lockdowns oder lockere R < 1 Maßnahmen, um "natürliche Herdenimmunität" zu erreichen. (Warnung: Das würde zu vielen Todesfällen & beschädigten Lungen führen. *Und* es wird nicht funktionieren, falls die Immunität nicht anhält.)
 
 2) Mach' die R < 1 Maßnahmen für immer. Kontaktverfolgung & das Tragen von Masken werden zur neuen Normalität in der Welt nach COVID-19, so wie Tests auf Geschlechtskrankheiten & das Tragen von Kondomen die neue Normalität in der Welt nach HIV wurden.
 
-3) Mach' die R < 1 Maßnahmen, bis wir Behandlungsoptionen entwickelt haben, die es viel, viel unwahrscheinlicher machen, dass COVID-19 Intensivmedizin erfordert. (Das sollten wir *auf jeden Fall* tun!) Den Bedarf für Intensivstationen um das 10-fache zu senken, hat den gleichen Effekt wie die Kapazität der Intensivstationen um das 10-fache zu erhöhen:
+3) Mach' die R < 1 Maßnahmen, bis wir Behandlungsoptionen entwickelt haben, die es viel, viel unwahrscheinlicher machen, dass COVID-19 intensivmedizinische Maßnahmen erfordert. (Das sollten wir *auf jeden Fall* tun!) Den Bedarf für Intensivstationen um das 10-fache zu senken hat den gleichen Effekt wie die Kapazität der Intensivstationen um das 10-fache zu erhöhen:
 
 **Hier ist eine Simulation *ohne* anhaltende Immunität, *ohne* Impfsstoff und selbst ohne irgendeine Maßnahme – einfach ein langsamer Anstieg der Kapazitäten, um die langfristigen Spitzen zu überleben:**
 
@@ -679,12 +680,12 @@ Selbst im Albtraumszenario "kein Impfstoff" haben wir noch 3 Auswege. Vom allers
 		<iframe src="sim?stage=yrs-5&format=lines" width="800" height="540"></iframe>
 </div>
 
-Selbst im schlimmsten Worst-Case-Szenario... das Leben hält durch.
+Selbst im schlimmsten Worst-Case-Szenario... das Leben geht weiter.
 
 
 . . .
 
-Vielleicht möchtest du unsere Annahmen hinterfragen und andere R<sub>0</sub>'s oder Werte ausprobierne. Oder deine *eigene* Kombination von Interventionsmaßnahmen ausprobieren!
+Vielleicht möchtest du unsere Annahmen hinterfragen und andere R<sub>0</sub>'s oder Werte ausprobieren. Oder deine *eigene* Kombination von Interventionsmaßnahmen ausprobieren!
 
 **Hier ist ein (optionaler) Sandkastenmodus, bei dem *alles* verfügbar ist. (Scrolle, um alle Einstellungen zu sehen) Simuliere und spiele nach Herzenslust herum:**
 
