@@ -478,7 +478,7 @@ Aber was ist, wenn die Dinge *immer noch* schief gehen? Die Dinge sind ja bereit
 
 Der Pessimist erfindet den Fallschirm.
 
-###Szenario 4+: Masken für alle, Sommer, Lockdown!
+###Szenario 4+: Masken für alle, Sommer, Notschalter-Lockdown!
 <!-- circuit breaker als Lockdown?! Übersetzung fehlt-->
 
 Was wäre, wenn R<sub>0</sub> viel größer wäre als wir glauben und wir es trotz der Maßnahmen nicht schaffen würden, R auf unter 1 zu drücken? 
@@ -532,9 +532,9 @@ Masken *allein* werden nicht dafür sorgen, dass R < 1 erreicht wird. Aber wenn 
 
 **Sommer:**
 
-Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 drücken, aber er wird sie reduzieren.  
+Okay, das ist keine "Maßnahme", die wir kontrollieren können, aber sie wird helfen! Es gibt einige Berichte, die behaupten, dass der Sommer nichts an COVID-19 ändert. Sie sind nur zum Teil korrekt: Der Sommer wird R nicht auf unter 1 senken, aber er *wird* ihn reduzieren.  
 
-Für COVID-19 führt jeder Temperaturanstieg von 1° Celsius (1,8° Fahrenheit) zu einer Reduktion des R-Wertes um 1,2%.[^heat]  Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 15°C (60°F), so dass der Sommer eine Reduktion des R-Wertes um 18% bewirkt.  
+Für COVID-19 führt ein Temperaturanstieg von jedem 1° Celsius (1,8° Fahrenheit) zu einer Reduktion des R-Werts um 1,2%.[^heat] Der Temperaturunterschied zwischen Sommer und Winter beträgt in New York City etwa 26°C (47°F), sodass der Sommer eine Reduktion des R-Wertes um etwa 31% bewirkt.  
 
 [^heat]: “One-degree Celsius increase in temperature [...] lower[s] R by 0.0225” and “The average R-value of these 100 cities is 1.83”. 0.0225 ÷ 1.83 = ~1.2%. [Wang, Jingyuan and Tang, Ke and Feng, Kai and Lv, Weifeng](https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=3551767)
 
@@ -542,19 +542,20 @@ Für COVID-19 führt jeder Temperaturanstieg von 1° Celsius (1,8° Fahrenheit) 
 		<iframe src="sim?stage=int-6b&format=calc" width="285" height="220"></iframe>
 </div>
 
-Der Sommer allein wird R nicht unter 1 drücken, aber wenn wir nur eingeschränkte Mittel haben, können wir einige Maßnahmen im Sommer lockern und im Winter wieder *stärker* anziehen. 
+Der Sommer allein wird R nicht unter 1 senken, aber wenn wir eingeschränkte Mittel haben, können wir einige Maßnahmen im Sommer lockern und im Winter wieder *stärker* anziehen. 
 
-**Ein "Ausschalter"-*Lockdown*:**
+**Ein "Notschalter"-*Lockdown*:**
 
-Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, dann könnten wir einen weiteren *Lockdown* versuchen. 
+Und wenn das alles *immer noch* nicht genug ist, R auf unter 1 zu bringen, können wir einen anderen Lockdown versuchen. 
 
-Wir müssten jedoch nicht wieder und wieder 2 Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste das vor kurzem machen, "obwohl" es COVID-19 4 Monate unter Kontrolle hatte. Das ist kein Versagen, ganz im Gegenteil: Das *ist* es, was den Erfolg ausmacht.)
+Aber wir müssten nicht immer wieder 2-Monate schließen und einen Monat öffnen. Weil R reduziert wäre, genügten nur ein oder zwei weitere "Notschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste dies "trotz" der 4-monatigen Kontrolle von COVID-19 machen. Das ist kein Versagen, ganz im Gegenteil: dadurch *wird* es zum Erfolg.)
 
-Hier ist eine Simulation eines *lazy case*-Szenarios: 
+Hier ist eine Simulation eines "lazy case"-Szenarios: 
 
 1. Lockdown, danach
-2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie Maskenpflicht, danach... 
-3. ein weiterer "Ausschalter"-*Lockdown* bevor ein Impfstoff entwickelt wird.  
+2. Ein moderater Mix von Hygiene, "Testen, Nachverfolgen & Isolieren" sowie annehmbarer Maskenpflicht, danach ...
+3. ein "Notschalter"-Lockdown, bevor ein Impfstoff entwickelt wird.  
+
 <div class="sim">
 		<iframe src="sim?stage=int-7&format=lines&height=620" width="800" height="620"></iframe>
 </div>
