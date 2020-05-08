@@ -297,7 +297,7 @@ Durch vermehrtes Händewaschen werden Grippen und Erkältungskrankeiten in Länd
 		<iframe src="sim?stage=int-2a&format=calc" width="285" height="260"></iframe>
 </div>
 
-Lasst uns nun simulieren, was mit einer COVID-19-Epidemie passiert, wenn wir ab März 2020 das Händewaschen verstärkt hätten, aber nur mit *wenig* sozialer Distanzierung - sodass R niedriger, aber immer noch größer als 1 ist:
+Lass uns nun simulieren, was mit einer COVID-19-Epidemie passiert, wenn wir ab März 2020 das Händewaschen verstärkt hätten, aber nur *wenig* Abstand gehalten hätten - so dass R niedriger, aber immer noch größer als 1 ist:
 
 <div class="sim">
 		<iframe src="sim?stage=int-2&format=lines" width="800" height="540"></iframe>
@@ -305,20 +305,20 @@ Lasst uns nun simulieren, was mit einer COVID-19-Epidemie passiert, wenn wir ab 
 
 Drei Anmerkungen:
 
-1. Dies *verringert* die Gesamtzahl der Fälle! **Selbst wenn R < 1 nicht erreicht wird, rettet die Reduzierung von R immer noch Leben, indem sie den 'Überhang' bis zur Herdenimmunität reduziert.** Viele Menschen denken, dass mit dem Abflachen der Kurve die Fälle zeitlich gestreckt werden, ohne aber die Gesamtzahl zu reduzieren. Doch das steht im Widerspruch zu *jedem* grundlegenden Epidemiologie-Modell. Aber weil in den Nachrichten "80%+ werden infiziert sein" als unvermeidlich berichtet wurde, kommt es zu der weitläufigen Annahme, dass die Gesamtzahl der Fälle in jedem Fall gleich bleiben würde. *Seufz.*
+1. Dies *verringert* die Gesamtzahl der Fälle! **Selbst wenn R < 1 nicht erreicht wird, rettet die Reduzierung von R immer noch Leben, indem sie den 'Überschuss' bis zur Herdenimmunität reduziert.** Viele Menschen denken, dass mit dem Abflachen der Kurve die Fälle zeitlich gestreckt werden, ohne aber die Gesamtzahl zu reduzieren. Doch das steht im Widerspruch zu *jedem* grundlegenden Epidemiologie-Modell. Aber weil in den Nachrichten "80%+ werden infiziert" als unvermeidlich dargestellt wurde, kam es zu der weitläufigen Annahme, dass die Gesamtzahl der Fälle in jedem Fall gleich bleiben würde. *Seufz.*
 
-2. Aufgrund der zusätzlichen Maßnahmen erreichen die aktuellen Fälle ihren Höhepunkt *bevor* die Herdenimmunität erreicht wird. Tatsächlich schießt in dieser Simulation die Gesamtzahl der Fälle nur *ein kleines bisschen* über die Herdenimmunität hinaus - der Plan des Vereinigten Königreichs! An diesem Punkt, R < 1, kann man alle anderen Maßnahmen loslassen, und COVID-19 bleibt eingedämmt! Es gibt nur ein Problem ...
+2. Aufgrund der zusätzlichen Maßnahmen erreichen die aktuellen Fallzahlen ihren Höhepunkt *bevor* die Herdenimmunität erreicht wird. Tatsächlich schießt in dieser Simulation die Gesamtzahl der Fälle nur *ein kleines bisschen* über die Herdenimmunität hinaus - der Plan des Vereinigten Königreichs! An diesem Punkt, R < 1, kann man alle anderen Maßnahmen loslassen, und COVID-19 bleibt eingedämmt! Es gibt nur ein Problem ...
 
-3. Es fehlen die Betten auf den Intensivstationen. Und das über mehrere Monate. (und dabei haben wir die Betten auf den Intensivstationen für diese Simulation *bereits* verdreifacht)
+3. Es fehlen die Betten auf den Intensivstationen. Und das über mehrere Monate. (und dabei haben wir die Betten auf den Intensivstationen für diese Simulation ja *bereits verdreifacht*)
 
-Das führte zum Befund im Bericht des Imperial College vom 16. März, der Großbritannien davon überzeugte, seinen ursprünglichen Plan aufzugeben. Jeder Versuch einer **Milderung** (R reduzieren, aber R > 1) wird scheitern. Der einzige Ausweg ist **Unterdrückung** (R reduzieren, so dass R < 1).
+Das war das andere Ergebnis des Imperial-College-Berichts vom 16. März, der Großbritannien davon überzeugte, seinen ursprünglichen Plan aufzugeben. Jeder Versuch einer **Milderung** (R reduzieren, aber R > 1) wird scheitern. Der einzige Ausweg ist **Unterdrückung** (R reduzieren, so dass R < 1).
 ![](pics/mitigation_vs_suppression.png)
 
 Das heißt: Es reicht nicht, die Kurve einfach "abzuflachen". Die Kurve muss *zerstampft* werden. Zum Beispiel mit ...
 
 ###Szenario 2: Monatelanger Lockdown
 
-Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *zerstampfen*, die <icon i></icon> auf fast gar nichts reduzieren und dann endlich – *endlich* – wieder zu unserem normalen Leben zurückkehren:
+Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *drücken*, die <icon i></icon> auf fast null reduzieren und dann endlich – *endlich* – wieder zu unserem normalen Leben zurückkehren:
 
 <div class="sim">
 		<iframe src="sim?stage=int-3&format=lines" width="800" height="540"></iframe>
@@ -326,7 +326,7 @@ Mal sehen, was passiert, wenn wir die Kurve mit einen 5-monatigen Lockdown *zers
 
 Oh.
 
-Das ist die "zweite Welle", über die alle sprechen. Sobald wir den Lockdown aufheben, erhalten wir wieder R > 1. Ein einzelner, verbliebener <icon i></icon> (oder ein importierter <icon i></icon>) kann also einen Ausschlag verursachen, der fast so schlimm ist, als hätten wir Szenario 0 verfolgt: Absolut nichts getan.
+Das ist die "zweite Welle", über die alle sprechen. Sobald wir den Lockdown aufheben, erhalten wir wieder R > 1. Ein einzelner verbliebener <icon i></icon> (oder ein importierter <icon i></icon>) kann also einen Ausschlag der Fallzahlen verursachen, der fast so schlimm ist, als hätten wir Szenario 0 verfolgt: Absolut nichts getan.
 
 **Ein Lockdown ist keine Heilung, es ist nur ein Neustart.**
 
@@ -336,15 +336,15 @@ Was also tun? Einen Lockdown nach dem anderen?
 
 Diese Option wurde zuerst im Bericht des Imperial College vom 16. März und später erneut in einem Harvard-Papier vorgeschlagen [^lockdown_harvard].
 
-[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivpflege überschritten werden. Um dies zu vermeiden, kann eine längere oder zeitweilige soziale Distanzierung bis ins Jahr 2022 erforderlich sein. [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
+[^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivstationen überschritten werden. Um dies zu vermeiden, kann eine längere oder periodische räumliche Distanzierung bis ins Jahr 2022 erforderlich sein. (übersetzt): “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst Du versuchen, Deinen *eigenen* Lockdown-Plan zu simulieren, indem Du den Schieberegler änderst ** während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
+**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst *während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
 </div>
 
-Dies *würde* Fälle unter der Kapazität der Intensivstationen halten! Und es ist *viel* besser als ein 18-monatiger Lockdown, bis ein Impfstoff zur Verfügung steht. Wir müssten also nur... für ein paar Monate einen Lockdown machen, für ein paar Monate öffnen und das solange wiederholen, bis ein Impfstoff verfügbar ist. (Und wenn es keinen Impfstoff gibt, wiederholen wir es, bis die Herdenimmunität erreicht ist... im Jahr 2022).
+Dies *würde* die Fallzahlen unter der Kapazität der Intensivstationen halten! Und es ist *viel* besser als ein 18-monatiger Lockdown, bis ein Impfstoff zur Verfügung steht. Wir müssten also nur... für ein paar Monate einen Lockdown machen, für ein paar Monate öffnen und das so lange wiederholen, bis ein Impfstoff verfügbar ist. (Und wenn es keinen Impfstoff gibt, wiederholen wir es, bis die Herdenimmunität erreicht ist... im Jahr 2022).
 
 Es scheint zunächst sinnvoll, solch einen Plan anhand der Kapazitäten der Intensivstationen zu machen, aber dabei übersehen wir zahlreiche wesentliche Dinge, die wir hier *nicht* simulieren können. Zum Beispiel:
 
