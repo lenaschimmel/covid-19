@@ -598,7 +598,7 @@ Aber für COVID-19 *beim Menschen* ist, Stand 1. Mai 2020, "für wie lange" die 
 <!-- Read paper to check what 'enrollment' stands for in this context. I guessed enrollment of a patient for the study. -->
 [^cold immunity]: Wir konnten keinen signifikaten Unterschied zwischen der Wahrscheinlichkeit für wenigsten einen positiven Test und der Wahrscheinlichkeit eines Wiederauftretens für die Beta-Coronaviren HKU1 und OC43 34 Wochen nach Registrierung für die Studienteilnahme/der Erstinfektion feststellen. [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
-[^unclear]: Nachdem eine Person einen Virus abgewährt hat, neigen Viruspartikel dazu, eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen aber sie können zu einem positiven Testergebnis führen. [aus STAT News von Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
+[^unclear]: Nachdem eine Person einen Virus abgewehrt hat, neigen Viruspartikel dazu, eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen, aber sie können zu einem positiven Testergebnis führen. [aus STAT News von Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
 [^monkeys]: Aus [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Hinweis: Dieser Artikel ist ein Preprint und wurde (noch) nicht wissenschaftliche begutachtet.* 
 Außerdem, um es hervorzuheben: es wurde nur eine erneute Infektion nach 28 Tagen getestet.
