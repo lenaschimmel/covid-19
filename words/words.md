@@ -548,7 +548,7 @@ Der Sommer allein wird R nicht unter 1 drücken, aber wenn wir nur eingeschränk
 
 Und wenn das alles *weiterhin* nicht hilft, R auf unter 1 zu drücken, dann könnten wir einen weiteren *Lockdown* versuchen. 
 
-Wir müssten jedoch nicht wieder und wieder 2 Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste vor kurzem machen, "obwohl" es COVID-19 4 Monate unter Kontrolle hatte. Das ist kein Versagen, ganz im Gegenteil: Das *ist* es, was dn Erfolg ausmacht.)
+Wir müssten jedoch nicht wieder und wieder 2 Monate schließen und einen Monat öffnen. Wenn R reduziert würde, genügten ein oder zwei weitere "Ausschalter"-Lockdowns, bis ein Impfstoff verfügbar ist. (Singapur musste das vor kurzem machen, "obwohl" es COVID-19 4 Monate unter Kontrolle hatte. Das ist kein Versagen, ganz im Gegenteil: Das *ist* es, was den Erfolg ausmacht.)
 
 Hier ist eine Simulation eines *laze case*-Szenarios: 
 
