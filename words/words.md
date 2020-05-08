@@ -604,7 +604,7 @@ Aber für COVID-19 *beim Menschen* ist, Stand 1. Mai 2020, "für wie lange" die 
 Außerdem, um es hervorzuheben: es wurde nur eine erneute Infektion nach 28 Tagen getestet.
 
 Für die folgenden Simulationen, lass uns annehmen dass es 1 Jahr ist. 
-**Hier ist eine Simulation, die mit 100% <icon r></icon> anfängt**, dann exponentiell zerfällt zu nach einem Jahr anfälligen, nicht immunen <icon s></icon>s, im *Mittel*, mit Abweichungen:
+**Hier ist eine Simulation, die mit 100% <icon r></icon> anfängt** und exponentiell zerfällt, mit im Mittel nach einem Jahr nicht mehr immunen, wieder anfälligen <icon s></icon>s mit Abweichungen:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
