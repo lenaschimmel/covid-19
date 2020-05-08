@@ -7,7 +7,7 @@
 | index.html Seitenleiste          | @widomattern | @herrhundt|                  |
 | /pics                            | siehe unten  |           |                  |
 | sharing/thumbnail.png            |              | @herrhundt|                  |
-| sharing/thumbnail.png            |              |           |                  |
+| sim/index.html                   | @herrhundt   | @TQueV    |                  |
 | [words/words.md](words/words.md) | siehe unten  |           |                  |
 
 ## words.md
@@ -47,6 +47,7 @@ Wenn Sie während der Übersetzung Zweifel haben oder Entscheidungen treffen, di
 - ventilators: Beatmungsgeräte
 - privacy-protecting [as an ADJ]:
 - Exponential decay: exponentieller Zerfall
+- circuit breaker lockdown: Notschalter-Lockdown
 
 - kontextbezogene Anmerkung: bei Titeln eines Artikels und bei Zitaten, lasse ich es auf Englisch und füge am Ende der Notiz eine Übersetzung wie folgt hinzu:
   [^keyword]: "quote EN" [from REF](URL) Übersetzung: "quote DE"
