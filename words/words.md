@@ -588,31 +588,31 @@ Also machen wir uns bereit für ein paar wirklich *üble* Worst-Case-Szenarien. 
     </div>
 </div>
 
-Du bekommst COVID-19 und erholst dich. Oder du bekommst die COVID-19-Impfung. So oder so bist du jetzt immun...
+Du bekommst COVID-19 und erholst dich. Oder du bekommst die COVID-19-Impfung. So oder so bist du jetzt immun ...
 
 ...*für wie lange?*
 
 
-* COVID-19 ist am engsten mit SARS verwandt, welches den Überlebenden 2 Jahre Immunität brachte.[^SARS immunity]
-* Die Coronaviren, die normale Erklältungen auslösen, bringen dir 8 Monate Immunität.[^cold immunity]
-* Es gibt Berichte von Leuten die sich von COVID-19 erholt hatten, dann aber wieder positiv gestestet wurden. Es ist noch unklar ob diese falsch postiv waren.[^unclear]
-* Eine *noch nicht fachlich begutachtete* Studie an Affen, zeigte Immunität gegen COVID-19 Coronaviren für zu mindest 28 Tage.[^monkeys]
+* COVID-19 ist am engsten mit SARS verwandt, welches die Überlebenden für 2 Jahre immun machte.[^SARS immunity]
+* Die Coronaviren, die "normale" Erkältungen auslösen, machen dich für 8 Monate immun.[^cold immunity]
+* Es gibt Berichte von Leuten, die sich von COVID-19 erholt haben, dann aber wieder positiv gestestet wurden. Es ist noch unklar, ob diese falsch postiv waren.[^unclear]
+* Eine *noch nicht fachlich begutachtete* Studie an Affen zeigte Immunität gegen COVID-19-Coronaviren für mindestens 28 Tage.[^monkeys]
 
 Aber für COVID-19 *beim Menschen* ist, Stand 1. Mai 2020, "für wie lange" die große Unbekannte.
 
 [^SARS immunity]: SARS-spezifische Antikörper wurden für durchschnittlich 2 Jahre erhalten [...] Daher könnten SARS-Patienten ≥3 Jahre nach ursprünglichem Kontakt für eine Neuinfektion anfällig sein. [Wu LP, Wang NC, Chang YH, et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851497/) 
-"Leider" werden wir niemals wissen wie lange SARS Immunität wirklich erhalten geblieben wäre, da wir es so schnell ausgerottet haben.
+"Leider" werden wir niemals wissen, wie lange SARS-Immunität wirklich erhalten geblieben wäre, da wir es so schnell ausgerottet haben.
 
 <!-- Read paper to check what 'enrollment' stands for in this context. I guessed enrollment of a patient for the study. -->
 [^cold immunity]: Wir konnten keinen signifikaten Unterschied zwischen der Wahrscheinlichkeit für wenigsten einen positiven Test und der Wahrscheinlichkeit eines Wiederauftretens für die Beta-Coronaviren HKU1 und OC43 34 Wochen nach Registrierung für die Studienteilnahme/der Erstinfektion feststellen. [Marta Galanti & Jeffrey Shaman (PDF)](http://www.columbia.edu/~jls106/galanti_shaman_ms_supp.pdf)
 
-[^unclear]: Nachdem eine Person einen Virus abgewährt hat, neigen Viruspartikel dazu eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen aber sie können zu einem positiven Testergebnis führen. [from STAT News by Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
+[^unclear]: Nachdem eine Person einen Virus abgewehrt hat, neigen Viruspartikel dazu, eine Weile zu verbleiben. Diese Partikel können keine Infektion auslösen, aber sie können zu einem positiven Testergebnis führen. [aus STAT News von Andrew Joseph](https://www.statnews.com/2020/04/20/everything-we-know-about-coronavirus-immunity-and-antibodies-and-plenty-we-still-dont/)
 
-[^monkeys]: From [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Hinweis: Dieser Artikel ist ein Preprint und wurde noch nicht wissenschaftliche begutachtet.* 
+[^monkeys]: Aus [Bao et al.](https://www.biorxiv.org/content/10.1101/2020.03.13.990226v1.abstract) *Hinweis: Dieser Artikel ist ein Preprint und wurde (noch) nicht wissenschaftliche begutachtet.* 
 Außerdem, um es hervorzuheben: es wurde nur eine erneute Infektion nach 28 Tagen getestet.
 
 Für die folgenden Simulationen, lass uns annehmen dass es 1 Jahr ist. 
-**Hier ist eine Simulation die mit 100% <icon r></icon> anfängt**, dann nach einem Jahr exponentiell zerfällt zu anfälligen, nicht immunen <icon s></icon>s, im *Mittel*, mit Abweichungen:
+**Hier ist eine Simulation, die mit 100% <icon r></icon> anfängt** und exponentiell zerfällt, mit im Mittel nach einem Jahr nicht mehr immunen, wieder anfälligen <icon s></icon>s mit Abweichungen:
 
 <div class="sim">
 		<iframe src="sim?stage=yrs-1&format=lines&height=600" width="800" height="600"></iframe>
