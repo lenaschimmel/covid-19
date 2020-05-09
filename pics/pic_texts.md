@@ -4,9 +4,9 @@
 
 Wie eine datenschutzkonforme Kontakt-Nachverfolgungs-App funktioniert
 
-- Das Handyvon Alice sendet regelmäßig eine zufällige Nachricht aus, die sich alle paar Minuten ändert
+- Das Handy von Alice sendet regelmäßig eine zufällige Nachricht aus, die sich alle paar Minuten ändert
 - Alice sitz neben Bob. Ihre Handys tauschen Nachrichten aus
-- Beide Handy merken sich was sie gesagt und gehört haben für 14 Tage
+- Beide Handys merken sich was sie gesagt und gehört haben für 14 Tage
   - Was ich gesagt habe
   - Was ich gehört habe
 - Wenn Alice CoVid-19 bekommt, sendet sie ihre Nachrichten an ein Krankenhaus
