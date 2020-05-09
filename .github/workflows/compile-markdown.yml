@@ -1,0 +1,30 @@
+# This workflow will use words/words.md to generate a new index.html
+
+name: "Compile index.html from words.md"
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Get the current source from master
+        uses: actions/checkout@master
+      - name: Convert markdown to html
+        uses: docker://pandoc/core:2.9 # use a docker image that has pandoc pre-installed
+        with:
+          args: "--from markdown_strict+footnotes words/words.md -o words/words.html"
+      - name: Merge html files
+        run: |
+          cat index_head.html words/words.html index_tail.html > index.html
+      - name: Commit changed files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Compile index.html from Markdown" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
