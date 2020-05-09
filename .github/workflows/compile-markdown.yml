@@ -18,7 +18,7 @@ jobs:
           args: "--from markdown_strict+footnotes words/words.md -o words/words.html"
       - name: Merge html files
         run: |
-          cat index_head.html words/words.html index_tail.html > index.html
+          perl -0777pi -e 's/(?<=<article>)(\n?).*(?=<\/article>)/`printf "\n" & cat words\/words.html`/gse' index.html
       - name: Commit and push changes if files have changed
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
