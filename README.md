@@ -7,9 +7,11 @@ This is the home of the German translation. See [GERMAN_TRANSL_NOTES.md](GERMAN_
 [Spiel die deutsche Fassung / Play it in German](https://tquev.github.io/covid-19/)
 
 # How To Build and Run
-You need to [install pandoc](https://pandoc.org/installing.html) in order to use the `build.sh` or `build.cmd` script.
+There's a github workflow to update index.html automatically when a change to index.html or words/words.md is pushed to the repository: .github/workflows/compile-markdown.yml
 
-Run `build.sh` on MacOS or Linux, or run `build.cmd` on Windows. It will convert `words/words.md` into html and join it with `index_head.html` and  `index_tail.html` to form a new `index.html`.
+If you want to build on your own machine, you need to [install pandoc](https://pandoc.org/installing.html) and perl in order to use the `build.sh` or `build.cmd` script.
+
+Run `build.sh` on MacOS or Linux, or run `build.cmd` on Windows. It will convert `words/words.md` into html and place the result between the article tags of `index.html`.
 
 You can open `index.html` in your browser from the file system, using an URL like `file:///your/local/path/covid-19/index.html`. 
 
