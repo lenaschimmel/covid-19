@@ -38,7 +38,7 @@ Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorg
 
 Dieser Wegweiser (veröffentlicht am 1. Mai 2020[^timestamp]) soll Dir zugleich Hoffnung geben und Angst machen. Denn um COVID-19 auf eine Weise zu schlagen, die auch **unsere geistige Gesundheit und unsere finanzielle Situation schützt**, brauchen wir zum einen Optimismus, um Pläne zu machen, zum anderen Pessimismus, um Backup-Pläne zu erstellen. Wie Gladys Bronwyn Stern einmal sagte: *"Der Optimist erfindet das Flugzeug und der Pessimist den Fallschirm."*
 
-[^timestamp]: **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass er 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemoloie ohne Verfallsdatum nützlich bleiben wird.
+[^timestamp]: **Dieser Wegweiser wurde am 1. Mai 2020 publiziert.</strong> Viele Details werden obsolet werden, aber wir sind zuversichtlich, dass er 95% aller möglichen zukünftigen Szenarien abdeckt, und dass das 1x1 der Epidemiologie ohne Verfallsdatum nützlich bleiben wird.
 
 Also schnall dich an: Wir erwarten einige Turbulenzen. 
 
