@@ -28,9 +28,9 @@
 
 	"The only thing to fear is fear itself" ist ein Zitat Franklin D. Roosevelts aus der Rede zu seiner Amtseinführung 1933 in Zeiten der Weltwirtschaftskrise.
 
-Sicher hortest Du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns die Energie mit den jetzigen Gefahren umzugehen und uns auf kommende Gefahren vorzubereiten.
+Sicher hortest du kein Toilettenpapier - aber wenn Politiker die Angst selbst fürchten, werden sie echte Gefahren herunterspielen, um eine "Massenpanik" zu vermeiden. Die Angst ist nicht das Problem, sondern die Art und Weise, wie wir unsere Angst *kanalisieren*. Angst gibt uns die Energie mit den jetzigen Gefahren umzugehen und uns auf kommende Gefahren vorzubereiten.
 
-Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass Du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **spielbaren Simulationen** zu erstellen. Unser Ziel ist, dass Du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
+Wir (Marcel, Epidemiologe + Nicky, Kunst / Code) sind ehrlich gesagt auch besorgt. Und wir wetten, dass du es auch bist! Deshalb haben wir unsere Angst dazu genutzt, um diese **spielbaren Simulationen** zu erstellen. Unser Ziel ist, dass du nicht in Panik verharrst, sondern versuchst zu verstehen und zu lernen:
 
 * **Über die letzten paar Monate** (1x1 der Epidemiologie, SEIR-Modell, R & R0)
 * **Über die nächsten paar Monate** (Lockdown, Contact Tracing, Masken)
@@ -210,7 +210,7 @@ Lass uns jetzt das SEIR-Modell betrachten, das nun R<sub>0</sub> zeigt, R über 
 
 Warum ist das so? Wenn es mehr Nicht-<icon s></icon> als die Schwelle der Herdenimmunität gibt, so wird R < 1. Und wenn R < 1 ist, stoppt das Wachstum neuer Fälle: ein Hochpunkt ist erreicht. 
 
-**Wenn Du Dir nur eine Sache aus diesem Wegweiser merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
+**Wenn du Dir nur eine Sache aus dieser Anleitung merken solltest, dann die folgende** - es ist ein extrem komplexes Diagramm, also nimm dir Zeit, um es zu verinnerlichen: 
 
 ![](pics/r3.png)
 
@@ -233,7 +233,8 @@ Dies scheint paradox! COVID-19 ist eine extrem ansteckende Krankheit, jedoch rei
 
 ![](pics/r4.png)
 
-(Vielleicht fragst du dich, ob R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind. Super, wenn du unsere Annahmen hinterfragst! Am Ende gibt es einen "Sandkasten-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passieren würde.) 
+Falls du glaubst, dass R<sub>0</sub> oder einige der anderen Zahlen unserer Simulationen zu klein oder groß sind - super! Damit hinterfragst du unsere Annahmen. Am Ende gibt es einen "Sandbox-Modus", bei dem du deine *eigenen* Zahlen auswählen und simulieren kannst, was dann passiert.) 
+=======
 
 *Jede* COVID-19 Maßnahme, von der du gehört hast - sei es Händewaschen, Abstand halten, "Lockdown", Selbstisolationen, "Contact Tracing", Quarantäne, Gesichtsmasken oder Herdenimmunität - machen *alle* das selbe: 
 
@@ -340,7 +341,7 @@ Diese Option wurde zuerst im Bericht des Imperial College vom 16. März und spä
 
 [^lockdown_harvard]: In Abwesenheit anderer Maßnahmen ist eine Schlüsselmetrik für den Erfolg der sozialen Distanzierung, ob die Kapazitäten der Intensivstationen überschritten werden. Um dies zu vermeiden, kann eine längere oder periodische räumliche Distanzierung bis ins Jahr 2022 erforderlich sein. (übersetzt): “Absent other interventions, a key metric for the success of social distancing is whether critical care capacities are exceeded. To avoid this, prolonged or intermittent social distancing may be necessary into 2022.” [Kissler und Tedijanto et al] (https://science.sciencemag.org/content/early/2020/04/14/science.abb5793)
 
-**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst *während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
+**Hier ist eine Simulation für diese Option:** (Spiele zunächst die Aufzeichnung ab. Danach kannst du versuchen, deinen *eigenen* Lockdown-Plan zu simulieren, indem du den Schieberegler änderst ** während* die Simulation läuft! Du kannst dabei die Simulation unterbrechen, fortsetzen und die Simulationsgeschwindigkeit ändern)
 
 <div class="sim">
 		<iframe src="sim?stage=int-4&format=lines" width="800" height="540"></iframe>
@@ -402,12 +403,16 @@ Normalerweise werden Kontakte durch persönliche Interviews gefunden, aber das *
 
 Warte mal, Apps, die zurückverfolgen, mit wem du Kontakt hattest?... Bedeutet das, deine Privatsphäre aufzugeben und sie Big Brother zu opfern?
 
-Um Gottes Willen, nein! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, ein Team von Epidemiolog\*innen & Verschlüsselungsexpert\*innen (darunter einer von uns, Marcel Salathé), entwickelt *bereits* eine Contact-tracing-App - mit öffentlich zugänglichem Code -, die **keine Informationen preisgibt über deine Identität, deinen Standort, wer deine Kontakte sind und nicht einmal darüber, *wie viele Kontakte* du hattest.**
-
+Verdammt nein! **[DP-3T](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing)**, ein Team von Epidemiolog\*innen & Verschlüsselungsexpert\*innen (darunter einer von uns, Marcel Salathé), entwickelt *bereits* eine Anwendung zur Kontaktverfolgung - mit einem für die Öffentlichkeit zugänglichen Code -, die **keine Informationen preisgibt über Deine Identität, Deinen Standort, wer Deine Kontakte sind und nicht einmal darüber, *wie viele Kontakte* du hattest.**
+=======
 Das funktioniert folgendermaßen:
 
 ![](pics/dp3t.png)
 
+(& [hier findest du den vollständigen Comic](https://ncase.me/contact-tracing/))
+
+Zusammen mit ähnlichen Teams wie TCN Protocol[^tcn] und MIT PACT[^pact] haben sie Apple & Google dazu gebracht, Kontaktverfolgung bei Wahrung der Privatsphäre direkt in Android/iOS zu implementieren.[^gapple] (Du traust Google/Apple nicht? Gut! Das Schöne an diesem System ist, dass es kein Vertrauen *benötigt*). Bald wird deine örtliche Gesundheitsbehörde dich vielleicht bitten, eine App herunterzuladen. Wenn der Schutz der Privatsphäre dabei gesichert und der Code öffentlich zugänglich ist, dann tue das bitte!
+=======
 ([Hier findest Du den vollständigen Comic](https://ncase.me/contact-tracing/). Details zu "pranking" / Fehlalarme / etc. in der Fußnote:[^dp3t_details])
 
 [^dp3t_details]: Um "pranking" (Leute geben fälschlicherweise an, infiziert zu sein) vorzubeugen, setzt das DP-3T-Protokoll voraus, dass dir das Krankenhaus zunächst einen einmaligen Zugangscode schickt, mit dem du deine Nachrichten hochladen kannst.
@@ -415,8 +420,6 @@ Das funktioniert folgendermaßen:
     Fehlalarme sind ein Problem sowohl beim manuellen wie beim digitalen contact tracing. Doch wir können sie auf 2 Arten reduzieren: 1) Indem Bob nur benachrichtigt wird, wenn die App, sagen wir mal, 30 oder mehr Minuten lang Nachrichten erhalten hat, nicht bloß eine Nachricht im Vorübergehen. Und 2) Wenn die App *wirkloch* denkt dass Bob exponiert war, kann sie ihn an eine\*n *manuelle\*n* Kontaktverfolger\*in verweisen, um ein ausführliches Folgegespräch zu führen.
     
     Zu anderen Themen wie Datenbandbreite, Quellenintegrität und weiteren Sicherheitsfragen, lest euch die [open-source DP-3T whitepapers](https://github.com/DP-3T/documents#decentralized-privacy-preserving-proximity-tracing) durch!
-
-Zusammen mit ähnlichen Teams wie TCN Protocol[^tcn] und MIT PACT[^pact] haben sie Apple & Google dazu gebracht, contact tracing unter Wahrung der Privatsphäre direkt in Android/iOS zu implementieren.[^gapple] (Du traust Google/Apple nicht? Gut! Das Schöne an diesem System ist, dass es kein Vertrauen *benötigt*). Bald wird deine örtliche Gesundheitsbehörde dich vielleicht bitten, eine App herunterzuladen. Wenn der Schutz der Privatsphäre dabei gesichert und der Code öffentlich zugänglich ist, dann mach das bitte!
 
 [^tcn]: [Temporary Contact Numbers, ein dezentralisiertes Contact-tracing-Protokoll zur Kontaktverfolgung unter Wahrung der Privatsphäre](https://github.com/TCNCoalition/TCN#tcn-protocol)
 
@@ -700,24 +703,25 @@ Lass uns endlich zurückkehren zum ...
     </div>
 </div>
 
-Das Flugzeug ist gesunken. Zusammengedrängt hocken wir in den Rettungsinseln. Es ist Zeit, Land zu suchen.[^dry_land]
+Das Flugzeug ist untergegangen. Wir hocken zusammengedrängt in den Rettungsbooten. Es ist Zeit, Festland zu suchen.[^dry_land]
 
 [^dry_land]: Festland-Metapher [von Marc Lipsitch und Yonatan Grad, auf STAT News](https://www.statnews.com/2020/04/01/navigating-covid-19-pandemic/)
 
-Teams aus Epidemiologinnen und Menschen in der Politik ([links](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [rechts](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), und [überparteilich](https://ethics.harvard.edu/covid-roadmap)) haben einen Konsens darüber erzielt, wie wir COVID-19 schlagen können und gleichzeitig unser Leben *und* unsere Freiheiten schützen.
+Teams aus Epidemiologinnen und Epidemiologen und Menschen in der Politik ([links](https://www.americanprogress.org/issues/healthcare/news/2020/04/03/482613/national-state-plan-end-coronavirus-crisis/), [rechts](https://www.aei.org/research-products/report/national-coronavirus-response-a-road-map-to-reopening/ ), und [überparteilich](https://ethics.harvard.edu/covid-roadmap)) haben einen Konsens darüber erzielt, wie wir COVID-19 schlagen können und gleichzeitig unser Leben *und* unsere Freiheiten schützen.
 
-Hier ist die grobe Idee, mit einigen (weniger konsensfähigen) Backup-Plänen:
+Hier ist die grobe Idee, mit einigen (weniger konsensfähigen) Alternativplänen:
 
 ![](pics/plan.png)
 
 Was bedeutet das für DICH, jetzt gerade?
 
-**Für jeden:** Respektiere die Ausgangsbeschränkungen, damit wir so schnell wie möglich aus Phase I herauskommen können. Wasche dir weiter die Hände. Stelle deine eigenen Masken her. Lade eine *privatsphäreschützende* App zur Ermittlung von Kontaktpersonen herunter, sobald diese im nächsten Monat verfügbar ist. Bleib gesund - körperlich und geistig! Und schreib den lokalen Entscheidungsträgern, dass sie ihren Hintern hochbewegen sollen und...
+**Für jede und jeden:** Respektiere die Ausgangsbeschränkungen, damit wir so schnell wie möglich aus Phase I herauskommen können. Wasche dir weiter die Hände. Stelle deine eigenen Masken her. Lade eine *datenschutzfreundliche* App zur Ermittlung von Kontaktpersonen herunter, sobald diese im nächsten Monat verfügbar sind. Bleib gesund - körperlich und geistig! Und schreib den lokalen Entscheidungstragenden, dass sie ihren Hintern hochkriegen sollen und...
 
-**Für Politiker\*innen:** Machen Sie Gesetze zur Unterstützung von Menschen, die sich selbst isolieren/quarantänisieren müssen. Stellen Sie mehr menschliche Kontaktverfolger\*innen ein, *unterstützt* durch datenschutzfreundliche Apps. Leiten Sie mehr Mittel in die Dinge, die wir aufbauen sollten, wie..
+**Für Politikerinnen und Politiker:** Erlassen Sie Gesetze zur Unterstützung von Menschen, die sich selbst isolieren/quarantänisieren müssen. Stellen Sie mehr menschliche Kontaktverfolgerinnen und Kontaktverfolger ein, *unterstützt* durch datenschutzfreundliche Apps. Leiten Sie mehr Mittel in die Dinge, die wir herstellen sollten, wie..
 
-**Für Machende:** Baut Tests. Baut Beatmungsgeräte. Baut persönliche Schutzausrüstung für Krankenhäuser und Praxen. Baut Tests. Baut Masken. Baut Apps. Baut antivirale Medikamente, Prophylaktika und andere Behandlungen, die keine Impfstoffe sind. Baut Impfstoffe. Baut Tests. Baut Tests. Baut Tests. Baut Hoffnung.
+**Für Maker:**[^maker]  Stellt Tests her, Beatmungsgeräte, Personenschutzausrüstung für Krankenhäuser und Arztpraxen. Stellt Tests, Masken und Apps her, dazu antivirale Medikamente, Prophylaktika und andere Behandlungsmethoden, die keine Impfstoffe sind. Und stellt Impfstoffe, Tests, Tests und nochmals Tests her. Erzeugt Hoffnung.
+[^maker]: Eine Erklärung des Begriffes ist hier zu finden.(https://de.wikipedia.org/wiki/Maker)
 
-Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Mit der Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
+Spiele die Angst nicht herunter, um Hoffnung aufzubauen. Unsere Angst sollte sich mit unserer Hoffnung *verbünden*, wie die Erfinder der Flugzeuge und Fallschirme. Durch Vorbereitung auf eine schreckliche Zukunft *erschaffen* wir eine hoffnungsvolle Zukunft.
 
 Das einzige, was man fürchten muss, ist die Vorstellung, dass das einzige, was man fürchten muss, die Furcht selbst ist. 
