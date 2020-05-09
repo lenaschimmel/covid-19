@@ -19,12 +19,9 @@ jobs:
       - name: Merge html files
         run: |
           cat index_head.html words/words.html index_tail.html > index.html
-      - name: Commit changed files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m "Compile index.html from Markdown" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Commit and push changes if files have changed
+        uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: Compile index.html from Markdown
+          commit_user_name: GitHub Action
+          commit_user_email: action@github.com
