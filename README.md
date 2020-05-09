@@ -1,6 +1,7 @@
 This is the home of the German translation. See [GERMAN_TRANSL_NOTES.md](GERMAN_TRANSL_NOTES.md) and the pull requests for current status, and [join us on Gitter](https://gitter.im/ncase-covid-19-translators/german#) for discussion (which currently takes place in German).
 
 [Play the original English version here!](https://ncase.me/covid-19/)
+
 [Spiel die deutsche Fassung / Play it in German](https://tquev.github.io/covid-19/)
 
 # How To Build and Run
