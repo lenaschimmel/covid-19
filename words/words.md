@@ -22,7 +22,7 @@
 	</div>
 </div>
 
-"Das Einzige, was man fürchten muss, ist die Angst selbst" (siehe Fußnote!→[^timestamp]), war ein dummer Ratschlag.
+"Das Einzige, was man fürchten muss, ist die Angst selbst" (siehe Fußnote!→[^roosevelt]), war ein dummer Ratschlag.
 
 [^roosevelt]: Die Fußnoten in dieser Simulation enthalten Quellen, Links oder zusätzliche Kommentare. Wie dieser erste Kommentar!
 
